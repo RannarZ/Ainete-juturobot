@@ -1,2 +1,0 @@
-# Ainete-juturobot
-Lõputöö
