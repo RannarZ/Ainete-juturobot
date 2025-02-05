@@ -1,0 +1,14 @@
+Introduction to Applications in Psychophysiology
+SVPH.00.058
+3
+Regular course
+['Estonian']
+True
+['Basic Functions of the Mind']
+[]
+None
+None
+None
+None
+None
+The course gives a broad introduction to many psychophysiological signals and a first-hand experience with measuring them (including EEG, EKG, EMG and eye-movements). Participants will create simpler programs and experiments that can be combined with these recordings. An open-source program, PsychoPy, is used to build the experiments and OpenBCI, open-source hardware, is used to record most of the signals in the class. For eye-tracking, a consumer device (Tobii Eye Tracker 5) produced by the well-known eye-tracking company (Tobii Technology) will be used. A successful participant will have a broad understanding of the basic principles of applying these psychophysiological measures and know how to find reliable sources to successfully lead related projects and further their knowledge of the subject.Objectives/eesmärkid:  This course gives a broad introduction to various psychophysiological signals and a first-hand experience with their measurement (including the brain's electrical activity, heart rate, muscle activity, and eye movements). Students will create simpler programs and experiments that can be paired with the recordings.Learning outcomes/õpiväljund:  Upon successful completion of the course, students should: o	Have a basic understanding of psychophysiological recording and will know how to seek trusted sources to further their understanding in the future o	Have a first-hand experience with recording various psychophysiological signals (including EEG, EMG, EKG and eye-tracking) o	Be able to describe the most common applications of these signals - both in and out of the lab o	Have an intuition about the interpretation of these signals and will have the first-hand experience with the factors contributing to the signal quality o	Have a basic understanding of PsychoPy's functions and have built psychological experiments in PsychoPy. They will also have experience in seeking resources that provide help and guidance in the process o	Know how to evaluate and consider most essential hardware limitations regarding experiment building and are familiar with the basic terminology used to describe it o	Be familiar with the most common brain-computer interfaces based on the measurements covered in the course and will discuss the current applicability of these devices

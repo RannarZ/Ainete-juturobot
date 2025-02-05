@@ -1,0 +1,20 @@
+Explainable Automated Machine Learning
+LTAT.02.023
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+Nowadays, machine learning techniques and algorithms are employed in almost every application domain (e.g., financial applications, advertising, recommendation systems, user be- havior analytics). In general, the process of building a high-quality machine learning model is an iterative, complex and time-consuming process that involves trying different algorithms and techniques in addition to having a good experience with effectively tuning their hyper-parameters. Thus, there was a crucial need for automating the process of building good machine learning models. In the last few years, several techniques and frameworks have been introduced to tackle the challenge of automating the process of Combined Algorithm Selection and Hyper-parameter tuning (CASH) in the machine learning domain. The main aim of these techniques is to reduce the role of human in the loop and fill the gap for non-expert machine learning users by playing the role of the domain expert. In this course, you will learn and understand the ideas behind state-of-the-art AutoML approaches.Objectives/eesmärkid:  The objective of this course is to introduce students to the topic of explainable automated machine learning, presenting its main concepts, categorization, optimization techniques and applications. The course will cover different approaches and meta-systems, that automate the process of obtaining well-performing machine learning pipelines, so-called Automated Machine Learning (AutoML). These AutoML systems allow for faster development of off-the-shelf machine learning methods that would require less expert knowledge. This course will cover the state-of-the-art AutoML frameworks, as well as techniques for improving the transparency and explainability of AutoML systems, increasing trust in AutoML tools as well as generating valuable insights into otherwise opaque optimization processes.Learning outcomes/õpiväljund:  On successful completion of this course, students should be able to:
+1. Demonstrate knowledge of the emerging AutoML techniques.
+2. Understand the various capabilities of explainability techniques to increase trust in the AutoML process.
+3. Identify possible design decisions and procedures in the application of ML. 
+4. Evaluate the design decisions made.
+5. Implement efficient optimizers for AutoML problems, such as hyperparameter optimization.
+6. Increase the efficiency of AutoML via a multitude of different approaches.

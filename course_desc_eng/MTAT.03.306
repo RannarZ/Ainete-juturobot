@@ -1,0 +1,14 @@
+Requirements Engineering
+MTAT.03.306
+6
+Regular course
+['Estonian']
+True
+[]
+['Software Engineering']
+autumn
+regular studies
+None
+{'lecture': 16, 'practice': 16, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 124, 'individual_work': 0, 'internship': 0}
+grade
+Topics covered by the course include: requirement definition, requirements engineering framework, system and context boundaries, goal-oriented modelling, scenario analysis, solution-oriented requirements, requirements documentation, requirements elicitation, requirements negotiation, requirements validation (fundamentals, validation techniques, validation using prototyping), requirements management (traceability, prioritisation, and change management).Objectives/eesmärkid:  This course will provide students an overview of requirements engineering fundamentals, principles and techniques. The course will consider major requirements engineering approaches, as well as their artefacts, like goals, scenarios and solution-oriented requirements. The course will present the major requirements engineering activities, like, requirements documentation, requirements elicitation, requirements negotiation, and requirements management. The course will also consider requirements validation, taking into account different techniques, including validation through prototyping.Learning outcomes/õpiväljund:  On successful completion of this course, students will able to: 1. Elicit, negotiate and document software requirements.  2. Develop major requirements artefacts and use them during the software development projects. 3. Explain the concepts, theories, and best practices associated with requirements engineering. 4. Apply requirements validation techniques within various software development lifecycles with emphasis on the prototyping oriented projects. 5. Manage software requirements, priorities, trace them and control their evolution.

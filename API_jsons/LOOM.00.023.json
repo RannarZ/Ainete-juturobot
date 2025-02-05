@@ -1,0 +1,258 @@
+{
+    "uuid": "2c451699-9a90-78f6-00d1-72f22e541c2a",
+    "code": "lt-2018-autumn-fulltime-p1",
+    "state": {
+        "code": "confirmed",
+        "et": "Kinnitatud",
+        "en": "confirmed"
+    },
+    "last_update": "2023-12-21T16:34:08",
+    "title": {
+        "en": "Enterprise Practice",
+        "et": "Ettevõttepraktika"
+    },
+    "credit_type": "ECTS",
+    "target": {
+        "year": {
+            "code": "2018",
+            "et": "2018/2019",
+            "en": "2018/2019"
+        },
+        "semester": {
+            "code": "autumn",
+            "et": "sügis",
+            "en": "autumn"
+        },
+        "study_type": {
+            "code": "fulltime",
+            "et": "päevaõpe",
+            "en": "regular studies"
+        },
+        "language": {
+            "code": "et",
+            "et": "eesti keel",
+            "en": "Estonian"
+        },
+        "part": {
+            "code": "1",
+            "et": "1. osa",
+            "en": "part 1"
+        },
+        "faculty": {
+            "code": "LT",
+            "name": {
+                "en": "Faculty of Science and Technology",
+                "et": "loodus- ja täppisteaduste valdkond"
+            },
+            "address": "Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "level": 1,
+            "academic": true,
+            "supports_continuous_learning": true
+        },
+        "course_main_structural_unit": {
+            "code": "LTOM",
+            "name": {
+                "en": "Institute of Ecology and Earth Sciences",
+                "et": "ökoloogia ja maateaduste instituut"
+            },
+            "email": "om@ut.ee",
+            "phone": "+372 737 5835",
+            "webpage_url": "https://omi.ut.ee",
+            "address": "J. Liivi tn 2\n50409 Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "street": "J. Liivi tn 2",
+            "zip": "50409",
+            "level": 2,
+            "academic": true,
+            "supports_continuous_learning": true,
+            "parent_code": "LT"
+        },
+        "label": {
+            "en": "18/19 A regular part 1 LT",
+            "et": "18/19 S PÕ 1. osa LT"
+        }
+    },
+    "general": {
+        "year": {
+            "code": "2018",
+            "et": "2018/2019",
+            "en": "2018/2019"
+        },
+        "input_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "structural_unit_shares": [
+            {
+                "structural_unit_code": "LTOM",
+                "structural_unit_name": {
+                    "en": "Institute of Ecology and Earth Sciences",
+                    "et": "ökoloogia ja maateaduste instituut"
+                },
+                "course_share_percent": 100,
+                "coordinating": true
+            }
+        ],
+        "type": {
+            "code": "practice",
+            "et": "Praktika",
+            "en": "Working practice"
+        }
+    },
+    "additional_info": {
+        "is_vota_course": true,
+        "is_continuous_learning_course": false,
+        "study_levels": [
+            {
+                "code": "master",
+                "et": "magistriõpe",
+                "en": "master's studies"
+            }
+        ],
+        "hours": {
+            "lecture": 0,
+            "practice": 0,
+            "seminar": 0,
+            "colloquium": 0,
+            "web_learning": 0,
+            "independent_work": 156,
+            "individual_work": 0,
+            "internship": 0
+        },
+        "is_enlight_course": false
+    },
+    "overview": {
+        "study_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "description": {
+            "en": "Students practice in working environment where the knowledge and skills acquired during the studies at the university are essential. The problem situations in the working process will be analysed and the applied solving strategies evaluated with the supervisor from the university. In the course of the internship, the job opportunities of one's specialty in an out-of-university work environment are introduced under the guidance of specialists. Practical skills are acquired, real problem tasks are solved, career options in this institution will be introduced. At the end of the internship, an internship report is prepared, in the framework of which a thorough self-analysis of the gained experience is performed. The student presents the most important results of his / her internship in a public seminar to classmates and other interested parties. Participants in the internship are given feedback on coping with the tasks, which allows the student to analyze and make sense of the professional experience gained. If necessary, the organization of the internship is regulated by bilateral or tripartite agreements, which are concluded between the university and the internship partner before the internship takes place.",
+            "et": "Üliõpilased läbivad praktika töökohal, kus töötamiseks on vajalikud õpitaval erialal omandatud teadmised ja oskused. Ülikoolipoolse juhendajaga analüüsitakse praktikal lahendatud probleemsituatsioone ning antakse hinnang üliõpilase poolt leitud lahendusstrateegiatele. Praktika käigus tutvutakse oma eriala töövõimalustega ülikoolivälises töökeskkonnas erialaspetsialistide juhendamisel. Omandatakse praktilised oskused, lahendatakse reaalseid probleemülesandeid, saadakse ülevaade karjäärivõimalustest selles asutuses. Praktika lõpus koostatakse praktikaaruanne, mille raames teostatakse põhjalik eneseanalüüs saadud kogemuste kohta. Praktkal osalejatele antakse tagasisidet ülesannetega toimetuleku kohta, mis võimaldab tudengil analüüsida ning mõtestada saadud erialast kogemust. Üliõpilane esitab oma praktika olulisimad tulemused avalikul seminaril kursusekaaslastele ja teistele huvilistele. Praktikakorraldust reguleeritakse vajadusel kahe- või kolmepoolsete lepingutega, mis sõlmitakse enne praktika toimumist ülikooli ning praktikapartneri vahel."
+        },
+        "objectives": [
+            {
+                "en": "The course is for practicing knowledge and skills acquired during the study at the university in working environment outside the university. During the practical experience the student can evaluate if his/her current skills are at the needed level and is aware of his/her future carrer opportunities.",
+                "et": "Kursus võimaldab õpitaval erialal omandatud teadmisi ja oskusi praktiseerida töökeskkonnas väljaspool ülikooli. Üliõpilane saab praktikal olles ülevaate oma teadmiste vastavusest ja taseme sobivusest, tulevase karjääri võimalustest ja edasise enesearengu vajadustest."
+            }
+        ],
+        "learning_outcomes": [
+            {
+                "en": "After successful completion of the practice the student: (1) can plan his/her practical work schedule and understand the aims of the practical work (2) have gained practical work experience; (3) is able to work in a team; (4) is able to adapt to the daily work routines; (5) has an overview of a particular institution/company, its operating environment, market potential, career opportunities in this company, as well as company-specific practical aspects of corporate governance; (6) is able to give a report about his activities in the company: problem setup, goals of the training, specific task of the trainee, the results of work; (7) is able to analyze what practical knowledge can he/she apply in his/her following career/job; (9) makes career choices (finds suitable specialization, topic for thesis, or a job); (9) is able to do periodic self-reflection about his/her practical work experience and career-plans.",
+                "et": "Aine läbinud üliõpilane: \n(1) oskab planeerida oma praktikat ja mõtestada, mida soovib praktika kaudu õppida;\n(2) omandab erialase praktilise töö kogemuse akadeemilisest sektorist väljaspool; \n(3) oskab töötada meeskonnas; \n(4) oskab kohaneda igapäevase töörutiiniga; \n(5) omab ülevaadet konkreetsest  ettevõttest, selle töökeskkonnast, turupotentsiaalist ja oma \nkarjäärivõimalustest selles ettevõttes; lisaks teab konkreetse ettevõtte, aga ka ettevõtte juhtimise \npraktilistest külgedest üldiselt; \n(6) oskab anda ülevaadet oma rollist antud ettevõttes: ülevaade probleemist, praktika eesmärgid, \npraktikandi spetsiifilised ülesanded, töötulemused; \n(7) oskab analüüsida, mida saab tudeng praktikal õpitust tulevikus enda karjääriteel/tööelus rakendada; \n(8) teeb praktika kogemuse kaudu teadlikke karjäärivalikuid (lõputöö teema valik, edasised õpingud, \ntöö valik) ja astub konkreetseid samme selle suunas.\n(9) oskab teha perioodilisi enesereflektsioone oma praktika ja karjääriplaanide kohta."
+            }
+        ],
+        "notes": {
+            "et": "Ettevõttepraktikat saab sooritada, kui üliõpilane leiab ise ettevõtte, kus ollakse nõus teda praktikale võtma. Kui suuline kokkulepe on olemas, tuleb pöörduda programmijuhi Kersti Riibaku poole (kersti.riibak@ut.ee), kes selgitab aine läbimise tingimusi ja aitab ettevalmistada kirjaliku lepingu ettevõtte, ülikooli-poolse juhendaja ja magistrandi vahel."
+        }
+    },
+    "grading": {
+        "independent_work": {
+            "et": "kokkuleppel ettevõtte ja juhendajaga"
+        },
+        "independent_work_assessments": [
+            {
+                "work_type": {
+                    "code": "report",
+                    "et": "Aruanne",
+                    "en": "report"
+                },
+                "due_date": "2019-01-18",
+                "description": {
+                    "et": "esitatud alljärgnevalt (aruande esitamise lõpptähtaeg on 18. jaanuar sügissemestril)"
+                }
+            }
+        ],
+        "grade_preconditions": {
+            "et": "Aines arvestuse saamiseks peab esitatud olema:\n1) korrektses eesti keeles ja korrektse ülesehitusega praktika aruanne - peab sisaldama selliseid osi nagu praktika ettevõtte kirjeldus, funktsioon; detailne praktika tööülesannete ja töömahu aruanne (nö. praktika päevik); \n2) ettevõttepoolse juhendaja hinnang praktikale; \n3) ülikooli-poolse juhendaja hinnang praktikale;\n4) praktika kokkuvõte (sisaldab ka tudengi enda arvamust)."
+        },
+        "grade_evaluation": {
+            "et": "Lõplik tulemuste kujunemine toimub Ettevõttepraktika aruande kaitsmisel."
+        },
+        "debt_elimination": {
+            "et": "Kokkuleppel ettevõtte ja juhendajaga"
+        },
+        "assessment_scale": {
+            "code": "pass",
+            "et": "Eristamata (arv, m.arv, mi)",
+            "en": "non-differentiated (pass, fail, not present)"
+        },
+        "results_available_from": {}
+    },
+    "resources": {
+        "web_based": {
+            "code": "3",
+            "et": "lähiõpe",
+            "en": "face-to-face learning"
+        },
+        "is_moodle_connected": false,
+        "mandatory_materials": "puuduvad",
+        "recommended_materials": "puuduvad"
+    },
+    "participants": {
+        "lecturers": [
+            {
+                "person_uuid": "3bad3e55-c636-349a-931d-1513159ac077",
+                "person_name": "Kersti Riibak",
+                "structural_unit": {
+                    "code": "LTOM01",
+                    "name": {
+                        "en": "Department of Botany",
+                        "et": "botaanika osakond"
+                    },
+                    "phone": "+372 737 6222",
+                    "address": "J. Liivi 2\n50409 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "J. Liivi 2",
+                    "zip": "50409",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": false,
+                    "parent_code": "LTOM"
+                },
+                "is_responsible": true,
+                "is_teaching": true
+            }
+        ]
+    },
+    "schedule": {
+        "weeks": {
+            "et": "kokkuleppel õppejõuga"
+        },
+        "entries": [
+            {
+                "work_type": {
+                    "code": "internship",
+                    "et": "praktika",
+                    "en": "practical training"
+                },
+                "topic": {},
+                "description": {
+                    "et": "täpsem praktika toimumise ajakava lepitakse kokku üliõpilase ja ettevõtte-poolse juhendaja vahel"
+                }
+            }
+        ]
+    },
+    "registration_info": {
+        "audience": {
+            "et": "Aine on mõeldud LT valdkonna magistrantidele"
+        },
+        "min_students": 1,
+        "max_students": 40
+    },
+    "parent_uuid": "302955d8-27bb-c3f9-15e1-002822dd2cde",
+    "parent_code": "LOOM.00.023",
+    "parent_credits": 6,
+    "_actions": {
+        "is_moodle_editable": false,
+        "is_editable": false,
+        "is_deletable": false
+    }
+}

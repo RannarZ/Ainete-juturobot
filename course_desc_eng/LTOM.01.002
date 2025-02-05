@@ -1,0 +1,14 @@
+Data Analysis in Community Ecology
+LTOM.01.002
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 39, 'practice': 0, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 39, 'individual_work': 0, 'internship': 0}
+grade
+The course is based largely on practical works. Data on ecological communities: matrix of sites x taxa. Statistical software package R, its main principles. Reading and exploring data in R. Transformation of data. Finding similarities. Multivariate methods: ordination and clustering. Including environmental data. Environmental and taxonomic similarity. Including data on taxa. Measuring biodiversity: taxonomic, functional, phylogenetic and genetic diversity. Predicting distribution of taxa and biodiversity. Analysing time series. Simulating ecological communities. Presenting results in R.Objectives/eesmärkid:  The goal of the course is to learn methods on analysing ecological communities by actually using statistical software package R.Learning outcomes/õpiväljund:  Upon taking the course the student has overview and understands how to use statistical software package R for analysing data from ecological communities, and which are the main methods to analyse ecological community data. The student is able to analyse data from ecological communities by using the statistical package R.

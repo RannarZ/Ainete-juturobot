@@ -1,0 +1,458 @@
+{
+    "uuid": "d2e51510-ad54-cc2e-7ac2-a3802ea136d8",
+    "code": "mv-2018-autumn-fulltime-c1",
+    "state": {
+        "code": "confirmed",
+        "et": "Kinnitatud",
+        "en": "confirmed"
+    },
+    "last_update": "2023-12-21T16:34:08",
+    "title": {
+        "en": "Introduction to Medicine",
+        "et": "Sissejuhatus erialasse"
+    },
+    "credits": 1,
+    "credit_type": "ECTS",
+    "target": {
+        "year": {
+            "code": "2018",
+            "et": "2018/2019",
+            "en": "2018/2019"
+        },
+        "semester": {
+            "code": "autumn",
+            "et": "sügis",
+            "en": "autumn"
+        },
+        "study_type": {
+            "code": "fulltime",
+            "et": "päevaõpe",
+            "en": "regular studies"
+        },
+        "language": {
+            "code": "et",
+            "et": "eesti keel",
+            "en": "Estonian"
+        },
+        "part": {
+            "code": "0",
+            "et": "Osadeta",
+            "en": "None"
+        },
+        "faculty": {
+            "code": "MV",
+            "name": {
+                "en": "Faculty of Medicine",
+                "et": "meditsiiniteaduste valdkond"
+            },
+            "address": "Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "level": 1,
+            "academic": true,
+            "supports_continuous_learning": true
+        },
+        "course_main_structural_unit": {
+            "code": "MVMV",
+            "name": {
+                "en": "Dean's Office, Faculty of Medicine",
+                "et": "meditsiiniteaduste valdkonna dekanaat"
+            },
+            "email": "med@ut.ee",
+            "phone": "+372 737 5326",
+            "webpage_url": "https://meditsiiniteadused.ut.ee",
+            "address": "Ravila 19\n50411 Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "street": "Ravila 19",
+            "zip": "50411",
+            "level": 2,
+            "academic": true,
+            "supports_continuous_learning": true,
+            "parent_code": "MV"
+        },
+        "label": {
+            "en": "18/19 A regular MV",
+            "et": "18/19 S PÕ MV"
+        }
+    },
+    "general": {
+        "year": {
+            "code": "2018",
+            "et": "2018/2019",
+            "en": "2018/2019"
+        },
+        "input_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "structural_unit_shares": [
+            {
+                "structural_unit_code": "MVMV",
+                "structural_unit_name": {
+                    "en": "Dean's Office, Faculty of Medicine",
+                    "et": "meditsiiniteaduste valdkonna dekanaat"
+                },
+                "course_share_percent": 100,
+                "coordinating": true
+            }
+        ],
+        "type": {
+            "code": "regular",
+            "et": "Tavaline aine",
+            "en": "Regular course"
+        }
+    },
+    "additional_info": {
+        "is_vota_course": true,
+        "is_continuous_learning_course": false,
+        "study_levels": [
+            {
+                "code": "bachelor_master",
+                "et": "integreeritud bakalaureuse- ja magistriõpe",
+                "en": "integrated bachelor's and master's studies"
+            }
+        ],
+        "hours": {
+            "lecture": 7,
+            "practice": 0,
+            "seminar": 1,
+            "colloquium": 0,
+            "web_learning": 0,
+            "independent_work": 18,
+            "individual_work": 0,
+            "internship": 0
+        },
+        "is_enlight_course": false
+    },
+    "overview": {
+        "study_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "description": {
+            "en": "Introduction to the medicine is the basic subject for the students who just started their medical studies. The peculiarity of medical education in the world and in Estonia, academical staff, structure, research activities and workflow of the faculty are discussed. The students are introduced with Estonian healthcare system and residency training principles.",
+            "et": "Sissejuhatus erialasse  on arstiõpinguid alustavale tudengile mõeldud sissejuhatav õppeaine. Tutvustatakse arstihariduse spetsiifikat maailmas ja Eestis, akadeemilist keskkonda ja käitumist, samuti selle eripära ja ajalugu Eestis. Tutvustatakse meditsiini ja tervishoiu struktuuri Eestis ja eriarstiõpet."
+        },
+        "objectives": [
+            {
+                "en": "The aim of the course is to provide basic knowledge about peculiarity of medical education, Faculty of Medicine  and also about the basic principles of Estonian health system.",
+                "et": "Kursuse eesmärk on tutvustada arstiteaduskonnas õppimise eripära ja anda põhilised teadmised, mis on vajalikud arstiks ja hambaarstiks õppimiseks. Aine eesmärgiks on tutvustada üliõpilastele arsti ja hambaarsti eriala, arstiteaduskonda ja Eesti tervishoiusüsteemi."
+            }
+        ],
+        "learning_outcomes": [
+            {
+                "en": "The student who graduated the course:",
+                "et": "Aine läbinud üliõpilane:"
+            },
+            {
+                "en": "a) has analysed the skills and competences of medical doctor and is aware of his own learning needs  ",
+                "et": "*\tOn analüüsinud arsti tööks vajalikke oskusi ja teadmisi ning teadvustanud enda õpivajadused"
+            },
+            {
+                "en": "b) analysed himself as a learner, has planned his studies and knows how to choose suitable learning strategies",
+                "et": "*\tOn analüüsinud ennast õppijana, teinud õppimise ajaplaani ning oskab valida enda jaoks sobivad õpistrateegiad"
+            },
+            {
+                "en": "c) has experienced teamwork and has analysed the necessary conditions for teamwork",
+                "et": "*\tOn kogenud koostööd ning analüüsinud selleks vajalikke tingimusi ja oskusi"
+            },
+            {
+                "en": "d) has discussed on ethical aspects in medical studies",
+                "et": "*\tOn arutlenud eetiliste aspektide üle arstiõppes"
+            },
+            {
+                "en": "e) has reflected on his own studies and professional development as future doctor",
+                "et": "*\tOn reflekteerinud oma õppimise ja professionaalse arengu üle"
+            }
+        ],
+        "notes": {}
+    },
+    "grading": {
+        "independent_work": {},
+        "independent_work_assessments": [
+            {
+                "work_type": {
+                    "code": "report",
+                    "et": "Aruanne",
+                    "en": "report"
+                },
+                "description": {
+                    "et": "Osavõtt loengutest-seminaridest vähemalt 70% ulatuses"
+                }
+            }
+        ],
+        "grade_preconditions": {
+            "et": "Loengutest osavõtu alusel"
+        },
+        "grade_evaluation": {
+            "et": "Loengutest osavõtu alusel"
+        },
+        "debt_elimination": {
+            "et": "Ei likvideerita."
+        },
+        "assessment_scale": {
+            "code": "pass",
+            "et": "Eristamata (arv, m.arv, mi)",
+            "en": "non-differentiated (pass, fail, not present)"
+        },
+        "results_available_from": {}
+    },
+    "resources": {
+        "web_based": {
+            "code": "2",
+            "et": "põimõpe",
+            "en": "blended learning"
+        },
+        "website_url": "http://moodle.ut.ee/",
+        "is_moodle_connected": false,
+        "mandatory_materials": "Kohustulikke õppematerjale pole",
+        "recommended_materials": "Puuduvad"
+    },
+    "participants": {
+        "lecturers": [
+            {
+                "person_uuid": "79e960e9-a51d-c799-cf8d-67c605cb8bbf",
+                "person_name": "Irja Lutsar",
+                "structural_unit": {
+                    "code": "MVBS09MV",
+                    "name": {
+                        "en": "Chair of Medical Microbiology and Virology",
+                        "et": "meditsiinilise mikrobioloogia ja viroloogia õppetool"
+                    },
+                    "phone": "+372 737 4170",
+                    "address": "EST",
+                    "level": 4,
+                    "academic": false,
+                    "supports_continuous_learning": false,
+                    "parent_code": "MVBS09"
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "12057764-98d7-0231-43ee-f8d8f7884f64",
+                "person_name": "Urmas Lepner",
+                "structural_unit": {
+                    "code": "MVMV",
+                    "name": {
+                        "en": "Dean's Office, Faculty of Medicine",
+                        "et": "meditsiiniteaduste valdkonna dekanaat"
+                    },
+                    "email": "med@ut.ee",
+                    "phone": "+372 737 5326",
+                    "webpage_url": "https://meditsiiniteadused.ut.ee",
+                    "address": "Ravila 19\n50411 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "Ravila 19",
+                    "zip": "50411",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "MV"
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "8a715c26-766d-a811-9bdc-5eee034a7b7f",
+                "person_name": "Margus Lember",
+                "structural_unit": {
+                    "code": "MVMV",
+                    "name": {
+                        "en": "Dean's Office, Faculty of Medicine",
+                        "et": "meditsiiniteaduste valdkonna dekanaat"
+                    },
+                    "email": "med@ut.ee",
+                    "phone": "+372 737 5326",
+                    "webpage_url": "https://meditsiiniteadused.ut.ee",
+                    "address": "Ravila 19\n50411 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "Ravila 19",
+                    "zip": "50411",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "MV"
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "11a002e6-9041-a4ce-cf0c-d0cac6c14b88",
+                "person_name": "Raul-Allan Kiivet",
+                "structural_unit": {
+                    "code": "MVPT04",
+                    "name": {
+                        "en": "Department of Public Health",
+                        "et": "rahvatervishoiu õppetool"
+                    },
+                    "address": "EST",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": false,
+                    "parent_code": "MVPT"
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "5def89b5-b907-74bc-c88e-7788bccb3303",
+                "person_name": "Anti Kalda",
+                "structural_unit": {
+                    "code": "MVMV",
+                    "name": {
+                        "en": "Dean's Office, Faculty of Medicine",
+                        "et": "meditsiiniteaduste valdkonna dekanaat"
+                    },
+                    "email": "med@ut.ee",
+                    "phone": "+372 737 5326",
+                    "webpage_url": "https://meditsiiniteadused.ut.ee",
+                    "address": "Ravila 19\n50411 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "Ravila 19",
+                    "zip": "50411",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "MV"
+                },
+                "is_responsible": true,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "b1819a2e-21a2-7bd5-35aa-d71db74e7a97",
+                "person_name": "Külli Kingo",
+                "structural_unit": {
+                    "code": "MVMV",
+                    "name": {
+                        "en": "Dean's Office, Faculty of Medicine",
+                        "et": "meditsiiniteaduste valdkonna dekanaat"
+                    },
+                    "email": "med@ut.ee",
+                    "phone": "+372 737 5326",
+                    "webpage_url": "https://meditsiiniteadused.ut.ee",
+                    "address": "Ravila 19\n50411 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "Ravila 19",
+                    "zip": "50411",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "MV"
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            }
+        ]
+    },
+    "schedule": {
+        "weeks": {
+            "et": "6-11"
+        },
+        "entries": [
+            {
+                "time": "2018-10-08",
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Õppeprotsess ja õppetööga seotud regulatsioonid meditsiiniteaduste valdkonnas. Õppimise hea tava. (prof A. Kalda, Biomeedikum 1006)"
+                }
+            },
+            {
+                "time": "2018-10-15",
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Meditsiiniteaduste valdkond, selle struktuur ja roll ülikoolis ja Eestis (dekaan prof. M. Lember, Biomeedikum 1006)"
+                }
+            },
+            {
+                "time": "2018-10-22",
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Eriarstiõpe (residentuur) kui arstiõpingute jätk (prof. U. Lepner, Biomeedikum 1006)"
+                }
+            },
+            {
+                "time": "2018-10-29",
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Teadusuuringud meditsiiniteaduste valdkonnas  (prof. K. Kingo,  Biomeedikum 1006)"
+                }
+            },
+            {
+                "time": "2018-11-05",
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Tõenduspõhine meditsiin  (prof. M. I. Lutsar, Biomeedikum 1006)"
+                }
+            },
+            {
+                "time": "2018-11-12",
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Eesti tervishoiusüsteem (prof. Raul-Allan Kiivet, Biomeedikum 1006)"
+                }
+            },
+            {
+                "time": "2018-09-10",
+                "work_type": {
+                    "code": "seminar",
+                    "et": "seminar",
+                    "en": "seminar"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Raamatukogu andmebaaside kasutamine. (Biomeedikum 1006, kell 17.15)"
+                }
+            }
+        ]
+    },
+    "registration_info": {
+        "audience": {
+            "et": "Arstiõppe ja hambaarstiõppe I kursuse üliõpilased"
+        },
+        "min_students": 10
+    },
+    "parent_uuid": "6ab369aa-aff5-f8d1-76e0-7958b2bcb4fe",
+    "parent_code": "AR00.00.057",
+    "parent_credits": 1,
+    "_actions": {
+        "is_moodle_editable": false,
+        "is_editable": false,
+        "is_deletable": false
+    }
+}

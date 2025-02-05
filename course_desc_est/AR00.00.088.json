@@ -1,0 +1,29 @@
+{
+    "KURSUSE_NIMI": "Sõja- ja katastroofimeditsiin",
+    "KURSUSE_KOOD": "AR00.00.088",
+    "EAP": 3,
+    "KURSUSE_TYYP": "Tavaline aine",
+    "KURSUSE_KEELED": [
+        "eesti keel"
+    ],
+    "VOTA": false,
+    "KOHUSTUSLIKUD_EELDUSAINED": [
+        "Inimese füsioloogia",
+        "Diagnostika alused"
+    ],
+    "SOOVITUSLIKUD_EELDUSAINED": [],
+    "SEMESTER": "sügis",
+    "OPPETYYP": "päevaõpe",
+    "TUNDIDE_JAOTUS": {
+        "lecture": 0,
+        "practice": 22,
+        "seminar": 9,
+        "colloquium": 0,
+        "web_learning": 0,
+        "independent_work": 47,
+        "individual_work": 0,
+        "internship": 0
+    },
+    "HINDAMISSKAALA": "pass",
+    "KIRJELDUS": "Õppeaines  antakse üliõpilastele alusteadmised ja baasoskused abi osutamiseks ning korraldamiseks suurõnnetuse, katastroofi ja sõjalise konflikti korral. Lisaks selgitatakse kaitseväe meditsiiniteenistuse struktuuri rahu- ja sõjaajal ning meditsiinilise abi mahtusid erinevates abiandmise etappides.Objectives/eesmärkid:  Õppeaine eesmärgiks on anda üliõpilastele alusteadmised ja baasoskused abi osutamiseks ning korraldamiseks suurõnnetuse, katastroofi ja sõjalise konflikti korral.Learning outcomes/õpiväljund:  Ainekava läbimise järgselt üliõpilane 1.\tTeab kaitseväe meditsiiniteenistuse struktuuri rahu- ja sõjaajal ning mõistab osutatava meditsiinilise abi mahtusid erinevates abiandmise etappides. 2.\tTeab katastroofide ja suurõnnetuste likvideerimise organisatsiooni ning mõistab meditsiiniabi andmise põhimõtteid osana sellest. 3.\tOskab loetleda erinevaid inim- ja loodustekkelisi katastroofide ja suurõnnetuste liike. (loeng kat med teaduslikud alused) 4.\tMõistab vigastusi, mis tekivad erinevate traumamehhanismide korral.  5.\tOskab rakendada esmast triaaži ning teab teisese triaaži läbiviimise põhimõtteid. 6.\tSuudab anda traumapatsiendile elupäästvat esmaabi ja teab traumahaige esmase käsitluse põhimõtteid. 7.\tTeab TBK põhilisi ohugruppe ja esmaabi põhimõtteid nende poolt põhjustatud kahjustuste korral. 8.\tMõistab individuaalsete kaitsevahendite rakendamise vajalikkust TBK puhul ja teab erinevate kaitsevahendite kaitseastmeid."
+}

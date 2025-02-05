@@ -1,0 +1,16 @@
+Information Security
+MTAT.07.028
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 26, 'practice': 6, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 46, 'individual_work': 0, 'internship': 0}
+grade
+This is an introductory course that is created for non-IT students. The aim of the course is to give the students an overview of practical information security problems and to teach the students to recognise the problems / threats related with information security. 
+
+The topics are categorized into three groups. First group of lectures gives an overview of ways on how to protect your data and privacy. The second group of lectures gives an overview of public key cryptography and its applications. The third group of lectures starts with authentication and then focuses on different kinds of attacks (social engineering, web attacks, other technical attacks, wireless security and attacks against mobile networks).Objectives/eesmärkid:  To give the students an overview of practical issues related with information security. To teach the students to recognise the problems related with information security.Learning outcomes/õpiväljund:  After this course the student: * can assess password complexity and knows how to manage passwords * has an overview of authentication methods and usages of cryptography * knows where and how data encryption is used * knows why privacy matters and what is needed to maintain anonymity * has an overview of ways to back up data and how to securely erase data * recognizes simple social engineering attempts * has a technical overview of the Estonian ID-card and e-voting * understands security risks involved in using smart devices * has an overview of technical, web-based and wireless (WiFi) attacks * knows how to send encrypted messages * has basic knowledge about the security of mobile networks

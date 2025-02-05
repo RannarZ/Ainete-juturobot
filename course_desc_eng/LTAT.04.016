@@ -1,0 +1,19 @@
+Zero-Knowledge Proofs
+LTAT.04.016
+6
+Regular course
+['Estonian']
+True
+['Cryptology I']
+[]
+None
+None
+None
+None
+None
+Zero-knowledge (ZK) proofs and especially zk-SNARKs (succinct non-interactive proofs of knowledge) are currently a very trendy topic, especially motivated by the application of privacy-preserving blockchain. Other applications include privacy-preserving machine learning (including the training), privacy-preserving image processing, etc.   Zk-SNARKs allow one to prove that some large-scale computation was performed correctly with two additional objectives: (1) nothing is leaked about the private data, and (2) verifying the proof should be considerably more efficient than doing the computation itself.
+The area is currently very rich in theory (with hundreds of research papers annually) and practice (a few hundred active startups). The objective of the course is to introduce students to this fascinating area. They will learn cryptographic techniques needed to understand and construct modern zk-SNARKs and modern toolkits to apply in practical applications.Objectives/eesmärkid:  The course aims to introduce students to the fascinating area of zero-knowledge proofs and zk-SNARKs, allowing them to become researchers or cryptographic engineers in academia or industry.Learning outcomes/õpiväljund:  The students will learn
+1) basic cryptography needed to understand and construct zk-SNARKs,
+2) currently prevalent techniques to construct efficient zk-SNARKs,
+3) toolkits, and techniques to apply existing zk-SNARKs in new applications.
+The course will stay current, and the concrete techniques we teach will evolve with time.

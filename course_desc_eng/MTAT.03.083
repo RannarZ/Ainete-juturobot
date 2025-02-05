@@ -1,0 +1,14 @@
+Systems Modelling
+MTAT.03.083
+6
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+This course will impart in-depth knowledge of software-intensive systems modeling techniques. The practice sessions will develop skills required by system analysts and software architects. Formal methods that can find subtle bugs in a system design will be introduced.Objectives/eesmärkid:  The objectives of the course are: - To provide in-depth knowledge of modeling and formal specification languages for software-intensive systems. - To provide methodological skills for using models to design, analyze, and implement software systems. - To introduce formal methods for simulation and verification of software models.Learning outcomes/õpiväljund:  On successful completion, students should be able to: 1. Apply standard system modeling techniques, specifically the main types of diagrams in UML, at an advanced level of proficiency. 2. Explain major issues that arise when translating fuzzy business requirements and statements into a model that is precise enough to be used for implementing a software system addressing such requirements. 3. Formalize the behavior and requirements of a software system in order to apply computer-aided verification tools.

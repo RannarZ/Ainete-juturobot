@@ -1,0 +1,14 @@
+Bioinformatics II
+LOMR.10.005
+3
+Regular course
+['Estonian']
+True
+['Genetics II']
+[]
+autumn
+regular studies
+None
+{'lecture': 6, 'practice': 12, 'seminar': 2, 'colloquium': 0, 'web_learning': 0, 'independent_work': 58, 'individual_work': 0, 'internship': 0}
+grade
+The course involves multiple sequence alignment, building of phylogenetic trees and assembling bacterial genomes. Practical work is tightly connected with theory and performed both on personal laptops and in Linux server.Objectives/eesmärkid:  The aim of the course is to advance the knowledge and ability to use basic methods for the analysis of biological sequences datasets using Linux command line. This allows to manage large datasets without the limits of web applications. Acquired skills and knowledge can be used in future for analysing other similar datasets and using command-line softwares which are not specifically addressed during the course.Learning outcomes/õpiväljund:  After the course one knows the basic principles of multiple sequence alignment, is able to build such alignments both for nucleic acid and protein sequences; knows the basis of building phylogenetic trees; is able to create, visualize and analyze phylogenetic trees, assemble bacterial genomes from sequencing reads and is able to use at least one command-line program for each covered topic.

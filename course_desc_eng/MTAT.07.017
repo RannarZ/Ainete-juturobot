@@ -1,0 +1,14 @@
+Applied Cryptography
+MTAT.07.017
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The use of cryptographic libraries for encrypting files and communication, authentication methods, integrity protection, public key infrastructures, composition of secure protocols, secure methods for obtaining random bits, smartcards, digital signatures.Objectives/eesmärkid:  Students taking the course will know how to correctly use cryptographic primitives like hash functions, signatures, symmetric and asymmetric encryption in practical software development.Learning outcomes/õpiväljund:  Students will learn how to use popular programming tools to implement various cryptographic constructions. They get practical experiences how to employ cryptographic protocols and public key infrastructure for enforcing practical security goals.

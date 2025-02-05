@@ -1,0 +1,14 @@
+DevOps: Automating Software Delivery and Operations
+LTAT.06.015
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+This course mainly focuses on upgrading the conventional software development skills of our students with hands-on experiences on DevOps practices and culture. This course covers DevOps automation practices and tool categories including GitHub/GitLab, Jenkin, Ansible, OpenStack, Docker, OpenAPI, Prometheus, and many more.Objectives/eesmärkid:  The primary objective of this course is to provide the basic understanding of core principles, practices and tools of DevOps. Students will be able to learn how the software delivery process is fastened by adopting DevOps approach.Learning outcomes/õpiväljund:  By completing this course students will be equipped with: - In-depth understanding and necessity of DevOps. - Skills to bring automation in different software delivery phases. - Software stack that is needed to implement CI/CD. - Skills to automate the testing, building, and integrating the software packages/modules. - Knowledge on monitoring and scaling of the deployed software.

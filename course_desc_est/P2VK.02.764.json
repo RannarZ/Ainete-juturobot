@@ -1,0 +1,24 @@
+{
+    "KURSUSE_NIMI": "Laul ja hääleseade IV",
+    "KURSUSE_KOOD": "P2VK.02.764",
+    "EAP": 1.5,
+    "KURSUSE_TYYP": "Tavaline aine",
+    "KURSUSE_KEELED": [
+        "eesti keel"
+    ],
+    "VOTA": true,
+    "SEMESTER": "sügis",
+    "OPPETYYP": "päevaõpe",
+    "TUNDIDE_JAOTUS": {
+        "lecture": 0,
+        "practice": 16,
+        "seminar": 0,
+        "colloquium": 0,
+        "web_learning": 0,
+        "independent_work": 23,
+        "individual_work": 0,
+        "internship": 0
+    },
+    "HINDAMISSKAALA": "pass",
+    "KIRJELDUS": "Tehniliselt nõudlikumad hääleharjutused erinevatel vokaalidel .  Interpretatsiooni nõuete ( fraseerimine, teksti selgus, stiilitunnetus, artistlikkus)   kinnistamine repertuaari omandamisel.\nSügissemestri kollokviumil esitatakse peast: 2 rahvalaulu a`capella, 2 laulu klaverisaatega (üliõpilane ise saadab ), kontsertmeistriga - 1  aaria vanamuusikast (või muusikalist) ning 1 romass (või laul).\nKevadsemestri eksamil  esitatakse peast: 1 rahvalaulu a`capella, 1 laul klaverisaatega (üliõpilane ise saadab ) , ), 1  aaria vanamuusikast (või muusikalist) ning 1 romass (või laul). kontersrtmeistrigaObjectives/eesmärkid:  Õppeaine eesmärk on vokaaltehnika viimistlemineLearning outcomes/õpiväljund:  Aine läbinud üliõpilane:\n*\ttunneb vokaaltehnika põhialuseid ja kasutab neid  interpreteerimisel ( fraseerimine, teksti selgus, stiilitunnetus, artistlikkus)\n*\thindab ja kasutab oma vokaaltehnika arendamiseks sobivaid hingamis- ja hääleharjutusi"
+}

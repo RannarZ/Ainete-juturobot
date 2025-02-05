@@ -1,0 +1,19 @@
+Databases
+LTAT.02.021
+6
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+* Introduction to Relational Languages (SQL) 
+* Entity-Relationship Model 
+* Relational Database Design 
+* Data Analytics 
+* Application Development 
+* Data Engineering and Big Data (overview)Objectives/eesmärkid:  The course aims to prepare data scientists for the effective development of database applications. First, the course presents the fundamental features of current database architectures, with a specific emphasis on (i) the entity-relationship model, (ii) the relational model, (iii) Advanced SQL and Database application development. Then, the course illustrates the main directions in the evolution of database systems in the area of Big Data.Learning outcomes/õpiväljund:  General understanding of  * Relational Database: how to design, deploy, and use RDBMS. * ACID properties and transaction management. * the limits of RDBMS in the context of Big Data.

@@ -1,0 +1,14 @@
+Computational Physics I
+LOTI.05.030
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 0, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 46, 'individual_work': 0, 'internship': 0}
+grade
+During the course a student will learn the main methods that are used in the modelling of physical processes. THe mothods will cover processes from micro to macro scale. The topics that will be presented are: density functional theory for quantum mechanical modelling of a material, monte carlo and molecular dynamics for empirical atomistic simulations, finite element method for studying processes in the continuum and mathematical methods for solving differential equations. Additionally, all topics are accompanied with practical exercises that help to understand the topics even further.Objectives/eesmärkid:  The purpose of the course is to give an overview and practical experience of methods that are mainly used in the modelling of physical processes.Learning outcomes/õpiväljund:  Student who has passed the course: * Knows about the principles of multiscale modelling. * Knows the applicability of density functional theory and is able to use it for solving problems. * Knows the applicability of monte carlo and is able to use it for solving problems. * Knows the applicability of molecular dynamics and is able to use it for solving problems. * Knows the applicability of finite element method and is able to use it for solving problems. * Know about mathematical methods for solving differential equations an is able to use them for solving problems.

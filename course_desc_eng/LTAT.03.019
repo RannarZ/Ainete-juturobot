@@ -1,0 +1,14 @@
+Functional Programming
+LTAT.03.019
+6
+Regular course
+['Estonian']
+True
+['Computer Programming']
+[]
+None
+None
+None
+None
+None
+Topics: introduction to a FP language, basic values and operations (including lists), higher order functions, types and (parametric) polymorfism, lazy evaluation and infinite structures, definition of data types, untyped lambda calculus, simply typed lambda calculus, Church's thesis, type inference, combinatory logic, type classes (ad hoc polymofism), monads and input/output, vectors and other dependent types.Objectives/eesmärkid:  The goal of the course is to comprehensively introduce the functional programming paradigm and to explain its advantages and disadvantages compared to other paradigms. We give an overview of the theoretical foundations of functional programming.Learning outcomes/õpiväljund:  On completion of the course, the student: * is able to define the essential concepts of lambda calculus (expression, variable, application, abstraction, substitution, reduction, normal form, normal and applicative order reduction, free and bound variables) and analyze the corresponding programs * is able to define the essential concepts of the functional programming (function, constructor, type, type family, kind, lazy- and strict evaluation) * is able to solve simple programming tasks using functional programming --- including understanding and being able to use higher-order polymorphic functions. * is able to describe advantages and disadvantages of the functional paradigm.

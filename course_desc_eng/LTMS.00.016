@@ -1,0 +1,14 @@
+Application Software: R
+LTMS.00.016
+3
+Regular course
+['Estonian']
+True
+[]
+['Computer Programming']
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 16, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 62, 'individual_work': 0, 'internship': 0}
+pass
+An overview of statistical package R is given, including the syntax of its language, data types, data manipulation capabilities and plotting with additional package ggplot2.Objectives/eesmärkid:  The goal is to give overview of data manipulation capabilities of statistical package R.Learning outcomes/õpiväljund:  The student: - knows R language syntax and data types; - can import/export and manipulate data; - can characterize data using simple descriptive statistics; - can visualize data and relationships between variables.

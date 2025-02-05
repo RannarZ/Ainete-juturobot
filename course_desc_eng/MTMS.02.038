@@ -1,0 +1,17 @@
+Simulation Methods in Financial Mathematics
+MTMS.02.038
+3
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+This course gives an overview of and practical experiece in the different aspects of applying Monte-Carlo methods for pricing different derivative securities. Several methods of speeding up Monte-Carlo computations are studiedObjectives/eesmärkid:  The goals of the course are - To give an overview of the possibilities of using simulation methods (Monte-Carlo methods) for pricing various assets, especially finanancial options - To give practical skills in effective application of simulation methods for numerical solutions of various problems of mathematical finance.Learning outcomes/õpiväljund:  After completing the course the students
+-Know the principles and practical error estimates of the Monte-Carlo method; is able to generate the trajectories of the solutions of stochastic differential equations (especially stock price trajectories) and knows how to use the skill in constructing simulation methods for pricing financial options
+- Knows several variance reductions methods for speeding up the Monte-Carlo simulation (antithetic variates, control variables, stratified sampling) and is able to use them in option pricing
+- Knows the concept of the quasai-random variables and is able to use them in option pricing.

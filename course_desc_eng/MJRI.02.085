@@ -1,0 +1,14 @@
+Macroeconometrics
+MJRI.02.085
+6
+Regular course
+['Estonian']
+False
+None
+None
+autumn
+regular studies
+None
+{'lecture': 28, 'practice': 14, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 114, 'individual_work': 0, 'internship': 0}
+grade
+Macroeconometrics course covers topics in basic to intermediate level  time series analysis. The primary goal of the course is to give students an overview of the modern time series analysis and methods, illustrated with practical applications ranging from empirical macroeconomics to empirical finance. The students are supposed to have a prior knowledge of basic statistics, probability theory and mathematical analysis. During the course these skills will be developed into econometric methods suited for analysis, modeling and inference of time series data in a variety of fields in economics. Each topic will be complemented by empirical applications and exercises using the real-world datasets.Objectives/eesmärkid:  Introduce the students to the most common state-of-the-art time series models.Learning outcomes/õpiväljund:  After taking the course students will know: ·	how to use methods of time series econometrics for the analysis of macro data ·	test various properties of economic time series (stationarity etc) ·	how to use software packages for the estimation of time series models

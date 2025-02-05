@@ -1,0 +1,418 @@
+{
+    "uuid": "35f0518c-0e2b-75f0-f9c4-67355cde24e1",
+    "code": "ar-2015-autumn-fulltime-c1",
+    "state": {
+        "code": "confirmed",
+        "et": "Kinnitatud",
+        "en": "confirmed"
+    },
+    "last_update": "2023-12-21T16:34:08",
+    "title": {
+        "en": "Muscles Dissection Course",
+        "et": "Lihaste preparatsioon"
+    },
+    "credits": 1,
+    "credit_type": "ECTS",
+    "target": {
+        "year": {
+            "code": "2015",
+            "et": "2015/2016",
+            "en": "2015/2016"
+        },
+        "semester": {
+            "code": "autumn",
+            "et": "sügis",
+            "en": "autumn"
+        },
+        "study_type": {
+            "code": "fulltime",
+            "et": "päevaõpe",
+            "en": "regular studies"
+        },
+        "language": {
+            "code": "et",
+            "et": "eesti keel",
+            "en": "Estonian"
+        },
+        "part": {
+            "code": "0",
+            "et": "Osadeta",
+            "en": "None"
+        },
+        "faculty": {
+            "code": "AR",
+            "name": {
+                "en": "Faculty of Medicine",
+                "et": "arstiteaduskond"
+            },
+            "email": "arst@ut.ee",
+            "phone": "(+372) 737 5326",
+            "webpage_url": "http://www.med.ut.ee/",
+            "address": "Ravila 19, 50411,  Tartu, Tartumaa, Eesti",
+            "city": "Tartu",
+            "street": "Ravila 19",
+            "zip": "50411",
+            "level": 1,
+            "academic": true,
+            "supports_continuous_learning": true,
+            "is_expired": true
+        },
+        "course_main_structural_unit": {
+            "code": "MVBS",
+            "name": {
+                "en": "Institute of Biomedicine and Translational Medicine",
+                "et": "bio- ja siirdemeditsiini instituut"
+            },
+            "email": "bsmi@ut.ee",
+            "phone": "+372 737 4210",
+            "webpage_url": "https://biomeditsiin.ut.ee",
+            "address": "Biomeedikum, Ravila 19\n50411 Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "street": "Biomeedikum, Ravila 19",
+            "zip": "50411",
+            "level": 2,
+            "academic": true,
+            "supports_continuous_learning": true,
+            "parent_code": "MV"
+        },
+        "label": {
+            "en": "15/16 A regular AR",
+            "et": "15/16 S PÕ AR"
+        }
+    },
+    "general": {
+        "year": {
+            "code": "2015",
+            "et": "2015/2016",
+            "en": "2015/2016"
+        },
+        "input_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "structural_unit_shares": [
+            {
+                "structural_unit_code": "MVBS",
+                "structural_unit_name": {
+                    "en": "Institute of Biomedicine and Translational Medicine",
+                    "et": "bio- ja siirdemeditsiini instituut"
+                },
+                "course_share_percent": 100,
+                "coordinating": true
+            }
+        ],
+        "type": {
+            "code": "regular",
+            "et": "Tavaline aine",
+            "en": "Regular course"
+        }
+    },
+    "additional_info": {
+        "is_vota_course": true,
+        "is_continuous_learning_course": false,
+        "study_levels": [
+            {
+                "code": "bachelor_master",
+                "et": "integreeritud bakalaureuse- ja magistriõpe",
+                "en": "integrated bachelor's and master's studies"
+            }
+        ],
+        "hours": {
+            "lecture": 0,
+            "practice": 10,
+            "seminar": 0,
+            "colloquium": 0,
+            "web_learning": 0,
+            "independent_work": 16,
+            "individual_work": 0,
+            "internship": 0
+        },
+        "prerequisites": [
+            {
+                "required": true,
+                "uuid": "a4133de9-8620-6a4d-dd2f-21ad22c464c8",
+                "code": "ARAN.01.039",
+                "title": {
+                    "en": "Anatomy",
+                    "et": "Anatoomia"
+                },
+                "credits": 11,
+                "state": {
+                    "code": "confirmed",
+                    "et": "Kinnitatud",
+                    "en": "confirmed"
+                },
+                "last_update": "2024-02-05T11:04:36",
+                "alternatives": [
+                    {
+                        "uuid": "564ff9eb-0e62-874f-3932-0b0db25acae7",
+                        "code": "ARAN.01.038",
+                        "state": {
+                            "code": "confirmed",
+                            "et": "Kinnitatud",
+                            "en": "confirmed"
+                        },
+                        "last_update": "2024-02-05T11:04:36",
+                        "title": {
+                            "en": "Anatomy",
+                            "et": "Anatoomia"
+                        },
+                        "credits": 12,
+                        "type": {
+                            "code": "regular",
+                            "et": "Tavaline aine",
+                            "en": "Regular course"
+                        }
+                    }
+                ]
+            }
+        ],
+        "is_enlight_course": false
+    },
+    "overview": {
+        "study_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "description": {
+            "en": "The course gives possibility to dissect different muscle goups.",
+            "et": "Kursus võimaldab prepareerida süvendatult erinevaid lihasrühmi."
+        },
+        "objectives": [
+            {
+                "en": "Muscles dissection course.",
+                "et": "Süvendatult lihaste prepareerimine."
+            }
+        ],
+        "learning_outcomes": [
+            {
+                "en": "A student who has completed the curriculum:",
+                "et": "Õppeaine läbinud üliõpilane:"
+            },
+            {
+                "en": "1. Has understanding the general principles of building, function, classification and additional features of a skeletal muscle;",
+                "et": "1. On tuttav lihaste ehituse, talitluse, klassifikatsiooni ja abiaparaatide põhimõtetega;"
+            },
+            {
+                "en": "2. Understands principles of muscles external form, internal structure, innervation and functional anatomy.",
+                "et": "2. Omab ettekujutust lihaste väliskujust, sisestruktuurist, innervatsioonist, algus- ja kinnituskohtadest;"
+            },
+            {
+                "en": "3. Can describe relationship between the muscles work together in groups and use the knowledge of the topographic anatomical relationships in clinical practis.",
+                "et": "3. On tuttav lihaste koostöö põhimõtetega ja omandatud teadmiste rakendamisvõimalustega kliinilises praktikas."
+            }
+        ],
+        "notes": {}
+    },
+    "grading": {
+        "independent_work": {},
+        "grade_preconditions": {
+            "et": "Õppetööst osavõtt"
+        },
+        "grade_evaluation": {
+            "et": "Valmis õppepreparaat"
+        },
+        "debt_elimination": {
+            "et": "Vastavalt TÜ õppekorralduseeskirjale. Kokkuleppel õppejõuga"
+        },
+        "assessment_scale": {
+            "code": "pass",
+            "et": "Eristamata (arv, m.arv, mi)",
+            "en": "non-differentiated (pass, fail, not present)"
+        },
+        "results_available_from": {}
+    },
+    "resources": {
+        "web_based": {
+            "code": "3",
+            "et": "lähiõpe",
+            "en": "face-to-face learning"
+        },
+        "is_moodle_connected": false
+    },
+    "participants": {
+        "lecturers": [
+            {
+                "person_uuid": "34813544-72f6-0543-203c-42830d219bfb",
+                "person_name": "Hannes Tomusk",
+                "structural_unit": {
+                    "code": "ARAN01",
+                    "name": {
+                        "en": "Chair of Human Anatomy",
+                        "et": "inimese anatoomia õppetool"
+                    },
+                    "phone": "(+372) 737 4250",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "ARAN",
+                    "is_expired": true
+                },
+                "is_responsible": false,
+                "is_teaching": true,
+                "study_group_roles": {
+                    "1. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    }
+                }
+            },
+            {
+                "person_uuid": "704a1b24-5c83-90f7-49a6-56e3804a57e8",
+                "person_name": "Kersti Kokk",
+                "structural_unit": {
+                    "code": "ARAN01",
+                    "name": {
+                        "en": "Chair of Human Anatomy",
+                        "et": "inimese anatoomia õppetool"
+                    },
+                    "phone": "(+372) 737 4250",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "ARAN",
+                    "is_expired": true
+                },
+                "is_responsible": true,
+                "is_teaching": false
+            },
+            {
+                "person_uuid": "811631ad-b240-71cf-a31c-19f57c2bb94e",
+                "person_name": "Elle Põldoja",
+                "structural_unit": {
+                    "code": "ARAN01",
+                    "name": {
+                        "en": "Chair of Human Anatomy",
+                        "et": "inimese anatoomia õppetool"
+                    },
+                    "phone": "(+372) 737 4250",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "ARAN",
+                    "is_expired": true
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "b0756e86-0d83-fd97-0160-b072a4ca02ad",
+                "person_name": "Helen Zirnask",
+                "structural_unit": {
+                    "code": "ARAN",
+                    "name": {
+                        "en": "Department of Anatomy",
+                        "et": "anatoomia instituut"
+                    },
+                    "email": "ana@ut.ee",
+                    "phone": "(+372) 737 4250",
+                    "webpage_url": "http://biomedicum.ut.ee/aran/",
+                    "address": "Ravila 19, 50411,  Tartu, Tartumaa, Eesti",
+                    "city": "Tartu",
+                    "street": "Ravila 19",
+                    "zip": "50411",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "AR",
+                    "is_expired": true
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            }
+        ],
+        "study_groups": [
+            {
+                "uuid": "09e151b8-7569-aae5-6b1b-79274e64e147",
+                "code": "1. rühm"
+            }
+        ]
+    },
+    "schedule": {
+        "weeks": {
+            "et": "3-7"
+        },
+        "entries": [
+            {
+                "time": "2015-09-14",
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Lihaste preparatsioon"
+                }
+            },
+            {
+                "time": "2015-09-21",
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Lihaste preparatsioon"
+                }
+            },
+            {
+                "time": "2015-09-28",
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Lihaste preparatsioon"
+                }
+            },
+            {
+                "time": "2015-10-05",
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Lihaste preparatsioon"
+                }
+            },
+            {
+                "time": "2015-10-12",
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Lihaste preparatsioon"
+                }
+            }
+        ]
+    },
+    "registration_info": {
+        "audience": {},
+        "min_students": 1,
+        "max_students": 50
+    },
+    "parent_uuid": "33a2a27e-3d37-b962-1d1f-f553730e9180",
+    "parent_code": "ARAN.01.043",
+    "parent_credits": 2,
+    "_actions": {
+        "is_moodle_editable": false,
+        "is_editable": false,
+        "is_deletable": false
+    }
+}

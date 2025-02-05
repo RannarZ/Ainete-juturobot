@@ -1,0 +1,14 @@
+Robotics I
+LOTI.05.010
+6
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 64, 'seminar': 32, 'colloquium': 0, 'web_learning': 0, 'independent_work': 60, 'individual_work': 0, 'internship': 0}
+grade
+Introduction into robotics systems using a Raspberry Pi and Arduino in combination with GoPiGo platform.Objectives/eesmärkid:  The goal of this course is to give basic theoretical and practical knowledge in robotics.Learning outcomes/õpiväljund:  After completing this course, the student will: * have used programming languages; * have used a robot platform based on the Raspberry PI; * knows what a robot is; * know how a robotics system is structured; * know the most used sensors and actuators; * know the most important movement mechanisms in robotics; * know some options to position a robot; * know about some communication solutions; * be able to gather and analyse data using a robot; * be able to use gathered knowledge in a robotics project.

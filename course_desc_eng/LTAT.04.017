@@ -1,0 +1,15 @@
+Public Key Cryptography
+LTAT.04.017
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The aim of this course is to present traditional public key cryptosystems and quantum-safe lattice-based cryptosystems. In this course, we review public key cryptosystems based on integer factorization problem and discrete logarithm problem over different groups. We discuss the required algorithms to implement a public key cryptosystem. We give a discussion on solving the hard problems. We review post-quantum cryptography by focusing on lattices. We provide details for quantum-resistant encryption schemes, key encapsulation mechanisms, and digital signature schemes. 
+The course covers the following topics: integer factorization problem, RSA cryptosystem, discrete logarithm problem, Diffie-Hellman key exchange, how to solve integer factorization and discrete logarithm problem, elliptic curve cryptography, algorithms to implement RSA, Diffie-Hellman key exchange and ECDSA, introduction to post-quantum cryptography, lattice-based cryptography.Objectives/eesmärkid:  - The idea of public key cryptography will be defined. The discussion on why we need public key cryptography will be done with real-world examples. - Integer factorization and discrete logarithm problems will be given. The algorithms to solve these problems will be discussed. - Elliptic curves in cryptography will be reviewed. - The algorithms to implement traditional public key cryptosystems (RSA, DH, ECDSA, ECDH) will be reviewed. Implementation details will be discussed. - Quantum-safe cryptosystem families will be introduced. Lattice-based cryptosystems will be discussed.  This course will involve reading and writing of mathematical proofs and programming. We will explain the necessary mathematical background in the course.Learning outcomes/õpiväljund:  -understand the basic concepts and importance of public key cryptography -generate the parameter sets for the public key cryptosystems -analyze and compare public key encryption, key exchange and digital signature schemes by considering the complexity and performance -learn post-quantum cryptography standardization efforts for encryption, key exchange and signature schemes -compare lattice-based cryptosystems in terms of security and performance.

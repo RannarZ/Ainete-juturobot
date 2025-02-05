@@ -1,0 +1,14 @@
+Theory of Optimal Control
+MTMM.00.229
+6
+Regular course
+['Estonian']
+True
+['Calculus I', 'Calculus II']
+[]
+autumn
+regular studies
+None
+{'lecture': 64, 'practice': 0, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Foundations of the calculus of variations. Variational problems with controls. The principle of maximum of Pontryagin. The principle of Bellmann.Objectives/eesmärkid:  Mastering of the methods of minimization of functionals under various constraints.Learning outcomes/õpiväljund:  After passing the course a student 1.	knows the definitions of weak and strong variations, 2.	is able to calculate weak variations of functionals, 3.	is able to use Euler equations, 4.	is able to use the rule of Lagrange' multipliers, 5.	knows equations of Euler-Poisson, 6.	is able to derive necessary conditions, 7.	is able to use the transversality conditions, 8.	is able to use the principle of maximum, 9.	knows the methods of solution of problems with undetermined transition time, 10.	is able to derive the principle of maximum for non-linear problems, 11.	recognizes the needle variations of controls, 12.	knows the principle of Bellmann, 13.	is able to derive necessary conditions for distributed parameter systems, 14.	knows interconnections between calculus of variations, dynamic programming and the principle of maximum.

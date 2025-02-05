@@ -1,0 +1,14 @@
+Programming in C and Assembly Language
+MTAT.03.219
+3
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The historical reasons and goals of designing the C language; C as the language for system programming; the structure of C programs; macros; standard libra-ries; data types and structures; dynamic memory handling and pointers; control structures; procedures and functions; input and output; interrupt handling (DOS and BIOS); separately translated subprograms.Objectives/eesmärkid:  Getting skills in C-programmingLearning outcomes/õpiväljund:  A successful student knows the opportunities of the C language and can decide for which problems C is a good choice; he/she can read and write C-programs including low-level programs and is able to link, de-bug and test the programs.

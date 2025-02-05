@@ -1,0 +1,22 @@
+Functional Analysis II
+MTMM.00.104
+6
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 34, 'practice': 30, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Topics: basic principles of classical functional analysis, continuous linear functionals (dual spaces, Hahn-Banach theorem), Hilbert spaces (main theorems, Fourier series), operators in Hilbert spaces.Objectives/eesmärkid:  This is a second course in functional analysis.Learning outcomes/õpiväljund:  After passing this course a student:
+1)	knows the following  basic principles of classical functional analysis: the closed graph theorem, the inverse mapping theorem, the uniform boundedness principle, the Banach-Steinhaus theorem, extension by continuity, the Hahn-Banach theorem, its main corollaries;
+2)	knows the dual space of some main Banach spaces;
+3)	knows the basic properties of inner product, orthogonality and Hilbert spaces, knows their main results including the representation of a Hilbert space as a direct sum of a closed subspace and its orthogonal complement;
+4)	understands the notion of the adjoint operator of a bounded linear operator between Hilbert spaces;
+5)	knows the Hellinger-Toeplitz theorem;
+6)	understands the notion of a compact operator between Banach spaces, knows some main examples and properties of compact operators;
+7)	knows about Fredholm integral operators;
+8)	knows the Fredholm alternative.

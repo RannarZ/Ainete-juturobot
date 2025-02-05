@@ -1,0 +1,14 @@
+Machine Learning
+MTAT.03.227
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The course of machine learning is about methodologies and algorithms allowing computer programs to learn from data (examples) and by this become better in solving some given task. The course covers the main principles of machine learning, concentrating on supervised learning algorithms. Acquaintance will be made with the main types of models, such as decision trees, linear models, distance-based models, probabilistic models, ensemble models and artificial neural networks. Practical assignments will be given to build a deeper understanding of the material.Objectives/eesmärkid:  The main objective of the course is to study principles and methods of machine learning from theoretical and practical aspects.Learning outcomes/õpiväljund:  Upon successful completion of this course, students should be able to: - recognize situations where machine learning methods could be applied; - for a given task recognize which subfield of machine learning it belongs to; - describe the principles behind the main supervised learning algorithms and explain the meaning of assumptions made by these algorithms for a particular application field; - in practice implement a solution using supervised machine learning algorithms.

@@ -1,0 +1,14 @@
+Introduction to Omics Data Analysis
+LTGI.00.003
+2
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The course includes both lectures and computer practicals. Students will learn about the UNIX environment, how to navigate in it, and how to process files. Computing clusters of the University of Tartu Research Computing Center are used to carry out more computationally intensive work: the available computing resources are familiarized with and learned to use them judiciously. Then, the existing reference datasets that can be used for conducting various studies, the most used file formats and software tools that can be used for conducting various analyzes are introduced.Objectives/eesmärkid:  The purpose of the subject is to provide basic knowledge of large-scale data, the basis of their analysis, software tools and best practice in the computing servers of the University of Tartu.Learning outcomes/õpiväljund:  A doctoral student who has successfully completed the subject:  1) can orient in the UNIX environment and knows how to use HPC resources to conduct his/her research; 2) finds the necessary data sets in the file system, knows file formats and suitable software for conducting genomic research.

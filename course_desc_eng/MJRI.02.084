@@ -1,0 +1,14 @@
+Microeconometrics
+MJRI.02.084
+3
+Regular course
+['Estonian']
+False
+None
+None
+spring
+regular studies
+None
+{'lecture': 0, 'practice': 8, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 70, 'individual_work': 0, 'internship': 0}
+grade
+The aim of the course is to familiarize students with microeconometrics suitable for individual level data on the economic behavior of individuals or firms using regression methods for cross section and panel data. The course starts with an introduction of maximum likelihood method and generalized method of moments. Then modelling of various qualitative and limited (censored and truncated) dependent variables is discussed. The following models are covered: binary logit and probit, multinomial logit and probit, ordered probit and logit, tobit mudel, Heckman selection models, Poisson and Negbin count data models, Cox and parametric duration models. Panel data methods are discussed: within-group estimator, between-group estimator, random effects estimator, Arellano-Bond estimator. Theoretical aspects are discussed during the lectures and empirical examples are studied in computer classes using econometric program R. (Stata codes are also provided.)Objectives/eesmärkid:  The aim of the course is to familiarize students with microeconometric methods suitable for the analysis of micro data (cross section data and panel data) of individuals, households, and firms.Learning outcomes/õpiväljund:  Students learn ·	microeconometric methods and their suitability to analyse the behaviour of economic subjects ·	how to analyse different types of micro data (cross-section data, panel data, continuous data, discrete data, censored data) ·	how to build, evaluate, interpret and present the results of econometric models ·	how to implement these methods in R. (Stata do-files are also provided.)

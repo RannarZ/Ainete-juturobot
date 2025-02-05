@@ -1,0 +1,17 @@
+Language Technology
+LTAT.01.002
+6
+Regular course
+['Estonian']
+True
+['Processing Estonian Language in Python']
+[]
+spring
+regular studies
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Main concepts, approaches, methods, resources, algorithms and data structures in language technology
+- word and sentence structure modelling, analysis and usage
+- probabilities, classification, sequence tagging, dynamic programming
+- machine translation, information extraction, speech synthesis and recognition, dialogue systemsObjectives/eesmärkid:  This course is about - natural language processing = automatic processing of human languages; main methods and algorithms, existing resources and software - commercial applications in natural language processing as well as the science behind them - what can be done automatically with human languages and what we are still working on, both for Estonian and in general The aims are - to get you interested in this area, obviously! - to show you how stuff works - and what you need to get it to workLearning outcomes/õpiväljund:  Expected background knowledge and experience: - not afraid of programming, the UNIX command line and algorithms, and ready to learn more After passing this course you will - know how stuff like Google Translate, Siri, XX and YY works - know why this stuff presents interest, both to us as well as several companies and universities around the world - know how to build your own applications doing similar stuff

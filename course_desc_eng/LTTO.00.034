@@ -1,0 +1,16 @@
+Practical FPGA Design
+LTTO.00.034
+3
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+Week 1: Introduction to FPGA Technologies: 
+Overview of FPGA, their applications, and their place in the digital design landscape. 
+Historical context and modern advancements.Objectives/eesmärkid:  Provide an overview of FPGA technologies, including historical context and modern advancements.  Introduce the essential design workflow for FPGA, from concept to implementation.  Teach the use of IP cores, constraints, and simulation in FPGA design.  Educate on the impact of placement, routing, and timing analysis in digital design.  Provide hands-on experience with industry-standard tools for FPGA design.Learning outcomes/õpiväljund:  Design Workflow: Comprehend the essential design workflow for FPGAs, including conceptual design, coding, simulation, synthesis, implementation, and testing.

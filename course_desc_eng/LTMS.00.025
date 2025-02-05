@@ -1,0 +1,20 @@
+Statistical Data Science
+LTMS.00.025
+6
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+The course consists in three modulae:
+Data description, visualization and basic data analysis - 2 ECTS
+Statistical models and multivariate analysis - 2 ECTS
+Analysis of complex data structures - 2 ECTS
+Orientation in big data sets, finding necessary information and making correct conclusions is necessary not only in professional career but also in politics, administration and entrepreneurship.
+In the first modulus of the course basic data analysis and visualization methods are presented, the second modulus introduces main methods of multivariate analysis and gives knowledge for applying these methods in data analysis.
+The third modulus gives overview on specific advanced methods of data analysis and skills for applying them to real data.Objectives/eesmärkid:  Basic modulus: Data description, visualization and basic analysis - 2 ECTS The aim of the modulus is to give systematic overview on elementary principles of data management and analysis. The data package R is introduced (with submodule RStudio) and applied in primary data analysis and visualization. The modulus gives to PhD students knowledge for planning their future empirical research and the following analysis of collected data. It also gives necessary knowledge for critical reading research papers and data analysis reports to evaluate correctness and validity of the conclusions made in literature. Modulus: Statistical models and multivariate analysis - 2 ECTS The aim is to present main statistical methods for discovering patterns and regularities in data in the analyzing and testing process. After passing the modulus a student is aware of basic statistical models, is able to use linear and loglinear regression models using R. He/she is able to use main methods of multivariate analysis. Modulus: Analysis of complex data structures - 2 ECTS The aim of the modulus is to present more specific and advanced methods of statistical data analysis. Aim of the methods is to discover hidden data structures and to suggest realistic forecasting methods. Also an overview is given about the methodology of analysing specific data formats  (repeated measurements, longitudinal and spacial data).Learning outcomes/õpiväljund:  After passing the basic modulus a student is able to carry out elementary data analysis using R. He/she has got knowledge for planning his/her own empirical research and is able to evaluate critically data analysis in research papers on his/her speciality. After passing the second modulus a student is able to use main methods of multivariate analysis when analysing data. He/she is able to make correct conclusions from the results of analysis. After passing the third modulus a student has got an overview on specific advanced data analysis methods. He/she is able to carry out analysis of specific data (repeated measurements, longitudinal and spacial data).

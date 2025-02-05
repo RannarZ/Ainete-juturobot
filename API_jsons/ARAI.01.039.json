@@ -1,0 +1,930 @@
+{
+    "uuid": "4417826a-90cc-288c-b474-90d49a61c560",
+    "code": "mv-2018-autumn-fulltime-c2",
+    "state": {
+        "code": "confirmed",
+        "et": "Kinnitatud",
+        "en": "confirmed"
+    },
+    "last_update": "2023-12-21T16:34:08",
+    "title": {
+        "en": "First Aid",
+        "et": "Esmaabi"
+    },
+    "credits": 2,
+    "credit_type": "ECTS",
+    "target": {
+        "year": {
+            "code": "2018",
+            "et": "2018/2019",
+            "en": "2018/2019"
+        },
+        "semester": {
+            "code": "autumn",
+            "et": "sügis",
+            "en": "autumn"
+        },
+        "study_type": {
+            "code": "fulltime",
+            "et": "päevaõpe",
+            "en": "regular studies"
+        },
+        "language": {
+            "code": "et",
+            "et": "eesti keel",
+            "en": "Estonian"
+        },
+        "part": {
+            "code": "0",
+            "et": "Osadeta",
+            "en": "None"
+        },
+        "faculty": {
+            "code": "MV",
+            "name": {
+                "en": "Faculty of Medicine",
+                "et": "meditsiiniteaduste valdkond"
+            },
+            "address": "Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "level": 1,
+            "academic": true,
+            "supports_continuous_learning": true
+        },
+        "course_main_structural_unit": {
+            "code": "MVCM01",
+            "name": {
+                "en": "Department of Anesthesiology and Intensive Care",
+                "et": "anestesioloogia ja intensiivravi kliinik"
+            },
+            "phone": "+372 731 8405",
+            "webpage_url": "https://kliinilinemeditsiin.ut.ee/et/anestesioloogia-intensiivravi-kliinik",
+            "address": "L. Puusepa 8 - G1. 209\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "street": "L. Puusepa 8 - G1. 209",
+            "zip": "50406",
+            "level": 3,
+            "academic": true,
+            "supports_continuous_learning": false,
+            "parent_code": "MVCM"
+        },
+        "label": {
+            "en": "18/19 A regular MV",
+            "et": "18/19 S PÕ MV"
+        }
+    },
+    "general": {
+        "year": {
+            "code": "2018",
+            "et": "2018/2019",
+            "en": "2018/2019"
+        },
+        "input_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "structural_unit_shares": [
+            {
+                "structural_unit_code": "MVCM01",
+                "structural_unit_name": {
+                    "en": "Department of Anesthesiology and Intensive Care",
+                    "et": "anestesioloogia ja intensiivravi kliinik"
+                },
+                "course_share_percent": 100,
+                "coordinating": true
+            }
+        ],
+        "type": {
+            "code": "regular",
+            "et": "Tavaline aine",
+            "en": "Regular course"
+        }
+    },
+    "additional_info": {
+        "is_vota_course": false,
+        "is_continuous_learning_course": false,
+        "study_levels": [
+            {
+                "code": "bachelor_master",
+                "et": "integreeritud bakalaureuse- ja magistriõpe",
+                "en": "integrated bachelor's and master's studies"
+            }
+        ],
+        "hours": {
+            "lecture": 8,
+            "practice": 18,
+            "seminar": 0,
+            "colloquium": 0,
+            "web_learning": 0,
+            "independent_work": 26,
+            "individual_work": 0,
+            "internship": 0
+        },
+        "prerequisites": [
+            {
+                "required": false,
+                "uuid": "c4548ebe-6f2c-ea03-be12-ed8333c812e6",
+                "code": "ARBK.01.001",
+                "title": {
+                    "en": "Medical Biochemistry",
+                    "et": "Meditsiiniline biokeemia"
+                },
+                "credits": 13.5,
+                "state": {
+                    "code": "closed",
+                    "et": "Suletud",
+                    "en": "closed"
+                },
+                "last_update": "2024-02-05T11:04:36"
+            }
+        ],
+        "is_enlight_course": false
+    },
+    "overview": {
+        "study_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "description": {
+            "en": "Main attention will be paid on recognition of cardiac arrest and on training of practical skills of cardiopulmonary resuscitation (CPR) on manikins. The students will be trained to perform different BLS simulation scenarios of common emergencies (bystander witnessed sudden cardiac arrest, respiratory arrest, seizures, drowning, car accident and severe trauma, foreign body in respiratory tract). After every simulation scenario debriefing will be held. Students learn to provide first aid for wounds, massive bleeding and bone fractures. Participation in practical sessions is mandatory.",
+            "et": "Kursusel osutatakse põhitähelepanu baasteadmistele ja oskustele kliinilise surma tuvastamisel ning esmaste elustamisvõtete rakendamisel (sh koos AED kasutamisega). Praktilised harjutused sooritatakse mannekeenidel, millele järgneb tüüpiliste elustamise situatsioonülesannete lahendamine (südame äkksurm tunnistajate juuresolekul, hingamisseiskus, krambihoog, uppumine, liiklusõnnetus ja raske trauma, võõrkeha ülemistes hingamisteedes). Peale situatsioonülesande lahendamist toimub arutelu. Õpitakse osutama esmaabi välise verejooksu, haavade ja luumurdude korral. Praktikumides osalemine on kohustuslik."
+        },
+        "objectives": [
+            {
+                "en": "To teach first aid and basic life support measures, so that student is able to provide first-aid as non-medical specialist.",
+                "et": "Aine eesmärk on õpetada esmaabi võtteid, mida üliõpilane saab  tavakodanikuna (st mitte meditsiinitöötajana) rakendada hädasolijate abistamiseks."
+            }
+        ],
+        "learning_outcomes": [
+            {
+                "en": "After completion of the course the student",
+                "et": "Kursuse läbinu:"
+            },
+            {
+                "en": "- is familiar with the main causes of life threatening conditions and acute illnesses",
+                "et": "- teab õnnetusjuhtumite ja äkkhaigestumiste peamiseid põhjuseid"
+            },
+            {
+                "en": "- knows the principles of safety of lay rescuer and victim on the scene of accident, incl. person with suspected or confirmed COVID-19",
+                "et": "- teab kuidas tagada sündmuskohal abiandja ja kannatanu ohutus (sh COVID-19 nakkuskahtluse korral)"
+            },
+            {
+                "en": "- recognizes a patient in critical condition, incl. clinical death",
+                "et": "- oskab hinnata ja tunneb ära kriitilises seisundis (sh kliinilises surmas) kannatanu"
+            },
+            {
+                "en": "- is able to perform basic life support (BLS) for adults and children (incl. use of an AED)",
+                "et": "- oskab õigeaegselt rakendada esmaseid elustamisvõtteid täiskasvanule ja lapsele (sh kasutada automaatset kehavälist defibrillaatorit ehk AED-d)"
+            },
+            {
+                "en": "- is able to give first aid in life-threatening and potentially life-threatening conditions (foreign body airway obstruction, shock, disorders of consciousness, seizures, drowning, electric trauma, accidental hypothermia, heat illnesses, cardiovascular disease, poisonings, bites and stings, severe allergic reaction, bronchial asthma, emergency childbirth)",
+                "et": "- oskab osutada esmaabi eluohtlike ja potentsiaalselt eluohtlike seisundite korral (võõrkeha ülemistes hingamisteedes, shokk, teadvushäired, krambid, uppumine, elektritrauma, juhuslik hüpotermia, kuumakahjustused, südamehaigused, mürgistused, loomade ja putukate hammustused, raske allergiline reaktsioon, bronhiaalastma ja äkksünnitus)"
+            },
+            {
+                "en": "- in the case of wounds is able to stop bleeding and cover the wound with sterile bandage     ",
+                "et": "- oskab haavade korral peatada verejooksu ja katta haav steriilse sidemega"
+            },
+            {
+                "en": "- is able to give first aid in massive bleeding and bone fractures ",
+                "et": "- oskab osutada esmaabi traumahaigele ja rakendada esmaabivõtteid verejooksu sulgemiseks ja luumurdude lahastamiseks"
+            },
+            {
+                "en": "Because of COVID-19 pandemic this year on practical sessions students will not be taught artificial ventilation by mouth method and by pocket mask. The focus of BLS education will be on quality of chest compression without and with an AED. The student has to be able to open an airway and to perform one or two-person Ambu bag-mask techniques for manikin ventilation.",
+                "et": " Seoses koroonaviiruse levikuga ei õpetata sellel aastal üliõpilastele elustamise praktikumidel kunstliku hingamist suust-suhu meetodil, samuti pocket maski abil. Keskendutakse rindkere kompressioonide kvaliteedile ja varajasele AED kasutamisele. Üliõpilane peab oskama avada mannekeenil ülemised hingamisteed ja rakendada adekvaatset ventilatsiooni Ambukoti ja maski abil (ühe ja kahe inimese poolt teostatav ventilatsiooni tehnika)."
+            }
+        ],
+        "notes": {
+            "et": "Praktikumid toimuvad L. Puusepa 8, õpperuumis D309,  (jälgige õppeplaani). Praktikumi kestvus on 3 tundi. Haiglas liikumiseks vaja vahetusjalatsid, üleriided jätta üliõpilaste riidehoidu."
+        }
+    },
+    "grading": {
+        "independent_work": {},
+        "independent_work_assessments": [
+            {
+                "work_type": {
+                    "code": "practical",
+                    "et": "Praktiline ülesanne",
+                    "en": "practical assignment"
+                },
+                "description": {
+                    "et": "Eelviimasel praktikumil sooritavad üliõpilased kirjaliku testi.\nTest koosneb 45 küsimusest, kus iga küsimuse ette antud vastustest valitakse ainult üks õige. Üks õige vastus iga küsimuse kohta annab ühe punkti. Seega maksimaalne punktide summa on 45. Test on sooritatud, kui kokku on saadud 36 punkti. \nKirjaliku testi positiivselt sooritanud üliõpilased pääsevad põhiarvestusele, milleks on praktiliste oskuste kontroll (praktilised ülesanded mannekeenidel)."
+                }
+            }
+        ],
+        "grade_preconditions": {
+            "et": "Osalemine kõikides praktikumides.\nEelviimasel praktikumil sooritavad üliõpilased kirjaliku testi. Praktikumi lõpus kontrollib õppejõud tehtud testid ja teatab kohe tulemused üliõpilastele.\nKirjaliku testi positiivselt sooritanud üliõpilased pääsevad viimasel praktikumil toimuvale põhiarvestusele, milleks on praktiliste oskuste kontroll (praktilised ülesanded mannekeenidel). Kirjaliku testi mittesooritamisel põhiarvestusele ei pääse. Kirjaliku testi saab uuesti teha etteantud aegadel koos teiste rühmadega."
+        },
+        "grade_evaluation": {
+            "et": "Arvestus loetakse sooritatuks, kui praktilised kontrollülesanded mannekeenidel on edukalt läbi viidud."
+        },
+        "debt_elimination": {
+            "et": "Kokkuleppel õppejõuga."
+        },
+        "assessment_scale": {
+            "code": "pass",
+            "et": "Eristamata (arv, m.arv, mi)",
+            "en": "non-differentiated (pass, fail, not present)"
+        },
+        "results_available_from": {}
+    },
+    "resources": {
+        "web_based": {
+            "code": "3",
+            "et": "lähiõpe",
+            "en": "face-to-face learning"
+        },
+        "website_url": "http://www.kliinikum.ee/aikliinik/",
+        "is_moodle_connected": false,
+        "mandatory_materials": "Loengute konspektid.\nK.Kutsar. Õnnetused ja esmaabi. Tallinn, 1998."
+    },
+    "participants": {
+        "lecturers": [
+            {
+                "person_uuid": "317a57ab-c508-7ff0-c03d-314a8a93a59c",
+                "person_name": "Kaspar Tootsi",
+                "structural_unit": {
+                    "code": "MVCM",
+                    "name": {
+                        "en": "Institute of Clinical Medicine",
+                        "et": "kliinilise meditsiini instituut"
+                    },
+                    "email": "kmi@ut.ee",
+                    "phone": "+372 737 5324",
+                    "webpage_url": "https://kliinilinemeditsiin.ut.ee",
+                    "address": "L. Puusepa 8\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "L. Puusepa 8",
+                    "zip": "50406",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "MV"
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "12057764-98d7-0231-43ee-f8d8f7884f64",
+                "person_name": "Urmas Lepner",
+                "structural_unit": {
+                    "code": "MVMV",
+                    "name": {
+                        "en": "Dean's Office, Faculty of Medicine",
+                        "et": "meditsiiniteaduste valdkonna dekanaat"
+                    },
+                    "email": "med@ut.ee",
+                    "phone": "+372 737 5326",
+                    "webpage_url": "https://meditsiiniteadused.ut.ee",
+                    "address": "Ravila 19\n50411 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "Ravila 19",
+                    "zip": "50411",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "MV"
+                },
+                "is_responsible": false,
+                "is_teaching": true,
+                "study_group_roles": {
+                    "1. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "7. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    }
+                }
+            },
+            {
+                "person_uuid": "556eea41-f190-c414-b0a6-e29e7d2b01db",
+                "person_name": "Kadri Tamme",
+                "structural_unit": {
+                    "code": "MVCM01",
+                    "name": {
+                        "en": "Department of Anesthesiology and Intensive Care",
+                        "et": "anestesioloogia ja intensiivravi kliinik"
+                    },
+                    "phone": "+372 731 8405",
+                    "webpage_url": "https://kliinilinemeditsiin.ut.ee/et/anestesioloogia-intensiivravi-kliinik",
+                    "address": "L. Puusepa 8 - G1. 209\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "L. Puusepa 8 - G1. 209",
+                    "zip": "50406",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": false,
+                    "parent_code": "MVCM"
+                },
+                "is_responsible": false,
+                "is_teaching": true,
+                "study_group_roles": {
+                    "2. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "3. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "5. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "21. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "9. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "1. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "4. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "7. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "22. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "6. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "10. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "8. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    }
+                }
+            },
+            {
+                "person_uuid": "b768bc3e-e9e4-619a-a05b-3dccf2fa5dda",
+                "person_name": "Aare Märtson",
+                "structural_unit": {
+                    "code": "MVCM16",
+                    "name": {
+                        "en": "Department of Orthopaedics",
+                        "et": "ortopeediakliinik"
+                    },
+                    "phone": "+372 731 8202",
+                    "webpage_url": "https://kliinilinemeditsiin.ut.ee/et/traumatoloogia-ortopeedia-kliinik",
+                    "address": "L. Puusepa 8\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "L. Puusepa 8",
+                    "zip": "50406",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": false,
+                    "parent_code": "MVCM"
+                },
+                "is_responsible": false,
+                "is_teaching": true,
+                "study_group_roles": {
+                    "2. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "3. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "5. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "21. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "9. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "1. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "4. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "7. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "22. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "6. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "10. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "8. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    }
+                }
+            },
+            {
+                "person_uuid": "82fd7186-1093-645d-9e18-3be5e1c2e830",
+                "person_name": "Helmut Seepter",
+                "structural_unit": {
+                    "code": "MVCM",
+                    "name": {
+                        "en": "Institute of Clinical Medicine",
+                        "et": "kliinilise meditsiini instituut"
+                    },
+                    "email": "kmi@ut.ee",
+                    "phone": "+372 737 5324",
+                    "webpage_url": "https://kliinilinemeditsiin.ut.ee",
+                    "address": "L. Puusepa 8\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "L. Puusepa 8",
+                    "zip": "50406",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "MV"
+                },
+                "is_responsible": false,
+                "is_teaching": true,
+                "study_group_roles": {
+                    "2. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "3. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "5. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "9. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "1. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "6. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "10. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    }
+                }
+            },
+            {
+                "person_uuid": "883e8c1d-63bd-f39d-0bd7-a36d1fc3aaaa",
+                "person_name": "Aleksander Sipria",
+                "structural_unit": {
+                    "code": "MVCM01",
+                    "name": {
+                        "en": "Department of Anesthesiology and Intensive Care",
+                        "et": "anestesioloogia ja intensiivravi kliinik"
+                    },
+                    "phone": "+372 731 8405",
+                    "webpage_url": "https://kliinilinemeditsiin.ut.ee/et/anestesioloogia-intensiivravi-kliinik",
+                    "address": "L. Puusepa 8 - G1. 209\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "L. Puusepa 8 - G1. 209",
+                    "zip": "50406",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": false,
+                    "parent_code": "MVCM"
+                },
+                "is_responsible": true,
+                "is_teaching": true,
+                "study_group_roles": {
+                    "2. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "3. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "5. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "21. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "9. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "1. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "4. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "7. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "22. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "6. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "10. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    },
+                    "8. rühm": {
+                        "code": "1",
+                        "et": "Lektor",
+                        "en": "lecturer"
+                    }
+                }
+            },
+            {
+                "person_uuid": "b41cad32-043b-1f18-a600-3fe1e7236f82",
+                "person_name": "Tiit Vaasna",
+                "structural_unit": {
+                    "code": "MVCM03",
+                    "name": {
+                        "en": "Department of Surgery",
+                        "et": "kirurgiakliinik"
+                    },
+                    "phone": "+372 731 8238",
+                    "webpage_url": "https://kliinilinemeditsiin.ut.ee/et/kirurgiakliinik",
+                    "address": "L. Puusepa 8\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "L. Puusepa 8",
+                    "zip": "50406",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": false,
+                    "parent_code": "MVCM"
+                },
+                "is_responsible": false,
+                "is_teaching": true,
+                "study_group_roles": {
+                    "21. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "4. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "22. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    },
+                    "8. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    }
+                }
+            },
+            {
+                "person_uuid": "07808e30-bd21-669d-c5a0-2465d48d8f12",
+                "person_name": "Maarja Hallik",
+                "structural_unit": {
+                    "code": "MV",
+                    "name": {
+                        "en": "Faculty of Medicine",
+                        "et": "meditsiiniteaduste valdkond"
+                    },
+                    "address": "Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "level": 1,
+                    "academic": true,
+                    "supports_continuous_learning": true
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "351c95c3-e3da-a75b-ce73-8efc1940a840",
+                "person_name": "Peeter Tähepõld",
+                "structural_unit": {
+                    "code": "MVCM01",
+                    "name": {
+                        "en": "Department of Anesthesiology and Intensive Care",
+                        "et": "anestesioloogia ja intensiivravi kliinik"
+                    },
+                    "phone": "+372 731 8405",
+                    "webpage_url": "https://kliinilinemeditsiin.ut.ee/et/anestesioloogia-intensiivravi-kliinik",
+                    "address": "L. Puusepa 8 - G1. 209\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "L. Puusepa 8 - G1. 209",
+                    "zip": "50406",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": false,
+                    "parent_code": "MVCM"
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            },
+            {
+                "person_uuid": "527a1a40-b998-670f-1a93-971c72ddd43e",
+                "person_name": "Anna-Helena Kase",
+                "structural_unit": {
+                    "code": "MVCM",
+                    "name": {
+                        "en": "Institute of Clinical Medicine",
+                        "et": "kliinilise meditsiini instituut"
+                    },
+                    "email": "kmi@ut.ee",
+                    "phone": "+372 737 5324",
+                    "webpage_url": "https://kliinilinemeditsiin.ut.ee",
+                    "address": "L. Puusepa 8\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "L. Puusepa 8",
+                    "zip": "50406",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "MV"
+                },
+                "is_responsible": false,
+                "is_teaching": true
+            }
+        ],
+        "study_groups": [
+            {
+                "uuid": "27d49251-8c71-983f-edee-47fe490b6735",
+                "code": "1. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "46546675-12e6-64f9-e53c-6adca42ed8cc",
+                "code": "2. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "a87a30d6-e6ca-8d46-c806-0526458bbe9e",
+                "code": "3. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "195b35ba-502e-e5cf-01ba-4061576fed99",
+                "code": "4. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "b35eb684-cd9f-593d-6bc6-e9aaf044a7a5",
+                "code": "5. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "d6696a83-18c1-60cf-41aa-1a711fd29cd6",
+                "code": "6. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "f15b3497-a57f-2d3f-0eed-968fe5a443f7",
+                "code": "7. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "85d86796-14e1-c0d4-8a74-69d4f7ccf3c3",
+                "code": "8. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "0234b909-7f23-b2ae-d309-7c4f38b95035",
+                "code": "9. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "d105a517-eada-03cd-7297-e9743cddfe61",
+                "code": "10. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "a978ee99-7a72-6a93-9b6c-b8fb7805390f",
+                "code": "21. rühm",
+                "max_size": 20
+            },
+            {
+                "uuid": "a6b9b1fe-e659-c4cd-f470-8ff4d5f82244",
+                "code": "22. rühm",
+                "max_size": 20
+            }
+        ]
+    },
+    "schedule": {
+        "weeks": {
+            "et": "1.-16.n"
+        },
+        "entries": [
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Õnnetusjuhtumite ja äkkhaigestumiste põhjused ja esinemissagedus. Erakorralise meditsiiniabi organisatsioon Eestis. Käitumine õnnetus- ja ohuolukorras. Erakorralise haige uurimine ja tegevus. Asfüksia ja kunstlik hingamine."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Kliiniline ja bioloogiline surm. Taaselustamine kliinilisest surmast. Uppumine. Elektritrauma. Šokk. Teadvusehäired. Allajahtumine. Kuumakahjustused."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Esmaabi südamekaebuste korral. Esmaabi mürgistuste, putukate, loomade hammustuste korral. Teetanus. Marutaud. Allergilised reaktsioonid. Bronhiaalastma. Krambid. Sünnitus."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Põrutused, venitused, nihestused, luumurrud. Jäsemevigastused. Peavigastused. Silmavigastused. Lülisamba- ja vaagnavigastused. Rindkere trauma. Liittrauma.  Põletused. Külmakahjustused."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Taaselustamine kliinilisest surmast."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Taaselustamine kliinilisest surmast. Esmaabi kriitiliste seisundite korral. Võõrkeha hingamisteedes."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Esmaabi traumahaigele. Haige ülevaatus. Lahastamine. Desmurgia. Traumahaige kandmine ja transport."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Haavad. Verejooksud. Siseelundite vigastused. Kõhuvalu. Veriokse."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Taaselustamine kliinilisest surmast. Esmaabi kriitiliste seisundite korral.  Erakorralise meditsiini osakond. Teadmiste kontroll (kirjalik test)."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Arvestus: praktilised kontrollülesanded"
+                }
+            }
+        ]
+    },
+    "registration_info": {
+        "audience": {
+            "et": "Arstiteadus 1.kursus; Hambaarstiteadus 1.kursus."
+        },
+        "min_students": 10,
+        "max_students": 240
+    },
+    "parent_uuid": "d124ef4b-50a6-6d94-8698-26fc556abda4",
+    "parent_code": "ARAI.01.039",
+    "parent_credits": 2,
+    "_actions": {
+        "is_moodle_editable": false,
+        "is_editable": false,
+        "is_deletable": false
+    }
+}

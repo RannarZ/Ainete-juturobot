@@ -1,0 +1,14 @@
+Differential Equations
+MTMM.00.214
+6
+Regular course
+['Estonian']
+True
+[]
+['Calculus I']
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+An introductory course to ordinary differential equations (ODE) and systems of ODEs: existence and uniqueness of solution; separable, linear first oder, Bernoully and exact ODEs; integrating factors; reduction of order; linear higher order ODEs, finding of particular solutions on the base of methods of variation of parameters and undetermined coefficients, Lioville-Ostrogradski formula, boundary value problems and Green's function; reduction of systems of ODEs to one higher order equation, first integrals and method of integrating combinations; linear systems with constant coefficients; stability of solutions.Objectives/eesmärkid:  The main purpose is to present some basic theory of ordinary differential equations and to give an analysis of basic analytical methods for ordinary differential equations and their systems.Learning outcomes/õpiväljund:  After passing the course every student: 1) knows what is  an ordinary differential equation (ODE) and a system of ODEs;  2) is able to analyze the question about the existence and uniqueness of the solution for concrete  initial value problems of ODEs and systems of ODEs;  3) knows what is the direction field of a first order ODE; 4) recognizes the separable equations, exact equations, linear first order ODEs and is able to solve these type of equations; 5) knows the meaning of an integrating factor and is able to use it for solving non-complicated problems of ODEs; 6) is able to solve linear higher order ODEs with constant coefficients using fundamental solutions of linear homogenous equations and finding of particular solutions of nonhomogenous equations on the base of methods of variation of parameters and undetermined coefficients;  7) recognizes the Euler's equations and knows how to solve them; 8) is able to apply Liouville-Ostrogradski formula for solving second order linear homogenous ODEs; 9) is able to reduce a second order system of ODEs to a second order differential equation; 10) is able to solve second and third order linear systems of ODEs with constant coefficients.

@@ -1,0 +1,14 @@
+Introduction to R and Data Structures
+HVEE.04.006
+3
+Regular course
+['Estonian']
+False
+None
+None
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 28, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 50, 'individual_work': 0, 'internship': 0}
+grade
+This course introduces the R application. We will learn to prepare and process the data it in R; to use regular expressions for text search and converions; some basic statistics; visualization.Objectives/eesmärkid:  Get acquainted with statistical package R: the basic synthax of R language & analyzing different datasets in the humanities.Learning outcomes/õpiväljund:  After passing this course the student can process data files in R, can use regular expressions and basic statistics, and can visualize the data.

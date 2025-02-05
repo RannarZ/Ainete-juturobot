@@ -1,0 +1,29 @@
+Object-Oriented Programming
+LTAT.03.003
+6
+Regular course
+['Estonian']
+True
+['Computer Programming']
+[]
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Java program, compiling, running
+Primitive types. Expressions.
+Selection. Loops.
+OOP paradigm. Objects and classes. Variable scopes.
+Eclipse. Static variables. Signature. Java array.
+Strings. Textual I/O
+Inheritance and polymorphism. Overriding. Class Object.
+Abstract classes and interfaces. Wrapper classes. Interface Comparable. 
+Graphics. JavaFX
+Events. Listeners.
+GUI.
+Exceptions.
+Streams. Binary I/O.
+Dynamical data structures (list, stack, queue)
+Java data structures. Interface Collection. Interfaces List and Map.
+Threads.Objectives/eesmärkid:  The aim of the course is to provide basic knowledge about the nature of object-oriented programming, skills for programming and primary skills of teamwork.Learning outcomes/õpiväljund:  On the completion of the course, the student: *is able to define the essential concepts of object-oriented paradigm (encapsulation, abstraction, inheritance, polymorphism, overloading, overriding) and analyze the corresponding programs *is able to describe different data structures (array, linked list, stack, queue, hash table) and their use *is able to explain the value and nature of application programming interfaces (APIs) and find useful information from them *is able to explain the essence of event-driven programming and exception handling and exemplify their use *is able to design, implement, test, and debug programs in one object-oriented programming language with integrated development environment (IDE) implementing the above items *is able to explain the essential elements of teamwork drawing on personal experience

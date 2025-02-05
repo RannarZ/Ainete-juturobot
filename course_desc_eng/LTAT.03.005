@@ -1,0 +1,14 @@
+Algorithms and Data Structures
+LTAT.03.005
+6
+Regular course
+['Estonian']
+True
+['Computer Programming II']
+[]
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 64, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 60, 'individual_work': 0, 'internship': 0}
+grade
+The concept of data structure. The classical data structures together with related algorithms: sequences, hash tables, trees, graphs.Objectives/eesmärkid:  To give a systematic introduction to basic data structures and algorithms related to them, as well as the first experience of implementing them.Learning outcomes/õpiväljund:  Students who have passed this course: 1) understand the notion of complexity of algorithm, can estimate it empirically and in simple cases also analytically, and compare the speed of algorithms based on growth rates; 2) know basic data structures and the classic algorithms related to them, their use conditions and goals, and understand how they work; 3) are able to implement and use these data structures and algorithms on computer, and to prefer, depending on the goals, the most suitable data structures in practice.

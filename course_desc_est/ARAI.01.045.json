@@ -1,0 +1,24 @@
+{
+    "KURSUSE_NIMI": "Anestesioloogia ja intensiivravi",
+    "KURSUSE_KOOD": "ARAI.01.045",
+    "EAP": 3,
+    "KURSUSE_TYYP": "Tavaline aine",
+    "KURSUSE_KEELED": [
+        "eesti keel"
+    ],
+    "VOTA": true,
+    "SEMESTER": "sügis",
+    "OPPETYYP": "päevaõpe",
+    "TUNDIDE_JAOTUS": {
+        "lecture": 12,
+        "practice": 28,
+        "seminar": 0,
+        "colloquium": 0,
+        "web_learning": 0,
+        "independent_work": 38,
+        "individual_work": 0,
+        "internship": 0
+    },
+    "HINDAMISSKAALA": "pass",
+    "KIRJELDUS": "Kursuse põhitähelepanu on pööratud kirurgilisele haigele. Tutvustatakse anesteesia põhilisi meetodeid. Üliõpilased saavad ülevaate haige ettevalmistusest, haige käsitlemist pärast anesteesiat, õpivad käsitlema hingamisteid. Omandatakse põhiteadmised ja oskused infusioonravi läbiviimiseks ning šokiseisundite diagnoosimiseks ja raviks, samuti ravipõhimõtted elustamiseks kliinilisest surmast. Praktilised oskused: vabade hingamisteede tagamine, esmased elustamisvõtted.Objectives/eesmärkid:  Õpetada anesteesia, pre- ja postoperatiivse ravi ning kriitilises seisundis haige ravi põhimõtteid.Learning outcomes/õpiväljund:  Kursuse edukalt läbinud üliõpilane teab peamisi anesteesia meetodeid ja tüsistusi, oskab patsienti nõustada anesteesia eelselt, oskab vabade hingamisteede tagamiseks vajalikke võtteid, suudab rakendada taaselustamisvõtteid, tunneb infusioonravi näidustusi ning praktilist läbiviimist, oskab korraldada kirurgilise haige postoperatiivse perioodi juhtimist. Üliõpilane oskab diagnoosida šokiseisundit ning tunneb selle ravipõhimõtteid. Üliõpilaste iseseisva töö hulka kuulub õppematerjalide  läbitöötamine (e-loengud Moodle keskkonnas). Praktikumide kestvus on 4 tundi. Praktikumid toimuvad L. Puusepa 8, anestesioloogia ja intensiivravi kliiniku õpperuumides G1.2 203, G1.2 204, G1.1 214, C225,  visiit ja haigetega tegelemine kirurgia osakondade postoperatiivse ravi palatites. Praktikum nr 2. toimub TÜ Kliinikumi operatsiooniosakonnas L. Puusepa 8, G-korpus, III korrus. Haiglas liikumiseks on vajalikud vahetusjalatsid, arstikittel. Üleriided jätta peasissekäigu juures olevasse riidehoidu. Stetoskoop kuulub arstiüliõpilase elementaarsesse varustusse! Vajalik lisainformatsioon kliiniku sekretärilt L. Puusepa 8, G1.1.209 , telefon 7318 405 või õppejõududelt."
+}

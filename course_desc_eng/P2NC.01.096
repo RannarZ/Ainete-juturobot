@@ -1,0 +1,14 @@
+Database Systems
+P2NC.01.096
+5
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+Creating data model design. Practical work. Different data structures and modeling.. Database development and SQL.Objectives/eesmärkid:  The aim of he course is to provide an overview of database design methodologies, database development and management methods, and the use of database systems in the development of information systems.Learning outcomes/õpiväljund:  After completing the course the student: - knows the process of creating a data model, the techniques used and how to use the data processing language SQL. - knows techniques for optimising data processing, locking mechanisms in databases and problems with locking. - knows the basic rules of normalisation and denormalisation, anomalies of different normals. - understands the problems arising from user rights. - has an overview of the database management operations and the use of indices in the databases. - creates independently smaller information systems based on database systems. - participates in the development processes of large information systems.

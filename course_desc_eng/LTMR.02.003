@@ -1,0 +1,29 @@
+Population Genetics
+LTMR.02.003
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+Introduction. Hardy-Weinberg equilibrium
+Genetic drift & mutation. Molecular clock
+Coalescence theory. 
+Effective population size
+Population subdivision. Heterozygosity & FST
+Linkage disequilibrium, types of selection
+Model of neutrality and selection tests
+Inferring populations' demographic history
+SeminarsObjectives/eesmärkid:  The goal of the Population Genetics course is to give overview of basic models and parameters for description and study of the genetic structure and demographic history of populations. Theory is illustrated by computer simulations and calculation exercises.Learning outcomes/õpiväljund:  *Knows how to postulate the basic population genetics hypotheses.
+*Applies the knowledge, according to the necessity, for the cases related to the mutation genesis and the fate of mutations.
+* Understands the essence of the Hardy-Weinberg Law, and exploits it for testing the zero-hypothesis, using the knowledge about natural selection, migration, assortative mating, inbreeding, population structure, and random genetic drift.
+* Knows the properties of Wright-Fisher population. Knows how to find the probability of allele frequency change dependent on population size by the use of binomial equation. Is able to describe Markov Chains model of genetic drift.
+* Understands the definition of effective population size through the behaviour of model population. Knows the main factors that influence effective populations size, Ne, and is able to find Ne if any of the assumptions are violated.
+* Understands the concept of coalescence and the influence of demographic factors (Ne, structure) on the coalescence process. Knows how to find the probability of an exponentially distributed random event.
+* Knows the beneficial features of mitochondrial DNA and Y chromosome that are applied in the population genetic research. Knows the basic properties of marker classes: haplotype, SNP, STR. Knows how to find coalescence age of a clade by i) average number of pairwise differences, ii) average mutational distance from founder haplotype.
+* Has a general overview of the distribution of human global genetic diversity. Is able to name general methods of genomewide data analysis.

@@ -1,0 +1,17 @@
+Database Theory
+LTAT.02.030
+6
+Regular course
+['Estonian', 'English']
+False
+None
+None
+None
+None
+None
+None
+None
+*First-order logic and relational algebra
+*Functional and inclusion dependencies
+*Conjunctive queries and their optimisation
+*Algorithms for conjunctive query evaluationObjectives/eesmärkid:  The aim of this course is to study the mathematical principles that dictate the limits and possibilities of database systems. By understanding these principles, students will be prepared to comprehend both current and future advancements in the field. First, the course covers fundamental features of the relational model such as relational algebra, first-order logic, and integrity constraints. Then, the course presents conjunctive queries focusing on their complexity, optimisation, and fast evaluation with classical and modern algorithms.Learning outcomes/õpiväljund:  After passing the course student Basics of the relational model and integrity constraints Connection between descriptive and procedural query languages Power and complexity of query languages Principles of query optimisation Fast conjunctive query evaluation

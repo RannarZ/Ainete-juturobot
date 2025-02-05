@@ -1,0 +1,14 @@
+Fundamentals of Quantum Computing: Theory and Practice
+LTFY.04.012
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The course provides an introduction into the basics of quantum computing focussing on problem solving and practical programming while using only a minimal amount of the theory of quantum mechanics. The course is taken before students have completed an advanced mathematics or a quantum physics courseObjectives/eesmärkid:  The aim of the course is to teach basic skills in quantum programming.Learning outcomes/õpiväljund:  The sudent who passes the course - has mastered the notion of a two dimensional quantum system: state, unitary evolution of state, measurement - is able to describe the behavior of a two dimensional quantum system on the Bloch sphere - has mastered the notion of superposition and entanglement in simple cases - has mastered the notion of a digital quantum computer: quantum bit (qubit), gates, circuits, carrying out quantum computation using these elements - is able to use free software packages (eg IBM QISKIT or ProjectQ) to compute simple quantum circuits - can implement, on a gate-based digital quantum computer such as IBM Q, the time-evolution of a quantum system

@@ -1,0 +1,15 @@
+Introduction to R Software
+SVMJ.04.011
+3
+Regular course
+['Estonian']
+False
+None
+None
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 36, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 42, 'individual_work': 0, 'internship': 0}
+pass
+R is one of the leading and most powerful tools for data analysis, but it is considered to have a rather steep initial learning curve. This introductory course helps you over the hardest part, covering everything necessary to get started  with R. We will also go through the modern workflow in R using dplyr for data wrangling, grammar of graphics for both exploratory and publication-ready data visualization and give an basic overview of Rmarkdown, which helps to integrate the statistical analysis in report-writing.
+You will love this course.Objectives/eesmärkid:  The aim of the course is to give the participants everything necessary to be able to independently work in R.Learning outcomes/õpiväljund:  After taking the course, the student will be able to - work in R and RStudio - write functions  in R  - understand the concept of grammar of graphics and work with ggplot2 - understand the concept of tidy data and convert data between long and wide format  - data filtering and summarizing by groups with dplyr - minimum necessary understanding of RMarkdown

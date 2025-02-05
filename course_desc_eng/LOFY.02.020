@@ -1,0 +1,14 @@
+X-ray Structure Analysis I
+LOFY.02.020
+3
+Regular course
+['Estonian']
+True
+['Calculus II', 'Review Course of Materials Science']
+['Chemical Principles']
+autumn
+regular studies
+None
+{'lecture': 19, 'practice': 17, 'seminar': 4, 'colloquium': 0, 'web_learning': 0, 'independent_work': 37, 'individual_work': 1, 'internship': 0}
+grade
+The students learn the basics of crystallography, X-ray diffraction methods for phase analysis of polycrystalline materials, the components of diffraction equipment, preparation of samples, adjustment of diffraction equipment, collection of diffraction data on a X-ray powder diffractometer, data preprocessing, indexing and refinement of cell parameters using computer programs AXES, TREOR, LSUCRE. Phase analysis is performed on the bases of the latest version of powder diffraction file PDF-2. The  model building is based on the crystal structure database ICSD and computer programs PowderCell, Ball & Sticks, Schakal. Diffraction pattern refinement for quantitative analysis is taught on the bases of Rietveld analysis using the program FULLPROF.Objectives/eesmärkid:  The main aim of the course is to learn the basics of X-ray diffraction that is required for phase analysis of polycrystalline materials and building of crystal structure models for presentations and computer simulations of diffraction patterns.Learning outcomes/õpiväljund:  1. Knows how to describe the crystal structures and compose the structure model of a crystalline material (lattice types, symmetry, point groups, space groups). 2. Knows different types of diffraction equipment and the work principles of their components that are used for structure characterization of polycrystalline materials. 3. Knows different types of X-ray powder diffraction pattern recording and the main stages of diffraction data analysis (pre-processing, phase analysis, indexing and cell parameter refinement). 4. Knows how to prepare samples for diffraction experiment and how to measure a diffraction pattern. 5. Can use the powder diffraction database PDF-2 for phase analysis of materials. 6. Can compose a structure model of a crystalline material and build a three dimensional (3D) model of the unit cell by using computer aided 3D modelling.

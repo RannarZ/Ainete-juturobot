@@ -1,0 +1,14 @@
+Introduction to Programming II
+MTAT.03.256
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 12, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 66, 'individual_work': 0, 'internship': 0}
+grade
+Algorithms and programs. Representations of algorithms, flow-charts. Branching algorithms. Loops. Sub-algorithm. Refining algorithms for given text-based problems. Number systems. Bit, byte. Types. Program structure. Names. Variables. Operations. Expressions. Text output. Boolean expressions, comparing. Methods, description, return of value, invoke. Conditional statement. Loop statement. One-dimensional arrays. Array scan. Array return. Nested loops. String processing. Input and output. Data exchange with files. Screen graphics. Overview of different programming languages. Main phases of software development.Objectives/eesmärkid:  To improve basic knowledge about developing, testing and debugging computer programs. To improve the primary programming skills and elements of imperative programming.Learning outcomes/õpiväljund:  After passing this course the student - can use fundamental programming constructions: variables, expressions, assignments, conditionals, iterations, procedures, recursion, regular expression, simple input/output; - knows basic datatypes and -structures (numeric types, booleans, strings, lists) and can use corresponding standard operations; - can analyze and explain the behavior of simple programs, and modify and expand them; - can design algorithms for solving simple problems, and implement, test and debug the corresponding program.

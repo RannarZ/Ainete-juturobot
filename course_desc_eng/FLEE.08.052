@@ -1,0 +1,15 @@
+Introduction into Computational Morphology
+FLEE.08.052
+3
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The concepts, used for describing morphology. Similarities of different languages. Different systems for Estonian. Lexicon-based analysis of
+Estonian ("passive morphology"). Guessing ("active morphology"). Choosing the right analysis from a set of possible ones, based on context. 2-level morphology. Using software for morphological analysis and synthesis, and connecting it with text processing tools for UNIX.Objectives/eesmärkid:  The aim is to give an understanding of problems and means of automatic natural language processing.Learning outcomes/õpiväljund:  The student - will know the ways and problems in morphological processing of language - is able to use the software for morphological analysis and synthesis - is able to use his/her knowledge and skills in solving other problems, related to linguistic processing.

@@ -1,0 +1,14 @@
+Design and Analysis of Algorithms
+MTAT.03.286
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The course covers the following topics: Fast Fourier Transform, fast multiplication of the polynomials using FFT, efficient algorithm for finding maximun flow in the network, max-flow in 0-1 network, finding min-cost maximum flow, linear programming, primal and dual problems, approximation algorithms for various combinatorial problems (set cover, travelling salesman problem, minimum feedback set problem), using linear-programming in approximation algorithms, primal-dual approach.Objectives/eesmärkid:  Understand the variety of techniques for development and analysis of algorithms for various fundamental problems in computer science.Learning outcomes/õpiväljund:  After completing this course, the student will be able: * to use various algorithmic techniques and concepts, such as fast Fourier transform, maximum flow in the networks, linear-programming, approximation algorithm techniques * to be able to analyze the time complexity of the algorithms, to prove their correctness, and to show approximation factor (for approximation algorithms)    * to read and understand medium-difficulty mathematical and computer science texts in the area; *	to develop appropriate algorithms for a variety of applied problems, to analyze their performance and prove their correctness

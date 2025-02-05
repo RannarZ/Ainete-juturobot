@@ -1,0 +1,254 @@
+{
+    "uuid": "b9e4df17-e576-f4e6-d2ce-7271f34ed9a3",
+    "code": "sv-2018-autumn-fulltime-c10-en",
+    "state": {
+        "code": "confirmed",
+        "et": "Kinnitatud",
+        "en": "confirmed"
+    },
+    "last_update": "2023-12-21T16:34:08",
+    "title": {
+        "en": "Internship",
+        "et": "Ettevõttepraktika"
+    },
+    "credits": 10,
+    "credit_type": "ECTS",
+    "target": {
+        "year": {
+            "code": "2018",
+            "et": "2018/2019",
+            "en": "2018/2019"
+        },
+        "semester": {
+            "code": "autumn",
+            "et": "sügis",
+            "en": "autumn"
+        },
+        "study_type": {
+            "code": "fulltime",
+            "et": "päevaõpe",
+            "en": "regular studies"
+        },
+        "language": {
+            "code": "en",
+            "et": "inglise keel",
+            "en": "English"
+        },
+        "part": {
+            "code": "0",
+            "et": "Osadeta",
+            "en": "None"
+        },
+        "faculty": {
+            "code": "SV",
+            "name": {
+                "en": "Faculty of Social Sciences",
+                "et": "sotsiaalteaduste valdkond"
+            },
+            "address": "Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "level": 1,
+            "academic": true,
+            "supports_continuous_learning": true
+        },
+        "course_main_structural_unit": {
+            "code": "SVPC",
+            "name": {
+                "en": "Pärnu College",
+                "et": "Pärnu kolledž"
+            },
+            "email": "info@pc.ut.ee",
+            "phone": "+372 445 0520",
+            "webpage_url": "https://pc.ut.ee",
+            "address": "Ringi 35\n80012 Pärnu linn, \nPärnu linn, Pärnumaa \nEST",
+            "city": "Pärnu linn",
+            "street": "Ringi 35",
+            "zip": "80012",
+            "level": 2,
+            "academic": true,
+            "supports_continuous_learning": true,
+            "parent_code": "SV"
+        },
+        "label": {
+            "en": "18/19 A regular SV Eng",
+            "et": "18/19 S PÕ SV Eng"
+        }
+    },
+    "general": {
+        "year": {
+            "code": "2018",
+            "et": "2018/2019",
+            "en": "2018/2019"
+        },
+        "input_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "structural_unit_shares": [
+            {
+                "structural_unit_code": "SVPC",
+                "structural_unit_name": {
+                    "en": "Pärnu College",
+                    "et": "Pärnu kolledž"
+                },
+                "course_share_percent": 100,
+                "coordinating": true
+            }
+        ],
+        "type": {
+            "code": "practice",
+            "et": "Praktika",
+            "en": "Working practice"
+        }
+    },
+    "additional_info": {
+        "is_vota_course": false,
+        "is_continuous_learning_course": false,
+        "study_levels": [
+            {
+                "code": "master",
+                "et": "magistriõpe",
+                "en": "master's studies"
+            }
+        ],
+        "hours": {
+            "lecture": 2,
+            "practice": 2,
+            "seminar": 6,
+            "colloquium": 0,
+            "web_learning": 0,
+            "independent_work": 250,
+            "individual_work": 0,
+            "internship": 0
+        },
+        "is_enlight_course": false
+    },
+    "overview": {
+        "study_languages": [
+            {
+                "code": "en",
+                "et": "inglise keel",
+                "en": "English"
+            }
+        ],
+        "description": {
+            "en": "Participation in the activities of an organisation, related with the students' field of specialisation, during a minimum period of 220 hours. Collection and analysis of information. General overview. Organisational structure and processes. Customers. Services. Micro environment and macro environment. Sustainability. Benchmarking the organisation. SWOT analysis. Proposals for redevelopment. Self-examination. Preparation of the internship report.",
+            "et": "Osalemine organisatsiooni tegevuses, mis on seotud üliõpilase erialaga, minimaalselt 220 tundi. Informatsiooni kogumine ja analüüs organisatsiooni kohta. Üldine tutvustus. Organisatsiooniline struktuur ja protsessid. Kliendid. Teenused. Mikro- ja makrokeskkond. Jätkusuutlikkus. Organisatsiooni kohta võrdlusuuringu tegemine. SWOT-analüüs. Ettepanekud parendusteks. Eneseanalüüs. Praktikaraporti ettevalmistus."
+        },
+        "objectives": [
+            {
+                "en": "The general objective is to support the convergence of theory and practice, encouraging students to learn from practice and put the acquired knowledge into practice.",
+                "et": "Kursuse eesmärgiks on ühendada teooria ja praktika, julgustades üliõpilasi praktikast õppima ning omandatud teadmisi praktikasse rakendama. Aine annab võimaluse analüüsida protsesse spaa- ja heaolumajanduses konkreetsete organisatsioonide näidetel."
+            }
+        ],
+        "learning_outcomes": [
+            {
+                "en": "Students are expected to achieve the following outcomes upon completion of the subject.",
+                "et": "Üliõpilastelt oodatakse õppeaine läbimisel järgnevate tulemuste saavutamist. "
+            },
+            {
+                "en": "Students will know and understand:",
+                "et": "Üliõpilane tunneb ja mõistab:"
+            },
+            {
+                "en": "*\tcurrent problems in organisations providing wellness-oriented services; ",
+                "et": "*\taktuaalseid probleeme organisatsioonides, mis pakuvad tervisele orienteeritud teenuseid; "
+            },
+            {
+                "en": "and acquire skills:",
+                "et": "ning on omandanud oskused:"
+            },
+            {
+                "en": "*\tto analyse the environment, organisational structure and processes;",
+                "et": "*\tanalüüsida organisatsiooni keskkonda, organisatsioonilist struktuuri ja protsesse;"
+            },
+            {
+                "en": "*\tto benchmark organisations and design redevelopment;",
+                "et": "*\tteha organisatsioonide kohta võrdlusuuringuid ning kujundada ümberkorraldusi;"
+            },
+            {
+                "en": "*\tto manage the activities of the organization.",
+                "et": "*\tjuhtida organisatsiooni igapäevategevust."
+            }
+        ],
+        "notes": {}
+    },
+    "grading": {
+        "independent_work": {
+            "et": "*\tPraktika\n*\tPraktikaraport\n---------------------------\n*      Internship \n*      Internship report"
+        },
+        "grade_preconditions": {
+            "et": "Hindamisele pääsemise ja võlgnevuste likvideerimise tingimused määrab kursuse eest vastutav õppejõud vastavalt õppekorralduseeskirjale.\n----------------------------\nRequirements for sitting or resitting the assessments will be established by the teaching staff member responsible for the course in accordance with the Study Regulations."
+        },
+        "grade_evaluation": {
+            "et": "*\tpraktikaraport  - 70% (60% sisu, 10% vormistus)\n*      juhendaja hinnang - 20%\n*\traporti kaitsmine  - 10%\n-----------------------------\n*      Internship report - 70% (60% content, 10% structure and forming)\n*      Supervisor's evaluation - 20%\n*      Defence of the report -10%"
+        },
+        "debt_elimination": {
+            "et": "Hindamisele pääsemise ja võlgnevuste likvideerimise tingimused määrab kursuse eest vastutav õppejõud vastavalt õppekorralduseeskirjale.\n------------------------------\nRequirements for sitting or resitting the assessments will be established by the teaching staff member responsible for the course in accordance with the Study Regulations."
+        },
+        "assessment_scale": {
+            "code": "pass",
+            "et": "Eristamata (arv, m.arv, mi)",
+            "en": "non-differentiated (pass, fail, not present)"
+        },
+        "results_available_from": {}
+    },
+    "resources": {
+        "web_based": {
+            "code": "2",
+            "et": "põimõpe",
+            "en": "blended learning"
+        },
+        "website_url": "http://moodle.ut.ee",
+        "is_moodle_connected": false,
+        "mandatory_materials": "*\tMaterials recieved from the teaching staff member responsible for the course\n*\tGhauri, P. & Grönhaug, K. Research Methods in Business Studies: A Practical Guide. 2nd Ed. Pearson Education. Harlow. 2002. (Saadaval ka eesti keeles: Äriuuringute meetodid. Praktilisi näpunäiteid. Tallinn, Külim, 2004)",
+        "recommended_materials": "*\tBerger, F., Brownell, J. Organization Behaviour for the Hospitality Industry. New Jersey: Pearson Education, 2008, 425 p.\n*\tKaplan, R. & Norton, D. The Strategy-focused Organization: How Balanced Scorecard Companies thrive in the new businesss environment., Harvard Business School Press, 2001 \n*\tRobson, C. Real World Research. A Resource for Social Scientists and Practitioner-Researchers. Oxford: Blackwell Publishers, 2000, 510 p. \n*\tSarantakos, S. Social Research. 3rd Ed. New York: Palgrave Macmillan, 2005, 464 p.\n*\tTeemaga seonduvad artiklid ja muud allikad."
+    },
+    "participants": {
+        "lecturers": [
+            {
+                "person_uuid": "faec4404-ef0d-0cbf-5deb-b31ad29ede4d",
+                "person_name": "Inna Bentsalo",
+                "structural_unit": {
+                    "code": "SVPC02",
+                    "name": {
+                        "en": "Department of Tourism Studies",
+                        "et": "turismiosakond"
+                    },
+                    "phone": "+372 445 0524",
+                    "address": "Ringi 35\n80012 Pärnu linn, \nPärnu linn, Pärnumaa \nEST",
+                    "city": "Pärnu linn",
+                    "street": "Ringi 35",
+                    "zip": "80012",
+                    "level": 3,
+                    "academic": true,
+                    "supports_continuous_learning": false,
+                    "parent_code": "SVPC"
+                },
+                "is_responsible": true,
+                "is_teaching": true
+            }
+        ]
+    },
+    "schedule": {
+        "weeks": {
+            "et": "1-17"
+        }
+    },
+    "registration_info": {
+        "audience": {
+            "et": "WS magistrandid"
+        }
+    },
+    "parent_uuid": "59318e61-9f9d-2655-6534-48358fbfe8b4",
+    "parent_code": "P2PC.00.524",
+    "parent_credits": 10,
+    "_actions": {
+        "is_moodle_editable": false,
+        "is_editable": false,
+        "is_deletable": false
+    }
+}

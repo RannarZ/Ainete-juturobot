@@ -1,0 +1,14 @@
+GIS in Geology
+LTOM.03.036
+3
+Regular course
+['Estonian']
+True
+['Geographic Information Systems', 'ArcGIS Software']
+[]
+None
+None
+None
+None
+None
+During the course, ArcGIS and QGIS programs are used to solve practical tasks in geology. Different data types are introduced and taught how to use them. The sources from which geological data can be obtained are introduced: Maa-amet, EELIS, EGT, geological fund, etc. Basic knowledge is learned of handling vector and raster data and using them for spatial analysis.Objectives/eesmärkid:  The goal of this course is to confirm basic knowledge of the use of geoinformation systems and link them to tasks in the field of geology. To provide digital competence for further studies and basic knowledge to perform the work tasks of a geologist.Learning outcomes/õpiväljund:  After successful passing, the student: (1)	has basic knowledge of using ArcGIS and QGIS programs (2)	knows basic work processes in GIS programs (3)	can search for geological data (vector data, WMS, WFS) (4)	can use geological spatial data (put them on a map and perform simple spatial analyses) (5)	can use and create raster data (6)	acquires skills in using LiDAR data in geological applications (7)	has familiarized themself with databases and making SQL queries (8)	has familiarized themself with GIS plugins used in geology

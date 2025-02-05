@@ -1,0 +1,14 @@
+Optimization Methods
+MTMM.00.202
+6
+Regular course
+['Estonian']
+True
+['Algebra I', 'Real Analysis']
+[]
+autumn
+regular studies
+None
+{'lecture': 48, 'practice': 16, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Finding extremal values of  functions with n variables on the whole space or on a domain determined by restrictions. The theory of linear and  convex programming is presented with the applications to practical problems.  Solution of practical problems using computers and packages with standard programs of optimization methods.Objectives/eesmärkid:  Giving a general picture about modern methods of optimization.Learning outcomes/õpiväljund:  After passing the course the students 1.	know all important formulations of optimization problems 2.	can use classical methods in solving the problems with differentiable functions 3.	can solve all linear programming problems 4.	know main results of convex programming 5.	can use standard Python optimization packages for solving practical problems 6.	can use Excel Solver for solving practical problems

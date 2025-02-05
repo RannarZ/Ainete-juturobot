@@ -1,0 +1,14 @@
+Typesetting Mathematical Text
+MTMM.00.328
+3
+Regular course
+['Estonian']
+False
+None
+None
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 28, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 50, 'individual_work': 0, 'internship': 0}
+pass
+The contents of the course is to learn typesetting mathematical text using macro typesetting system LaTeX. Most of the course time will be devoted to LaTeX. Conversions between file formats, drawing function graphs and other vector graphics drawings are also considered. In addition to typesetting ordinary texts, slides for presentations will be created using LaTeX as well.Objectives/eesmärkid:  1) It is favourable for the student to typeset mathematical texts using the typesetting system LaTeX in the future. 2) The student has elementary skills (text and formula mode, sections, lists, tables, references, simple macros, etc.) in typesetting system LaTeX. 3) The student is aware of the LaTeX output formats (DVI, PS, PDF) and is able to convert between these formats. 4) The student has elementary skills in processing raster images and is able to include them into LaTeX-document. 5) The student has elementary skills in drawing function graphs using Maxima and in creating vector graphics drawings using MetaPost and is able to include them into LaTeX-document.Learning outcomes/õpiväljund:  1) The student has elementary skills (text and formula mode, sections, lists, tables, references, simple macros, etc.) in typesetting system LaTeX. 2) The student is aware of the LaTeX output formats (DVI, PS, PDF) and is able to convert between these formats. 3) The student has elementary skills in processing raster images and is able to include them into LaTeX-document. 4) The student has elementary skills in drawing function graphs using Maxima and in creating vector graphics drawings using MetaPost and is able to include them into LaTeX-document.

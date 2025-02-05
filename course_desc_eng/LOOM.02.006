@@ -1,0 +1,14 @@
+Database Applications
+LOOM.02.006
+3
+Regular course
+['Estonian']
+True
+['Geographic Information Systems']
+[]
+spring
+regular studies
+None
+{'lecture': 16, 'practice': 24, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 38, 'individual_work': 0, 'internship': 0}
+grade
+A short theoretical introduction to various data models and databases in modern information flows. Course includes an in-depth overview of the principles of databases with a relational data model and practical experience working with PostgreSQL. Based on practical and homework, you will create your own sample database in PostgreSQL.Objectives/eesmärkid:  Get practical experience working with relational databases using PostgreSQL.Learning outcomes/õpiväljund:  After this course, the student: - is acquainted with the main problems of data management and database administration. - can design and manage database in PostgreSQL; - familiar with SQL syntax and able to perform queries.

@@ -1,0 +1,14 @@
+Processing Estonian Language in Python
+HVEE.04.004
+6
+Regular course
+['Estonian']
+True
+['Computer Programming']
+[]
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 124, 'individual_work': 0, 'internship': 0}
+grade
+The course covers automatic processing of Estonian from the practical viewpoint - how to use methods and algorithms to analyse textual data.Objectives/eesmärkid:  The aim of the course is to enhance the programming skills acquired at basic courses and to gain knowledge of and practical experiences in using automatic methods to process Estonian texts.Learning outcomes/õpiväljund:  The student can: 1) divide language processing tasks into logical steps; 2) use the tools from Python EstNLTK library; 3) process language data presented in different formats (different encodings, annotation formats (XML, JSON)); 4) collect language data from the web; 5) choose and apply appropriate language processing methods/algorithms;

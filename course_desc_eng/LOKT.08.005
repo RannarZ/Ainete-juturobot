@@ -1,0 +1,14 @@
+Chemometrics
+LOKT.08.005
+6
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Chemometrics is a discipline where (multivariate) statistical methods are applied on chemistry related data to extract information. The aim of the course is to give students overview and practical expirience of main methods in data analysis. This course covers main methods in descriptive statistics, exploratorary analysis (principal component analysis and cluster analysis) and data modelling (regression and classification analysis). Acquired knowledge can be used in graduation thesis or in other subjects that require statistical analysis.Objectives/eesmärkid:  A general methodology of data analysis is systematically studied and applied for the examination of specific chemical, technological or biomedical problems.Learning outcomes/õpiväljund:  The student who has successfully passed the course knows: - different types of data and variables - the main descriptive statistics methods - the main exploratory data analysis methods - the main methods for data modelling  The student who has successfully passed the course is able to: - use R programming language for data analysis - visualize data and understand underlying relationships - independently work and use statistical tools to solve problems - choose right method for data analysis - perform different types of data analyses: principal component analysis, cluster analysis, regression analysis, and classification analysis

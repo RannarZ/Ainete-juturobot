@@ -1,0 +1,28 @@
+Seminar on Natural Language Processing
+MTAT.06.046
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 0, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 78, 'individual_work': 0, 'internship': 0}
+pass
+This is a graduate level seminar that differs between Spring and Fall semesters: in the Fall semester we focus on a specific area of natural language processing and learn about it's background and state-of-the-art in-depth.
+In Spring we participate in international competitions called "shared tasks" on machine translation, dependency parsing, semantic processing and and others.
+
+ Depending on the interests of the students the issues discussed will include (but will not be limited to) the following:
+Using Wikipedia knowledge for Name Entity Disambiguation and Word Sense Disambiguation.
+Using Wikipedia for multi-document summarization.  
+Using Wikipedia for Question Answering.
+Using Wikipedia for automatic relation extraction.
+Linking Wikipedia with other resources such as Wordnet and various taxonomies.
+Automatic extraction of taxonomies from Wikipedia.
+Computing Semantic Relatedness using  Wikipedia.
+What is Wikification and how can it be used.
+As you can see from the short summary above we are targeting a wide variety of NLP tasks. The students will receive a relevant article to read and one of them will present the article at the next meeting. Then, we will discuss together the article.Objectives/eesmärkid:  The student will get a quick and painful hands-on acquaintance and experience with one of actual problems of NLP by participating in one of the international competitions on machine translation, dependency parsing, semantic processing, etc.
+
+2018-2019 Fall  seminar's topic will be about Natural Language Processing and Wikipedia. As we all know, the advancement in NLP relies on good quality data.  In the last years, Wikipedia, the largest collaborative online encyclopedia, is used more and more for major NLP tasks. Wikipedia is not simply a corpus but it has a semantic structure that can be exploited in various ways (e.g. it each Wikipedia page is tagged with a set of categories, homonyms take us to a disambiguation page, Wikipedia contains infoboxes that can be used in supervised learning etc ...) In the seminar, we will explore some of the ways in which the researchers make use of Wikipedia.Learning outcomes/õpiväljund:  The student has acquired practical and theoretical knowledge on the covered topic in NLP, its state-of-the-art methods, their limitations and possibilities.

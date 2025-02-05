@@ -1,0 +1,14 @@
+Embedded Systems
+LOTI.05.085
+3
+Regular course
+['Estonian']
+True
+['Microprocessors']
+[]
+None
+None
+None
+None
+None
+A course gives overview of embedded computer systems - hardware and software developing and functioning. Topics covered: history of embedded systems; microcontrollers; embedded programming; real-time operating systems; economy embedded systems; design of safe systems; hardware and software co-design.Objectives/eesmärkid:  Aim of the course is to explain of developing and functioning embedded systems including hardware and software. In the labs used ARM processors are commonly too complicated to learn as first microcontroller.Learning outcomes/õpiväljund:  The student who has passed the course: * knows main principles of embedded hardware and software; * is able to develop hardware and software for simple embedded systems; * knows problems of time-critical systems; * knows architecture and programming of the ARM Cortex processors; * knows how to use simple sensors and actuators.

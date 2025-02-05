@@ -1,0 +1,112 @@
+{
+    "uuid": "ec7808ce-7ca2-c6c5-2f54-568712ff0726",
+    "code": "MVCM.13.006",
+    "state": {
+        "code": "confirmed",
+        "et": "Kinnitatud",
+        "en": "confirmed"
+    },
+    "last_update": "2024-02-05T11:04:36",
+    "title": {
+        "en": "Nutrition in Gastrointestinal Disorders",
+        "et": "Seedetraktihaiguste puhune toitmine"
+    },
+    "credits": 6,
+    "general": {
+        "input_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "structural_unit_shares": [
+            {
+                "structural_unit_code": "MVCM13",
+                "structural_unit_name": {
+                    "en": "Department of Internal Medicine",
+                    "et": "sisekliinik"
+                },
+                "course_share_percent": 100,
+                "coordinating": true
+            }
+        ],
+        "type": {
+            "code": "regular",
+            "et": "Tavaline aine",
+            "en": "Regular course"
+        },
+        "structural_units": [
+            {
+                "code": "MVCM13",
+                "name": {
+                    "en": "Department of Internal Medicine",
+                    "et": "sisekliinik"
+                },
+                "phone": "+372 731 8607",
+                "webpage_url": "https://kliinilinemeditsiin.ut.ee/et/sisekliinik",
+                "address": "L. Puusepa 8\n50406 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                "city": "Tartu linn",
+                "street": "L. Puusepa 8",
+                "zip": "50406",
+                "level": 3,
+                "academic": true,
+                "supports_continuous_learning": false,
+                "parent_code": "MVCM"
+            }
+        ]
+    },
+    "additional_info": {
+        "duration_in_semesters": 1,
+        "assessment_scale": {
+            "code": "grade",
+            "et": "Eristav (A, B, C, D, E, F, mi)",
+            "en": "differentiated (A, B, C, D, E, F, not present)"
+        },
+        "is_vota_course": true,
+        "is_continuous_learning_course": false
+    },
+    "overview": {
+        "description": {
+            "en": "Different teaching methods are used. Several times a week, students are expected to work on the material and clinical data of prepared clinical cases. Students are expected to present their findings individually and also as members of their group. Based on practical examples, the module thus provides an overview of how clinical nutritionists can contribute to the optimisation of treatment regimens by using and applying their knowledge. As before, learners are tested informally with short interactive quizzes. Normal gastrointestinal function is essential for normal nutrition. Disease affects consumption, digestion, absorption and can cause abnormal losses. These are all covered and there is teaching on the key diseases of the gastrointestinal tract.",
+            "et": "Kasutatakse erinevaid õpetamismeetodeid.. Mitu korda nädalas oodatakse üliõpilastelt tööd ettevalmistatud kliinilise juhtumi materjali ja kliiniliste andmete kallal. Üliõpilastelt oodatakse oma järelduste esitamist individuaalselt ja ka oma rühma liikmetena. Praktiliste näidete põhjal annab kursus seega ülevaate, kuidas kliinilised toitmisspetsialistid saavad oma teadmisi kasutades ja rakendades kaasa aidata raviskeemide optimeerimisele. Nagu varemgi, testitakse õppijaid mitteametlikult lühikeste interaktiivsete viktoriinidega.  Seedetrakti normaalne töö on normaalse toitmise jaoks hädavajalik. Haigus mõjutab tarbimist, seedimist, imendumist ja võib põhjustada ebanormaalseid kaotusi. Kõik need on kaetud. Samuti õpetatakse seedetrakti peamisi haigusi."
+        },
+        "objectives": [
+            {
+                "en": "The aim is for the student to have a clear understanding of the normal functioning of the gastrointestinal tract, and how disease causes nutritional problems. The student is helped to understand and justify the primacy of enteral nutrition, but is able to predict when parenteral nutrition is needed. By analysing a wide variety of gastrointestinal diseases, the student sees most of the ways in which impaired function causes poor nutrition.",
+                "et": "Eesmärk on, et üliõpilane saaks kindlalt aru seedetrakti normaalsest toimimisest ja sellest, kuidas haigus põhjustab toitumisprobleeme. Üliõpilasel aidatakse mõista ja põhjendada enteraalse toitmise ülimuslikkust, kuid ta suudab ennustada, millal on parenteraalne toitmine vajalik. Analüüsides väga erinevaid seedetrakti haigusi, näeb õpilane enamikku võimalustest, kuidas häiritud funktsioon põhjustab vale toitumist."
+            }
+        ],
+        "learning_outcomes": [
+            {
+                "en": "The student completing the module:",
+                "et": "Aine läbinud üliõpilane: "
+            },
+            {
+                "en": "* understands the physiology of digestion and absorption",
+                "et": "* mõistab seedimise ja imendumise füsioloogiat"
+            },
+            {
+                "en": "* is able to apply this knowledge in understanding the pathophysiology of gastrointestinal diseases",
+                "et": "* oskab neid teadmisi rakendada seedetrakti haiguste patofüsioloogia mõistmisel"
+            },
+            {
+                "en": "* understands the scientific basis for the superiority of enteral nutrition",
+                "et": "* mõistab enteraalse toitumise paremuse teaduslikku alust"
+            },
+            {
+                "en": "* knows the consequences of short bowel syndrome and its nutritional management",
+                "et": "* teab lühikese soole sündroomi tagajärgi ja selle toitumise juhtimist"
+            },
+            {
+                "en": "* is familiar with the necessary nutritional interventions for all major intestinal and pancreatic diseases",
+                "et": "* tunneb kõigi peamiste soole- ja kõhunäärmehaiguste korral vajalikke toitmisalaseid sekkumisi"
+            }
+        ]
+    },
+    "_actions": {
+        "is_version_creatable": false,
+        "is_editable": false,
+        "is_deletable": false
+    }
+}

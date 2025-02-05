@@ -1,0 +1,15 @@
+Data Acquisition and Signal Processing
+LOTI.05.052
+6
+Regular course
+['Estonian']
+True
+[]
+['Computer-aided Measurements']
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+This course gives an introduction to modern data acquisition (DAQ) concepts and devices. From the fundamental principles of Analog-Digital conversion to high-level design considerations, you will learn how to differentiate available DAQ approaches and pick the right hardware for your measurements. In addition to hardware-based signal conditioning, the course will teach you post-processing techniques regarding digital signal filtering, conversions between time- and frequency-dependent representations, and introduces global optimization methods for parameter estimation. 
+A significant part of the course is dedicated to labwork that will guide you through various measurement techniques such as on-demand, continuous, and finite sampling. You will learn to perform synchronized measurements between multiple devices and implement customized DAQ solutions for both low- and high-frequency applications.Objectives/eesmärkid:  The main objectives of this course are to  - give students an overview of modern data acquisition concepts, methods, devices, and software; - introduce typical scientific and industrial data acquisition and signal processing tasks;  - give practical skills to solve data acquisition problems in the fields of research, education, and industry.Learning outcomes/õpiväljund:  After passing this course the students will be able to: - differentiate the stages of a data acquisition system; - understand hardware-based conditioning circuits; - explain details of analog-digital sampling and common sources of errors; - design and implement custom solutions for practical data acquisition problems; - choose a suitable approach, hardware and differentiate between available data acquisition interfaces; - apply common post-processing techniques on the measured data; - manipulate, characterize, and visualize data in time and frequency domains; - analyze, document, and present the measured data using scientific standards.

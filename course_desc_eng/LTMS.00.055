@@ -1,0 +1,14 @@
+Statistical Machine Learning
+LTMS.00.055
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+Methods of statistical analysis broadly classified as supervised and unsupervised learning are treated. Though many methods belonging here come from the history of statistics, significant contribution has been made by algorithmic methods of computer scientists during last years. The goal of the methods is modelling, prediction, classification, dimensionality reduction, structure discovery and visualization. The performance of methods is evaluated by the computer-intensive techniques, like cross-validation. In this course we pay attention to assumptions and mathematical background of each method, enabling students to understand actual meaning of different choices and parameters used in the modelling process. The theoretical backgound of methods is discussed in lectures and practical skills of applying them are developed in computer labs by using R software.Objectives/eesmärkid:  Introduction to modern methods for analysing large datasets, the mathematical background of each method and learning to apply those methods by using R software.Learning outcomes/õpiväljund:  After completing the course, students know main machine learning methods (except neural networks), is able to choose most meaningful methods based on the aim of data analysis, is able to apply the methods for analyzing various datasets in R and is also able to interpret the results.

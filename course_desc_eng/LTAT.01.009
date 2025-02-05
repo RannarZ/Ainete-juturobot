@@ -1,0 +1,17 @@
+Information Retrieval: How do Web Search Engines Work
+LTAT.01.009
+3
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+This course covers traditional and advanced techniques for building text-based information retrieval  systems (also called Search Engines). This includes the following topics: indexing, classical retrieval models (boolean, vector space, probabilistic and language models), learning-based ranking algorithms (i.e., learning-to-rank), retrieval evaluation, advanced topics such as neural IR & personalization. Also, it includes hands-on experience with pyTerrier for building declarative information retrieval pipelines, and conducting experiments using state-of-the-art neural ranking models.Objectives/eesmärkid:  This course focuses on introducing the basic concepts, the formal models, and the main techniques to define and design Information Retrieval Systems (also called Search Engines, and in particular Web Search Engines when working on the Web to the aim of retrieving Web pages).Learning outcomes/õpiväljund:  After compliting the course, a student: 
+ -  will be familiar with the working principles of search engines.
+- will be familiar with traditional information retrieval approaches as well as advanced topics (neural IR & personalization).
+- can build declarative information retrieval pipelines, and conduct experiments using state-of-the-art neural ranking models.

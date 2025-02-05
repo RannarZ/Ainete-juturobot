@@ -1,0 +1,91 @@
+{
+    "uuid": "a8b42761-e711-050c-ea9a-bfcc37bc08cf",
+    "code": "OIEO.04.068",
+    "state": {
+        "code": "confirmed",
+        "et": "Kinnitatud",
+        "en": "confirmed"
+    },
+    "last_update": "2024-02-05T11:04:36",
+    "title": {
+        "en": "Civil Law: General Part",
+        "et": "Tsiviilõiguse üldosa"
+    },
+    "credits": 6,
+    "general": {
+        "input_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "structural_unit_shares": [
+            {
+                "structural_unit_code": "SVOI04",
+                "structural_unit_name": {
+                    "en": "Department of Private Law",
+                    "et": "eraõiguse osakond"
+                },
+                "course_share_percent": 100,
+                "coordinating": true
+            }
+        ],
+        "type": {
+            "code": "regular",
+            "et": "Tavaline aine",
+            "en": "Regular course"
+        },
+        "structural_units": [
+            {
+                "code": "SVOI04",
+                "name": {
+                    "en": "Department of Private Law",
+                    "et": "eraõiguse osakond"
+                },
+                "webpage_url": "https://oi.ut.ee/et/kontakt/eraoiguse-osakond",
+                "address": "Näituse 20-318\n50409 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                "city": "Tartu linn",
+                "street": "Näituse 20-318",
+                "zip": "50409",
+                "level": 3,
+                "academic": true,
+                "supports_continuous_learning": false,
+                "parent_code": "SVOI"
+            }
+        ]
+    },
+    "additional_info": {
+        "duration_in_semesters": 1,
+        "assessment_scale": {
+            "code": "grade",
+            "et": "Eristav (A, B, C, D, E, F, mi)",
+            "en": "differentiated (A, B, C, D, E, F, not present)"
+        },
+        "is_vota_course": true,
+        "is_continuous_learning_course": true
+    },
+    "overview": {
+        "description": {
+            "en": "The course covers the fundamental institutions of civil law, such as the person, property, transactions, respresentation, statutes of limitations, and the protection of rights subject to civil law.",
+            "et": "Õppeaines käsitletakse tsiviilõiguse põhiinstituute, nagu isikud, esemed, tehingud, esindus, hagi aegumine, subjektiivsete tsiviilõiguste kaitse."
+        },
+        "objectives": [
+            {
+                "en": "The general goal of this course is to equip students with basic knowledge in the law of obligations (general part), explaining the inherent issues and equipping students with a foundation for subsequent education in other civil law disciplines.",
+                "et": "Õppeaine üldiseks eesmärgiks on anda  baasteadmisi tsiviilõiguse üldosast, selgitada selle põhiprobleeme ning tagada alusteadmiste omandamine teiste  tsiviilõiguslike ainete õppimiseks."
+            }
+        ],
+        "learning_outcomes": [
+            {
+                "en": "The student completing this course of instruction will know and appreciate the basic institutions of civil law and their interrelationships, will be able to interpret and properly apply norms of civil law.",
+                "et": "Aine läbinud üliõpilane mõistab tsiviilõiguse põhiinstituutide sisu ning tsiviilõiguse erinevate osade seoseid, samuti oskab tsiviilõigusnorme tõlgendada ja valdab nende rakendamise põhimõtteid."
+            }
+        ]
+    },
+    "_actions": {
+        "is_version_creatable": false,
+        "is_editable": false,
+        "is_deletable": false
+    }
+}

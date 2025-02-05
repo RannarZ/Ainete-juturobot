@@ -1,0 +1,14 @@
+Parallel Computing
+MTAT.08.020
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+Motivation for parallel computing. Classification of parallel computers in different aspects, supercomputers, beowulf clusters and HPC. Motivation for parallel computing. Classification of parallel computers in different aspects, supercomputers, linux clusters and HPC. Different approaches and tools for parallel programming. Main applications of parallel computing, problems of linear algebra, graph partitioning methods. Parallel performance estimation. Parallel algorithm design, classification and examples. Optimality of parallel algorithms..Objectives/eesmärkid:  The course gives an overview of parallel computing in theory and practice. Parallel algorithms together with different parallel programming models are discussed in the view of different parallel computer architectures. The studying process assumes the students to participate actively in the programming classes on linux workstations using MPI (Message Passing Interface) and OpenMP libraries.Learning outcomes/õpiväljund:  Elementary skills for writing parallel programs using a high level programming language and message passing library. Different parallelisation techniques and environments are learned. Skills for designing parallel algorithms is developed.

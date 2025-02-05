@@ -1,0 +1,32 @@
+Algebra I
+MTMM.00.038
+6
+Regular course
+['Estonian']
+True
+['Transition to Advanced Mathematics']
+[]
+None
+None
+None
+None
+None
+Basic algebraic structures (group, ring, field, vector space) on the level of definitions and examples. Linear algebra (base of vector space, Laplace's theorem on determinants, rank of matrix, systems of linear equations, linear mappings, eigenvectors and eigenvalues of linear transformations, inner product spaces). Elementary theory of complex numbers and polynomials in one variable.Objectives/eesmärkid:  The aim of the course is to give basic knowledge in abstract algebra that is a necessary counterpart of any university education in mathematics. To support the ability of critical thinking, developing mathematical oral self-expression skills. The student develops learning skills related to numbers and calculation throughout the topics and exercise types covered in the course. The student has gained support during preparation for oral examination.Learning outcomes/õpiväljund:  After passing the course a student knows:
+1. what is an algebraic operation and how to check its main properties;
+2. the basic algebraic structures and their most important examples, understands the meaning of isomorphism;
+3. the operations with complex numbers, both in algebraic and trigonometric form;
+4. how to check that the given vector system is a base of a vector space;
+5. what is the rank of a matrix and how to find it;
+6. how to solve a system of linear equations and to represent a solution in vector form;
+7. the main properties of polynomials and algebraic operations with them,
+in particular division with remainder;
+8. the basics of the division theory of commutative rings with no zero divisors (invertible, irreducible, associated element);
+9. Euclid algorithm;
+10. what is a root of a polynomial and the multiplicity of a root;
+11. what is a linear mapping and its matrix, is able to check linearity and to find the matrix of a linear transformations in a given basis;
+12. is able to find eigenvalues and eigen vectors of a given linear transformation;
+13. knows the Gram-Schmidt ortogonalization method ;
+14. is able to find a diagonal form of a real symmetric matrix;
+15. chooses suitable mathematical conceptions for problems, and applies these conceptions while solving problems;
+16. investigates and compiles logic reasonings within the framework of course material;
+17. has discussed on mathematical conceptions (essence, proof, examples) in oral exam.

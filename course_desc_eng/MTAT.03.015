@@ -1,0 +1,23 @@
+Computer Graphics
+MTAT.03.015
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The course presents an introduction into the basic methods of computer 
+graphics. The primary focus is on three-dimensional graphics (projection, lighting, 
+shadows, texturing, raytracing). On the practice sessions the participants will implement 
+the algorithms discussed during the lectures, program using various graphics API 
+(primarily OpenGL, but Allegro and perhaps some other libraries will be touched upon), and 
+get acquainted with the basics of 3D modeling (using Blender). By the end of the course 
+the students should have a solid understanding of the architecture and use of a 
+contemporary graphics system, be capable of implementing a simple OpenGL-based application 
+as well as a custom 3D-engine. The course requires some previous experience with linear 
+algebra and basic programming skills.Objectives/eesmärkid:  After taking the course the student will be   - Knows the basic applications and techniques of computer graphics.   - Has a solid understanding of the structure of the software and hardware of a modern graphics system.   - Is capable of describing and implementing in code the basic two- and three-dimensional rasterisation algorithms.   - Is capable of using the OpenGL API for low-level computer graphics programming.   - Has a solid understanding of the classic "fixed pipeline" logic (OpenGL 1.x). This includes, in particular, the core shading steps (projection, lighting, texturing, etc).   - Is capable of using the programmable pipeline (OpenGL 2.0+).   - Understands the basic 3D modeling formalisms (affine space, homogeneous coordinates, linear transformations, parameterised surfaces, splines, etc).Learning outcomes/õpiväljund:  After taking the course the student will be   - Knows the basic applications and techniques of computer graphics.   - Has a solid understanding of the structure of the software and hardware of a modern graphics system.   - Is capable of describing and implementing in code the basic two- and three-dimensional rasterisation algorithms.   - Is capable of using the OpenGL API for low-level computer graphics programming.   - Has a solid understanding of the classic "fixed pipeline" logic (OpenGL 1.x). This includes, in particular, the core shading steps (projection, lighting, texturing, etc).   - Is capable of using the programmable pipeline (OpenGL 2.0+).   - Understands the basic 3D modeling formalisms (affine space, homogeneous coordinates, linear transformations, parameterised surfaces, splines, etc).

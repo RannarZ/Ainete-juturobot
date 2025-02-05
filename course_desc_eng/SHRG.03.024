@@ -1,0 +1,20 @@
+Quantitative Methods
+SHRG.03.024
+6
+Regular course
+['Estonian']
+True
+None
+None
+spring
+regular studies
+None
+{'lecture': 32, 'practice': 0, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 124, 'individual_work': 0, 'internship': 0}
+grade
+The course is roughly divided into two parts: the first introductory part explains how empirical quantitative social science is to be complemented with quantitatively predictive logical models. The second part covers some of the most commonly used statistical techniques in the social sciences and introduces the students to R.Objectives/eesmärkid:  The course offers an introduction into the logic and methods of empirically-oriented quantitative research in the social sciences. It is concerned with how the social scientists use (and should use) logical reasoning and empirical evidence to answer research questions. The course has a dual focus: its first objective is to familiarize the students with the dominant approaches and methods in empirically-oriented social science research. Specifically, it seeks to ensure that MA students are able to read and understand mainstream empirical work in the discipline of political science (i.e. research articles that test hypotheses by statistically analyzing data) and are able to design and implement their own empirical research projects in accordance with the standards of the discipline. The second objective of the course is to complement empirical quantitative inquiry (How things are?), including statistical description, with construction of logical models (How things should be on logical grounds?). These tell us what it is that needs to be measured and analyzed. This part of the course involves thinking logically about the variables and associations that one is focussing on and using visual representations to aid such thinking.Learning outcomes/õpiväljund:  Upon successful completion of the course, students should be able to:
+- evaluate and criticize research designs/empirical research produced by others;
+- read and understand scholarly articles that employ commonly used quantitative methods;
+- understand basic descriptive and inferential statistics and use R software; 
+- understand that science needs more quantitative detail than the directional model "when x goes up, y goes down";
+- understand that our theoretical and empirical equations must not predict absurdities;
+- graph the entire conceptually allowed field, view data within this logical framework.

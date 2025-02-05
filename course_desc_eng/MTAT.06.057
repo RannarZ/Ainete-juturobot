@@ -1,0 +1,25 @@
+Computational Semantics
+MTAT.06.057
+3
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+-formal vs. distributional semantics
+-lexical ontologies and word senses
+-semantic role labeling
+-formal and lexical ontologies
+-brain representation of the meaning
+-compositionality (from the word meaning to sentence meaning)Objectives/eesmärkid:  This course explores the discipline of semantics for natural language from a computer science perspective. We will introduce the field of semantics from a linguistics viewpoint (lexical semantics vs. formal semantics). Then we will talk about distributional semantics with its various incarnations, from simple word vectors to the latest word embeddings and lexical semantics and ontologies. The following subjects will be discussed in the course:
+Distributional Semantics from word embeddings to transformers
+Lexical semantics and formal ontologies
+Semantic web and ontologies
+Meaning compositionality (logical representation of sentence meaning)
+How the word meaning is represented in the brainLearning outcomes/õpiväljund:  After completing the course, the student will have a broad understanding of the meaning from an interdisciplinary perspective. From a practical point of view, the student will be able to implement natural language processing applications that have to due to the semantics of the language.
+Moreover, this course will offer the foundations for the students who want to pursue a Ph.D. focused on the semantics of the language.

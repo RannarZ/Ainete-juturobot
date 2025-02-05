@@ -1,0 +1,20 @@
+Digital Logic
+LOTI.05.041
+3
+Regular course
+['Estonian']
+True
+[]
+['Computer Programming']
+autumn
+regular studies
+None
+{'lecture': 26, 'practice': 4, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 48, 'individual_work': 0, 'internship': 0}
+grade
+Introduction to binary logic and its application in digital systems.
+Logic functions and their exact and heuristic minimization.
+Memories, storage elements, machines.
+Implementation and minimization.
+Introduction to hardware description language VHDL, its use of digital modeling.
+Overview of the families of logic systems.
+Overview of complex digital systems and design methodologies at different abstraction on FPGA.Objectives/eesmärkid:  * Provide an overview of the past circuit designs and embedded devices and about modern project progress, methods and tools; * To provide a comprehensive overview of the modeling of digital systems; * To provide a comprehensive overview of the hardware description language VHDL; * Teach hardware description language use in various design and abstraction; * To provide an overview of the synthesis of digital systems and register transfer logic; * Teach the use of industrial simulations and synthesis tools using FPGA.Learning outcomes/õpiväljund:  After successful completion of the course first part the student: 1) Can operate with different number systems and logic gates and also apply them in practice. 2) Is able to use Boolean logic, Venn diagrams or Karnaugh map to convert up to 5-input functions. 3) Is familiar with a variety of buffers, adders, (de)coders, (de)muxes, code converters, locking memory elements, trigers, records and comparators. After successful completion of the course second part the student: 1) Can compare different circuit types (PLA, PAL, ASICs, FPGAs and CPLDs) and is capable to choose the more suitable in practice. 2) Is able to use CAD software Xilinx Vivado to programm FPGA. 3) Is able to independently solve easier and more moderate tasks using  VHDL language for programming (inc. visual programming) FPGA hardware and to find solutions to the issues raised. In addition, is able to write a simulation to the solution and analyze it. 4) Is able to analyze and assess a VHDL code, can use appropriate methods and tools to developed it further independently, knows the tools that can be used to change the VHDL code to be faster or more energy efficient.

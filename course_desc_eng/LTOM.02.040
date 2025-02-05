@@ -1,0 +1,17 @@
+Spatial Databases
+LTOM.02.040
+6
+Regular course
+['Estonian']
+True
+['ArcGIS Software']
+[]
+None
+None
+None
+None
+None
+As described in the course objectives you will build on general database theory and how spatial data is incorporated. You will be introduced to standards for encoding geometry and spatial reference systems in the database realm. This course is about designing a database and working with geospatial data. You will learn spatial functions that form the building blocks of more sophisticated analytical models. Accessing your database with desktop and web applications will be important part of your practical exercises.Objectives/eesmärkid:  Objectives of the course are:  *	to review the basics of relational database theory;  *	to learn how spatial data is represented in conventional databases and related standards; to learn how to manage and analyse spatial data in databases;  *	to learn how to access and use spatial data from databases with different client applications;  *	to apply theoretical knowledge in creating and working with geospatial databases and publishing spatial data with PostgreSQL/PostGIS.Learning outcomes/õpiväljund:  After successful passing the student will be able to:
+*	design and create databases using PostgreSQL/PostGIS; 
+*	manage data and spatial data in PostgreSQL/PostGIS databases;
+*	perform geospatial analysis in the spatial database.

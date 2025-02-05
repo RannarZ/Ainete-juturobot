@@ -1,0 +1,14 @@
+Introduction to Bayesian Modelling
+LTMS.00.065
+3
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+The course starts with the explanation Bayesian modelling (prior, posterior, marginal distribution, posteiror predicative distribution) followed by examples of standard parametric models (Beta-Bernoulli, Dirichlet-categorical, Polya urn, Gamma-Poisson, Normal and NIX-models, Gamma-exponential). The choice of priors (conjugate, non-informative, Jeffreys, proper and unproper, empirical) are discussed. Then an overview of some basic asymptotic results (posterior consistency, Bernstein-von Mieses theorem, deFinetti theorem). The idea of hierarchical models and some examples of standard hierarchical models are covered (latent Dirichlet allocation). Some Bayesian regression models are introduced. The course ends with introduction to non-parametric Bayesian models (Dirichlet process mixtures, Chinese restaurant process, etc).Objectives/eesmärkid:  To learn basic of Bayesian modelling: standard models, some asymptotics, hierarchical models, non-parametric models.Learning outcomes/õpiväljund:  After passing the course, the student uderstands the fundamentals of Bayesian modelling and can apply standard models in practical data analysis.

@@ -1,0 +1,15 @@
+Network Technology I
+LTAT.06.004
+6
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 8, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 116, 'individual_work': 0, 'internship': 0}
+grade
+This course is based on the first chapter of CCNA Curricula: Introduction to Networks.
+Topics covered: network terminology and protocols, local-area networks (LANs), Open System Interconnection (OSI) models, network planning and cabling, Ethernet, Internet Protocol (IP) addressing and routing. Cisco switches and routers are used throughout the course.Objectives/eesmärkid:  This course gives students basic knowledge about internet technology, computer networks and ability to implement them in real world. The students will be prepared to take the CCNA (Cisco Certified Network Accociate) exam if they have also studied the second part of this course "Network technology II ".Learning outcomes/õpiväljund:  By the end of the course, students can perform basic configurations for routers and switches to build simple local area networks (LANs) that integrate IP addressing schemes and foundational network security.

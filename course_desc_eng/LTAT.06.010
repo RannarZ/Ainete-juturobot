@@ -1,0 +1,28 @@
+Pervasive Data Science Seminar
+LTAT.06.010
+12
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+There will be one seminar every week. The date of each seminar is defined in the timetable provided at the beginning of each semester. The seminar will be divided into two phases. During the first phase, the instructor will introduce basic concepts and techniques pertaining to analysis of pervasive sensor data. This also includes some examples and live demonstrations. In the second phase, the instructor will provide a dataset of sensor data collected by a pervasive system in the wild, along with detailed instructions for analysing it. Students then will form groups and analyse the dataset during the second phase, and every week, two groups of students will present their latest findings in a 15-20 min presentation. The main idea is that students analyse gradually the dataset and receive feedback every week from the instructor and other groups performing the same task. At the end of the seminar, it is expected that the task is finished, and groups will give a final presentation and report of their analysis.Objectives/eesmärkid:  Pervasive data science is an emerging research field in the intersection of pervasive computing and data science that builds on the increased proliferation of sensors into everyday environments. These sensors produce large volumes of complex, real-time data streams, which are opening scientific investigations at an unprecedented scale. Examples of the adoption of pervasive computing and sensors abound, with pollution monitoring, patient health monitoring and autonomous drone systems, being examples of domains benefiting from pervasive sensor data.
+
+The pervasive data science seminar has the following objectives. 
+1- Give the latest state of the art in pervasive computing and data science for pervasive systems
+2- Teach the foundations of system design to capture sensor data in the wild.
+3- Teach techniques for sensor data analysis
+4- Provide a basic methodology to analyze pervasive datasets.
+5- Illustrate through real use cases the importance of data analysis of sensor data for applicationsLearning outcomes/õpiväljund:  After completing the seminar successfully, students will achieve the following learning outcomes:
+
+1- Design system architectures that are capable to capture and collect sensor data
+2- Classify different types of pervasive sensor data
+3- Build analytic models based on machine and deep learning
+4- Determine the most suitable analytic approach for a particular type of sensor data
+5- Produce new methodologies for analysis pervasive datasets
+6- Integrate pervasive data analytics into real world applications

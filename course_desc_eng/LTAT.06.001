@@ -1,0 +1,14 @@
+Operating Systems
+LTAT.06.001
+6
+Regular course
+['Estonian']
+True
+[]
+['Computer Architecture and Hardware I']
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+The course gives an overview of functions, structure and principles of operating systems. The main focus is mainly on Unix-like operating systems but the approach is wider covering also methods used in other operating systems.Objectives/eesmärkid:  After passing the course the student will understand what is OS and how it works. The student who had passed the course has installed and scriped windows- and unix-type operating systems.Learning outcomes/õpiväljund:  After passing this course the student * Understands from which layers and components the operating system  consists and how the communication between different parts and with physical and virtualized hardware takes place * Understands the parallel processing - processes, threads, systems with multiple processors, synchronization and scheduling * Understands storage systems and file systems - what are their tasks, interfaces, and algorithms; has managed storage systems and file systems * Understands memory management and virtual memory * Understands layering in computer networks and TCP/IP protocols * Has installed and managed Windows- and Unix-type operating systems * Has used operating system level scripting to automate control of  objects

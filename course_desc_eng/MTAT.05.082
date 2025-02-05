@@ -1,0 +1,14 @@
+Coding Theory
+MTAT.05.082
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The course covers the following topics: communications model, channels, Hamming distance, maximum-likelihood decoding, linear codes, Hamming code, concatenated codes, the Singleton bound, the Hamming bound, the Gilbert-Varshamov bound, Reed-Solomon codes, decoding of RS codes, Tanner graphs, expander codes, network coding.Objectives/eesmärkid:  To provide  students with the basic tools from the area of coding theory, which can be later used in computer communications, communication networks, cryptography and data storage.Learning outcomes/õpiväljund:  After completing this course, the student will be able: *  to use basic concepts in the area of coding theory, such as linear codes, generator and parity-check matrices, decoding algorithms.  *  to read and understand medium-difficulty mathematical and engineering texts in the area; *  to construct appropriate codes and decoding methods for a variety of applied problems.

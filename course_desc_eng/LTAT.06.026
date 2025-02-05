@@ -1,0 +1,14 @@
+High Performance Computing (HPC)
+LTAT.06.026
+3
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+What is HPC, how to submit computing jobs, introduction of module system, software, how to use most common software, information on quotas, prices, resources, architecture overview, best practices.Objectives/eesmärkid:  The goal is to provide an understanding of high performance computing, how it works, and introduce its best practices and use cases to enable efficient calculations with large complex data.Learning outcomes/õpiväljund:  -Understanding of HPC architecture -Understanding of computing resource management  -Beginners level at parallel computing -Skills in working with command lines -Skills in commonly used software solutions (Galaxy, Jupyter, RStudio)

@@ -1,0 +1,17 @@
+Transformers
+MTAT.06.055
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+- statistical and rule-based machine translation
+- translation output problems and their typical solutions
+- manual and automatic evaluation, error analysis, quality estimation
+- machine translation in practice, post-editingObjectives/eesmärkid:  This course introduces machine translation, where and when it works and does not - and why. You will learn about why the output of Google Translate is often so funny, also about ways of automatically building and improving translation engines with and without knowing the input or the output language. Finally we will also talk about why anyone would want to do that and how automatic translation is used in practice.Learning outcomes/õpiväljund:  You will learn how to build your own machine translation applications, which software and resources this requires. After completing this course you will recognize the main components of a machine translation system and know the algorithms and data structures they are based on. We will also talk about problems in translation output and ways of solving them, main existing approaches and their differences and advantages. Finally you will have a clear understanding of how, where and when machine translation is used in a practical setting.

@@ -1,0 +1,14 @@
+Computer Programming
+LTAT.03.001
+6
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Algorithms and programs. Representations of algorithms, flow-charts. Branching algorithms. Loops. Sub-algorithm. Refining algorithms for given text-based problems. Types. Program structure. Names. Variables. Operations. Expressions. Text output. Boolean expressions, comparing. Functions, defining, returning the value, invoking. Conditional statement. Loop statement. One-dimensional arrays. Scanning an array. Returning an array. Nested loops. String processing. String processing. Dictionaries. Tuples. Sets. Input and output. Data exchange with files. Recursion.Objectives/eesmärkid:  The aim of the course is to give the student the basic knowledge of the main constructs of programming and the basic skills for creating algorithms and programs.Learning outcomes/õpiväljund:  After passing this course the student - knows and can use fundamental programming constructions: variables, expressions, assignments, conditionals, loops, subroutines, recursion, simple input/output; - knows basic datatypes and -structures (numeric types, booleans, strings, lists etc) and can use corresponding standard operations; - can analyze and explain in detail the behavior of simple programs, and modify, complement and develop them; - can design algorithms for solving simple problems, and implement, test and debug the corresponding program. - can implement projects related to programming in collaboration with teammates.

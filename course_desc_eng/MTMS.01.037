@@ -1,0 +1,20 @@
+Non-Parametric Statistics
+MTMS.01.037
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 28, 'practice': 4, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 46, 'individual_work': 0, 'internship': 0}
+pass
+Non-parametric distribution estimation and basic properties of order statistics are examined. Major part of the course is dedicated 
+to the distribution-free hypothesis testing, main attention is paid to the estimation of location characteristics. 
+All the material is covered by exercises.Objectives/eesmärkid:  The aim of the course is to give students an overview of nonparametric statistical methods - rank tests, large sample theory, efficiecy comparisons etc.Learning outcomes/õpiväljund:  Participants who pass this course
+- know main properties of order statistics;
+- know frequently used nonparametric tests;
+- can test the most often postulated hypothesis even if the distribution of variable of interest is unknown;
+- can calcuate the (asymptotic) power for the most frequently used nonparametric tests.

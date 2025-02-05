@@ -1,0 +1,751 @@
+{
+    "uuid": "b8bd401b-6e9d-25bd-a66b-d15994bc1b9f",
+    "code": "lt-2017-spring-fulltime-c6",
+    "state": {
+        "code": "confirmed",
+        "et": "Kinnitatud",
+        "en": "confirmed"
+    },
+    "last_update": "2023-12-21T16:34:08",
+    "title": {
+        "en": "Monte-Carlo Methods",
+        "et": "Monte-Carlo meetodid"
+    },
+    "credits": 6,
+    "credit_type": "ECTS",
+    "target": {
+        "year": {
+            "code": "2017",
+            "et": "2017/2018",
+            "en": "2017/2018"
+        },
+        "semester": {
+            "code": "spring",
+            "et": "kevad",
+            "en": "spring"
+        },
+        "study_type": {
+            "code": "fulltime",
+            "et": "päevaõpe",
+            "en": "regular studies"
+        },
+        "language": {
+            "code": "et",
+            "et": "eesti keel",
+            "en": "Estonian"
+        },
+        "part": {
+            "code": "0",
+            "et": "Osadeta",
+            "en": "None"
+        },
+        "faculty": {
+            "code": "LT",
+            "name": {
+                "en": "Faculty of Science and Technology",
+                "et": "loodus- ja täppisteaduste valdkond"
+            },
+            "address": "Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "level": 1,
+            "academic": true,
+            "supports_continuous_learning": true
+        },
+        "course_main_structural_unit": {
+            "code": "LTMS",
+            "name": {
+                "en": "Institute of Mathematics and Statistics",
+                "et": "matemaatika ja statistika instituut"
+            },
+            "email": "ltms@ut.ee",
+            "phone": "+372 737 5863",
+            "webpage_url": "https://math.ut.ee",
+            "address": "Narva mnt 18\n51009 Tartu linn, \nTartu linn, Tartumaa \nEST",
+            "city": "Tartu linn",
+            "street": "Narva mnt 18",
+            "zip": "51009",
+            "level": 2,
+            "academic": true,
+            "supports_continuous_learning": true,
+            "parent_code": "LT"
+        },
+        "label": {
+            "en": "17/18 S regular LT",
+            "et": "17/18 K PÕ LT"
+        }
+    },
+    "general": {
+        "year": {
+            "code": "2017",
+            "et": "2017/2018",
+            "en": "2017/2018"
+        },
+        "input_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "structural_unit_shares": [
+            {
+                "structural_unit_code": "LTMS",
+                "structural_unit_name": {
+                    "en": "Institute of Mathematics and Statistics",
+                    "et": "matemaatika ja statistika instituut"
+                },
+                "course_share_percent": 100,
+                "coordinating": true
+            }
+        ],
+        "type": {
+            "code": "regular",
+            "et": "Tavaline aine",
+            "en": "Regular course"
+        }
+    },
+    "additional_info": {
+        "is_vota_course": true,
+        "is_continuous_learning_course": false,
+        "study_levels": [
+            {
+                "code": "bachelor",
+                "et": "bakalaureuseõpe",
+                "en": "bachelor's studies"
+            }
+        ],
+        "hours": {
+            "lecture": 32,
+            "practice": 32,
+            "seminar": 0,
+            "colloquium": 0,
+            "web_learning": 0,
+            "independent_work": 92,
+            "individual_work": 0,
+            "internship": 0
+        },
+        "prerequisites": [
+            {
+                "required": true,
+                "uuid": "c303a511-7e97-3bd9-6f68-b181fbc71383",
+                "code": "MTMS.02.050",
+                "title": {
+                    "en": "Probability and Statistics II",
+                    "et": "Tõenäosusteooria ja statistika II"
+                },
+                "credits": 6,
+                "state": {
+                    "code": "confirmed",
+                    "et": "Kinnitatud",
+                    "en": "confirmed"
+                },
+                "last_update": "2024-02-05T11:04:36",
+                "alternatives": [
+                    {
+                        "uuid": "d6f1db8e-4a60-7117-eb2b-f5b8a4712942",
+                        "code": "MTMS.01.001",
+                        "state": {
+                            "code": "confirmed",
+                            "et": "Kinnitatud",
+                            "en": "confirmed"
+                        },
+                        "last_update": "2024-02-05T11:04:36",
+                        "title": {
+                            "en": "Mathematical Statistics I",
+                            "et": "Matemaatiline statistika I"
+                        },
+                        "credits": 6,
+                        "type": {
+                            "code": "regular",
+                            "et": "Tavaline aine",
+                            "en": "Regular course"
+                        }
+                    }
+                ]
+            },
+            {
+                "required": true,
+                "uuid": "ddf37cdb-ef0e-0d8e-6682-6b68607e3930",
+                "code": "MTMS.02.001",
+                "title": {
+                    "en": "Probability I",
+                    "et": "Tõenäosusteooria I"
+                },
+                "credits": 6,
+                "state": {
+                    "code": "closed",
+                    "et": "Suletud",
+                    "en": "closed"
+                },
+                "last_update": "2024-02-05T11:04:36",
+                "alternatives": [
+                    {
+                        "uuid": "eccdccf5-f65c-b9ea-a441-37f4a0f2a7a9",
+                        "code": "MTMS.02.059",
+                        "state": {
+                            "code": "confirmed",
+                            "et": "Kinnitatud",
+                            "en": "confirmed"
+                        },
+                        "last_update": "2024-02-05T11:04:36",
+                        "title": {
+                            "en": "Probability and Mathematical Statistics",
+                            "et": "Tõenäosusteooria ja matemaatiline statistika"
+                        },
+                        "credits": 6,
+                        "type": {
+                            "code": "regular",
+                            "et": "Tavaline aine",
+                            "en": "Regular course"
+                        }
+                    },
+                    {
+                        "uuid": "5ca5fbc2-09d8-b113-02b3-eb483b6667b0",
+                        "code": "MTMS.02.049",
+                        "state": {
+                            "code": "confirmed",
+                            "et": "Kinnitatud",
+                            "en": "confirmed"
+                        },
+                        "last_update": "2024-02-05T11:04:36",
+                        "title": {
+                            "en": "Probability and Statistics I",
+                            "et": "Tõenäosusteooria ja statistika I"
+                        },
+                        "credits": 6,
+                        "type": {
+                            "code": "regular",
+                            "et": "Tavaline aine",
+                            "en": "Regular course"
+                        }
+                    }
+                ]
+            }
+        ],
+        "is_enlight_course": false
+    },
+    "overview": {
+        "study_languages": [
+            {
+                "code": "et",
+                "et": "eesti keel",
+                "en": "Estonian"
+            }
+        ],
+        "description": {
+            "en": "The course is devoted to the Monte Carlo or simulation methods, more and more extensively applied for the statistical inference. In the first part of the course generation of uniform random numbers and their testing by appropriate statistical tests are considered. The second part of the course covers simulation of basic probability distributions and also simulation of Markov chains. In the third part the resampling methods jack-knife and bootstrap are presented. The last part of the course is devoted to the calculation of integrals with Monte-Carlo method.",
+            "et": "Kursus on pühendatud Monte-Carlo ehk simuleerimismeetoditele, mis järjest ulatuslikumalt leiavad kasutust statistiliste otsustuste tegemisel. Kursuse esimeses osas antakse ülevaade ühtlase jaotusega juhuslike arvude genereerimisest ja meetoditest nende testimiseks. Teine osa käsitleb põhiliste tõenäosusjaotuste simuleerimist, vaadeldakse ka Markovi ahelate simuleerimist.  Kolmandas osas esitatakse korduvvaliku meetodid - jack-knife ja bootstrap. Kursuse viimases osas vaadeldakse integraalide ligikaudset arvutamist Monte Carlo meetodil."
+        },
+        "objectives": [
+            {
+                "en": "To introduce computer simulation methods for random phenomena, relationships between random variables, how to apply randomness for solving mathematical, probabilistic and statistical problems.",
+                "et": "Tutvustada juhuslike nähtuste simuleerimist arvutil, seoseid juhuslike suuruste vahel, juhuslikkuse kasutamist matemaatika, tõenäosusteooria ja statistika probleemide lahendamisel."
+            }
+        ],
+        "learning_outcomes": [
+            {
+                "en": "After the course the student",
+                "et": "Aine läbinud üliõpilane"
+            },
+            {
+                "en": "- Can create and program random number generators, knows which is a bad and which is a good generator;",
+                "et": "- Oskab moodustada ja programmeerida juhuslike arvude generaatoreid, teab mis on hea ja mis halb generaator;"
+            },
+            {
+                "en": "- Knows basic statistical tests and can apply them as well other methods for analyzing quality of the generator;",
+                "et": "- Tunneb põhilisi statistilisi teste ja oskab nende abil, samuti muudel meetoditel analüüsida generaatori headust;"
+            },
+            {
+                "en": "- Can generate outcomes from the basic distributions, also from the discrete Markov Chain;",
+                "et": "- Oskab genereerida realisatsioone põhilistest jaotustest, ka diskreetsest Markovi ahelast."
+            },
+            {
+                "en": "- Knows and can apply also more general methods for simulating outcomes from the one-dimensional as well from the multivariate distributions (rejection method, Gibbs sampling);",
+                "et": "- Tunneb ja oskab kasutada ka üldisemaid meetodeid nii ühemõõtmelistest kui ka mitmemõõtmelistest jaotustest genereerimiseks (valikumeetod, Gibbsi valik);"
+            },
+            {
+                "en": "- Can apply randomness for variance estimation trough resampling (Jacknife, Bootstrap);",
+                "et": "- Oskab juhuslikkust kasutada dispersiooni hindamiseks taasvaliku meetodil (Jackknife, Bootstrap);"
+            },
+            {
+                "en": "- Can compute integrals with Monte-Carlo methods.",
+                "et": "- Oskab integraale arvutada Monte-Carlo meetodil."
+            }
+        ],
+        "notes": {}
+    },
+    "grading": {
+        "independent_work": {},
+        "independent_work_assessments": [
+            {
+                "work_type": {
+                    "code": "homework",
+                    "et": "Kodutöö",
+                    "en": "home work"
+                },
+                "description": {
+                    "et": "Praktikumides antakse kodutöid, igaüks neist annab enamasti 1 punkti. Kodutööde esitamise tähtaeg on kodutöö andmisele järgneva loengu algus. / During lab sessions, homework problems are presented, each of which gives usually up to 1 point. The deadline for presenting of homework solutions is one week."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "test",
+                    "et": "Kontrolltöö",
+                    "en": "test"
+                },
+                "description": {
+                    "et": "Praktiline  kontrolltöö klassiruumis, annab maksimaalselt 20 punkti. / Test in classroom, worth up to 20 points"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "test",
+                    "et": "Kontrolltöö",
+                    "en": "test"
+                },
+                "description": {
+                    "et": "Praktiline kodune kontrolltöö, annab maksimaalselt 20 punkti./ Practical take-home test, worth up to 20 points"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "written",
+                    "et": "Kirjalik lõpphindamine",
+                    "en": "final written assessment"
+                },
+                "description": {
+                    "et": "Kirjalik eksam koosneb kahest osast: materjalideta osa ja materjalidega osa. Materjalideta osa annab maksimaalselt 15 punkti ja materjalide kasutamine pole lubatud. Materjalidega osa annab maksimaalselt 30 punkti ja kirjalike materjalide kasutamine on lubatud./ The written final examination has two parts, one closed-book, the other one open-book. For closed-book part it is possible to get up to 15 points, for open-book part the maximal score is 30 points"
+                }
+            }
+        ],
+        "grade_preconditions": {
+            "et": "Kummastki kontrolltööst on vaja saada vähemalt 10 punkti. / It is necessary to get at least 10 points from both tests"
+        },
+        "grade_evaluation": {
+            "et": "Eksamitöö eest saab maksimaalselt 45 punkti. Esimese kontrolltöö eest saab maksimaalselt 20 punkti. Teise kontrolltöö eest saab maksimaalselt 20 punkti. Kodutööde eest võib saada 15 punkti. Eksamitöö, kontrolltööde ja kodutööde punktid summeeritakse ja hinne kujuneb nii:\n90-100 punkti annab A,\n80-89 punkti annab B,\n70-79 punkti annab C,\n60-69 punkti annab D,\n50-59 punkti annab E,\n49 või vähem punkte annab F.\nfinal examination gives up to 45 points, for each test it is possible to get up to 20 points, for solving homework problems it is possible to earn up to 15 points. The final score is the sum of the points, the final grade is determined as follows:\n90-100 points gives A,\n80-89  points gives B,\n70-79  points gives C,\n60-69 points  gives D,\n50-59  points gives E,\n49 points gives  F."
+        },
+        "debt_elimination": {
+            "et": "Kummalgi kontrolltööl on ainult 1 järeltöö. Õigeaegselt esitamata kodutöid reeglina järele teha ei saa, erandid kokkuleppel õppejõuga./ For each test there is only on retake possibility. As a rule, it is not possible to submit homework solutions after deadline."
+        },
+        "assessment_scale": {
+            "code": "grade",
+            "et": "Eristav (A, B, C, D, E, F, mi)",
+            "en": "differentiated (A, B, C, D, E, F, not present)"
+        },
+        "results_available_from": {}
+    },
+    "resources": {
+        "web_based": {
+            "code": "2",
+            "et": "põimõpe",
+            "en": "blended learning"
+        },
+        "website_url": "http://moodle.ut.ee",
+        "is_moodle_connected": false,
+        "mandatory_materials": "loengute slaidid, konspekt ja praktikumimaterjalid Moodle's /lecture slides, electronic lecture notes, lab handouts",
+        "recommended_materials": "1. Kollo. T. (2004). Monte Carlo meetodid. TÜ kirjastus.\n2. Robert, C., Casella, G. (2013). Monte Carlo statistical methods. Springer Science & Business Media.\n3. Morgan, B.J.T. (1984). Elements of Simulation.. Chapman & Hall, New York.\n4. Ripley, D.B. (1987). Stochastic Simulation. Wiley, New York.\n5. Madras, N. (2002). Lectures on Monte Carlo Methods. AMS, Providence.\n6. Rubinstein, R.Y., Kroese, D.P. (2008). Simulation and the Monte-Carlo Method. Wiley"
+    },
+    "participants": {
+        "lecturers": [
+            {
+                "person_uuid": "2403b573-3d7c-76da-497b-34882b75100c",
+                "person_name": "Raul Kangro",
+                "structural_unit": {
+                    "code": "LTMS",
+                    "name": {
+                        "en": "Institute of Mathematics and Statistics",
+                        "et": "matemaatika ja statistika instituut"
+                    },
+                    "email": "ltms@ut.ee",
+                    "phone": "+372 737 5863",
+                    "webpage_url": "https://math.ut.ee",
+                    "address": "Narva mnt 18\n51009 Tartu linn, \nTartu linn, Tartumaa \nEST",
+                    "city": "Tartu linn",
+                    "street": "Narva mnt 18",
+                    "zip": "51009",
+                    "level": 2,
+                    "academic": true,
+                    "supports_continuous_learning": true,
+                    "parent_code": "LT"
+                },
+                "is_responsible": true,
+                "is_teaching": true,
+                "study_group_roles": {
+                    "1. rühm": {
+                        "code": "2",
+                        "et": "Praktikumijuhendaja",
+                        "en": "supervisor of practical class"
+                    }
+                }
+            }
+        ],
+        "study_groups": [
+            {
+                "uuid": "38a282ad-1c4a-ef28-ec67-8ae99a95692b",
+                "code": "1. rühm",
+                "max_size": 26
+            }
+        ]
+    },
+    "schedule": {
+        "weeks": {
+            "et": "24.-39."
+        },
+        "entries": [
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Monte Carlo meetodid ja simuleerimine. Juhuslikud ja pseudojuhuslikud arvud. Lineaarne kongruentne generaator/ Monte carlo method and computer simulations. Random and pseudo random numbers. Linear congruential generator"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Tarkvara R tutvustamine või meelde tuletamine. Kasulike abivahendite (RStudio ja pakett knitr) tutvustamine\n/ Introduction to R software. Useful tools (RStudio, knitr package)."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Alternatiive lineaarsele kongruentsele generaatorile. Spektraaltest. Empiirilised testid generaatori kontrollimiseks: Kolmogorov-Smirnovi test, hii-ruut test. /Alternatives to linear congruential generators. Spectral test. Empirical tests for evaluating a generator. Kolmogorov-Smirnov chi-squared test"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Hea generaatori valik. Generaatori kontrollimine empiiriliste testidega. / Choosing a good generator. Using empirical tests for evaluation of a generator"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "empiirilised testid generaatori kontrollimiseks /empirical tests for checking the generator"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "empiirilised testid generaatori kontrollimiseks (jätkub) / empirical tests for evaluating the goodness of a generator (continued)"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Jaotusfunktsiooni pööramise meetod. Jaotusfunktsiooni pöördfunktsiooni omadused. Lihtsa juhusliku suuruse simuleerimine. Binoomjaotus, geomeetriline jaotus ja Poissoni jaotus. / The method of inverting the cumulative distribution function. Properties of the inverse function of a cumulative distribution function. Generating values of a discrete random variables. Binomial distribution, geometrical distribution, Poisson distribution"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Jaotusfunktsiooni pööramise meetod. Lihtsa juhusliku suuruse simuleerimine. / The method of using the quatile function. Simulating simple random variables"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "valikumeetod ja üldine valikumeetod / sampling method and the general sampling method"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "valikumeetod ja üldine valikumeetod/ sampling method and the general sampling method"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Normaaljaotuse simuleerimine. Juhusliku suuruse funktsiooni tihedusfunktsioon. / generating values from the normal distribution. The density of a function of a continuous random variable"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Üldine valikumeetod. Normaaljaotuse simuleerimine./ general sampling method. Generating values from the normal distribution"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Hii-ruut jaotuse, t-jaotuse ja F-jaotuse simuleerimine. Simuleerimine segujaotusest. Juhusliku vektori simuleerimine mitmemõõtmelise normaaljaotuse näitel. /generating values from chi-square, T-distribution and F distribution. Generating values of a random vector (based on multidimensional normal distribution)"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Diskreetse Markovi ahela simuleerimine. Gibbsi valik. / Simulating a discrete Markov Chain. Gibb's sampling"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Metropolise algoritm. Juhusliku vektori ja sõltuvate andmete tekitamine. Jagatakse kätte 1. kontrolltöö ülesanded. /Metropolis algorithm. Generating random vectors and dependent data. The problems of the first test are distributed."
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Kriitiliste väärtuste, olulisustõenäosuste ja testi võimsuse leidmine Monte-Carlo meetodil./ Finding critical values, p_values and the power of a test by Monte-Carlo method"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Kriitiliste väärtuste, olulisustõenäosuste ja testi võimsuse leidmine Monte-Carlo meetodil. / Finding critical values, p_values and the power of a test by Monte-Carlo method"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Bootstrap meetod. Bootstrap usaldusvahemik. / Bootstrap method. Bootstrap confidence interval"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "bootstrap /Bootstrap method"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Jackknife meetod. Ristvalideerimine. /Jackknife method. Cross validation"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "jackknife /Jackknife method. Cross validation"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "puuduvad andmed ja imputeerimine / Missing data and imputation"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "mitmene imputeerimine / Multiple imputation"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Monte-Carlo integreerimine. Lihtne Monte-Carlo meetod. / Integration by Monte-Carlo method. Simple MC method"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Monte-Carlo integreerimine 1 (lihtne Monte-Carlo meetod)/ Integration by Monte-Carlo method. Simple MC method"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Integraali hinnangu täpsuse tõstmine. Kvaasi-juhuslikud arvud. / Improving the accuracy of MC for numerical integration. Quasi random numbers"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Monte-Carlo integreerimine 2 (hinnangu täpsuse tõstmine) / Integrating by MC, error reduction methods"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Mitmekordsete integraalide hindamine Monte-Carlo meetodil. Optimiseerimine Monte-Carlo meetodil (libalõõmutamine, i.k. simulated annealing). / Computing multiple integrals by MC. Optimisation by MC (simulated annealing)"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "practice",
+                    "et": "praktikum",
+                    "en": "practical session"
+                },
+                "topic": {},
+                "description": {
+                    "et": "Monte-Carlo integreerimine 3 (mitmekordsed integraalid) / Multidimensional integration by MC"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "lecture",
+                    "et": "loeng",
+                    "en": "lecture"
+                },
+                "topic": {},
+                "description": {
+                    "et": "kordamine / review"
+                }
+            },
+            {
+                "work_type": {
+                    "code": "test",
+                    "et": "kontrolltöö",
+                    "en": "test"
+                },
+                "topic": {},
+                "description": {
+                    "et": "teine kontrolltöö / Second test"
+                }
+            }
+        ]
+    },
+    "registration_info": {
+        "audience": {},
+        "min_students": 7,
+        "max_students": 26
+    },
+    "parent_uuid": "3bbeef87-bf0c-4752-51f8-d881d8e76ade",
+    "parent_code": "MTMS.01.033",
+    "parent_credits": 6,
+    "_actions": {
+        "is_editable": false,
+        "is_moodle_editable": false,
+        "is_deletable": false
+    }
+}

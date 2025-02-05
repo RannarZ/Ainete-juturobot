@@ -1,0 +1,12 @@
+{
+    "KURSUSE_NIMI": "Lõimitud aine- ja keeleõpe",
+    "KURSUSE_KOOD": "SHHI.02.018",
+    "EAP": 3,
+    "KURSUSE_TYYP": "Tavaline aine",
+    "KURSUSE_KEELED": [
+        "eesti keel"
+    ],
+    "VOTA": true,
+    "HINDAMISSKAALA": "pass",
+    "KIRJELDUS": "Kursus annab ülevaate LAK-õppe olemusest, eesmärkidest ja õppe läbiviimise põhimõtetest, arvestades Põhikooli riiklikku õppekava ja kaasaegset mitmekultuurilist õpikeskkonda.Objectives/eesmärkid:  Anda üliõpilastele teadmisi ja oskusi, loomaks ning juhtimaks ainet (sisu), keelt, kultuuri  ja õpioskusi lõimivat ning väärtustavat õppeprotsessi.Learning outcomes/õpiväljund:  Kursuse läbinud üliõpilane:  *\tomab arusaama LAK-õppe olemusest, põhimõtetest ja eesmärkidest; *\toskab luua ainetevahelisi ja aineteüleseid seoseid, arendades õppijate aine- ja keeleteadmisi ning õpioskusi; *\tomab ülevaadet võimalustest kujundada õpikeskkonda, mis toetab õpilase arenemist iseseisvaks ja aktiivseks õppijaks; *\toskab luua aineüleseid teemakäsitlusi ning teemadega seotud tegevusi ja ülesandeid LAK-õppe tunnis, koostades ja/või kohandades õppematerjali; *\ttunneb LAK-õppe hindamise põhimõtteid ning oskab anda hinnanguvaba tagasisidet; *\tomab ülevaadet vastavat valdkonda käsitlevast kirjandusest ja veebilehtedest."
+}

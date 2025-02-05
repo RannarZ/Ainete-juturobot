@@ -1,0 +1,14 @@
+Methods in Data Science
+LTAT.02.006
+6
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+This course teaches to think like a data scientist. This includes understanding the scientific method of raising hypotheses and testing them, understanding the data in the probabilistic and statistical sense, as well as knowing the main steps within data science projects based on standard data science methodologies. Several case studies are visited to illustrate the methods and concepts of data science and to develop a mindset of a data scientist. Guest lectures are given by practitioners from industry, enterprises or public sector.Objectives/eesmärkid:  The main objective of the course is to learn to think like a data scientist. This includes understanding the scientific method of raising hypotheses and testing them, understanding the data in the probabilistic and statistical sense, as well as knowing the main steps within data science projects based on standard data science methodologies.Learning outcomes/õpiväljund:  After completing this course, the student can: * List and explain the main subfields, concepts and tasks of data science; * Run a data science project, following the standard data science methodology CRISP-DM, and can explain why each of the activities is necessary; * Perform descriptive data analyses, including calculation of summary statistics, performing clustering, dimensionality reduction, outlier detection, and basic statistical hypothesis tests; * Explain the principles of the scientific method, and can identify what data should be collected to test a given hypothesis; * Explain the main elements of probability and statistics (joint, conditional and marginal probability distributions, hypothesis testing, statistical estimators, bias, variance, confidence intervals, causal and non-causal dependencies, probabilistic graphical models, signal and noise) and can explain the meaning of these concepts on a particular data set and analysis; * Perform an analysis to quantify how many data are needed to obtain convincing evidence to support a hypothesis; * Explain the role of data science in decision making.

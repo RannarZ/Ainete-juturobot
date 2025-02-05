@@ -1,0 +1,30 @@
+Data Systems Research Seminar
+LTAT.05.013
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 0, 'seminar': 32, 'colloquium': 0, 'web_learning': 0, 'independent_work': 46, 'individual_work': 0, 'internship': 0}
+pass
+Introduction to the core concepts and principles that form the foundation of Automated Machine Learning (AutoML).
+ Exploring Various AutoML Frameworks and Tools
+ Analysis of the strengths and limitations of different AutoML solutions.
+ Impact of AutoML on the efficiency and accessibility of machine learning workflows.
+Consideration of challenges and ethical considerations related to the automated machine learning approach.
+Exploration of the importance of model interpretability and transparency in the context of AI.
+Understanding the implications of black-box models and the need for interpretable alternatives.
+In-depth study of various methods and algorithms designed to make AI models more interpretable.
+Examination of how AutoML and Explainable Artificial Intelligence (XAI) can work together.
+Discussion on how integrating these approaches can lead to more robust and interpretable machine learning models.Objectives/eesmärkid:  The primary objective of this postgraduate seminar is to provide participants with a deep and comprehensive understanding of two critical aspects of contemporary machine learning: Automated Machine Learning (AutoML) and Explainable Artificial Intelligence (XAI). The course aims to delve into the advanced concepts, methodologies, and applications of AutoML and XAI, equipping participants with the knowledge and skills necessary to navigate and contribute to the evolving landscape of machine learning.Learning outcomes/õpiväljund:  -Understand the fundamental concepts and principles behind AutoML.
+-Explore various AutoML frameworks and tools, including their strengths and limitations.
+-Gain hands-on experience in applying AutoML techniques to real-world datasets.
+-Evaluate the role of AutoML in enhancing the efficiency and accessibility of machine learning processes.
+-Comprehend the significance of interpretability and transparency in AI models.
+-Investigate different methods and algorithms for achieving explainability in AI systems.
+-Explore the synergy between AutoML and XAI for building robust and interpretable models.
+-Identify scenarios where the combination of AutoML and XAI can provide enhanced model performance and understanding.

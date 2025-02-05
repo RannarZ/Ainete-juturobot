@@ -1,0 +1,21 @@
+Evaluation of Economic Policies
+MJRI.02.086
+6
+Regular course
+['Estonian']
+False
+None
+None
+autumn
+regular studies
+None
+{'lecture': 20, 'practice': 0, 'seminar': 20, 'colloquium': 0, 'web_learning': 0, 'independent_work': 116, 'individual_work': 0, 'internship': 0}
+grade
+Introduction: evaluation, counterfactuals, causality; the Rubin model; R basics.
+Difference-in-differences methods.
+Coarsened exact matching.
+Propensity score matching.
+Inverse Probability Weighting and Regression Adjustment.
+Regression Discontinuity Design.
+Intrumental Variables.
+Synthetic control.Objectives/eesmärkid:  The main objective of the course is that students are exposed to and are able to apply the most used methods to elicit and measure causal relationships in social phenomena.Learning outcomes/õpiväljund:  Students learn (1) the main theoretical underpinnings and (2) the main technical aspects of the following methods: the Rubin model; difference-in-differences methods; coarsened exact matching; propensity score matching; RA, IPW and IPWRA; regression discontinuity design; instrumental variables; synthetic control. Students are (3) able to choose the most appropriate from above for a particular dataset and research question. Students (4) develop their critical thinking when reading and appraising a research paper. Students are (5) able to write a code in R in order to (5.1) produce descriptive statistics, (5.2) run an econometric model and (5.3) test hypotheses. Students (6) develop their ability to interpret (6.1) statistics, (6.2) output from econometric models and (6.3) the results from hypothesis tests. Students (7) connect econometric practice with the social, economic, political and business reality.

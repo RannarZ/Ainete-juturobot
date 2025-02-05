@@ -1,0 +1,19 @@
+Business Process Management
+MTAT.03.231
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+1. Principles of business process management: What is business process manegement? Why and when should BPM be undertaken? BPM lifecycle; typical business processes (procure-to-pay, order-to-cash).
+2. Business Process Modeling: Purpose and principles of business process modeling, business process modeling notations and tools; business process standards and reference process models (SCOR, ITIL, SAP reference models).
+3. Business Process Analysis: Activity-based costing; scenario-based analysis; techniques for business process re-design; business process simulation.
+4. Process Performance Measurement: Defining measures for business processes; aggregating and processing data for business process performance measurement; discovering typical business processes from event logs.
+5. IT Solutions: Techniques for designing IT Solutions for process automation; relations between business process management and software architectures; workflow management systems and business process management suites.
+6. Case studies and projects in business process managementObjectives/eesmärkid:  The objective of this course is to introduce students to the principles and methods of business process management. The course will emphasise the role of business process modelling as an instrument to understand and analyse business operations, and to drive the design of Information Technology (IT) solutions to support the automation of business processes.Learning outcomes/õpiväljund:  On successful completion of this course, students should be able to: 1. Demonstrate knowledge of the organizational and technical challenges of business process management. 2. Document complex business processes at different levels of detail using contemporary business process modeling techniques. 3. Identify and analyse business improvement options on the basis of business process models. 4. Apply qualitative and quantitative techniques to analyse the performance of business processes and to assess the impact of business process changes. 5. Understand how business process management can be used as an overarching method to design and deploy IT solutions and to achieve business-IT alignment.

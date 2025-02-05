@@ -1,0 +1,14 @@
+Wireless Technologies and Security
+LTAT.04.009
+6
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+The course will briefly introduce students to wireless signals (frequencies, bandwidth, wavelength) and how they are transmitted and received. Students will learn how to use various hardware (HackRF, RTL-SDR, NFC reader, USB Wi-Fi receiver) and Software Defined Radio (GNU Radio). The course will cover different wireless communication protocols, analyse their security - different types of attacks and counter-measures. The homeworks will involve implementing exercises using Python.Objectives/eesmärkid:  To learn the basics of wireless technologies and communication protocols, and to get acquainted with the tools that can be used to assess security.Learning outcomes/õpiväljund:  Upon successful completion of this course, students should be able to:  + List and explain the main components of wireless communication   + Use software defined radio to inspect the radio spectrum  + Understand the most common weaknesses in wireless protocols  + Create and implement attacks against wireless protocols and their implementations  + Identify counter measures for some of the most common wireless attacks

@@ -1,0 +1,14 @@
+ArcGIS Software
+LTOM.02.015
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 0, 'practice': 12, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 66, 'individual_work': 0, 'internship': 0}
+pass
+A lecture on the modules and architecture of ESRI's ArcGIS. Six tutorials using ArcGIS Desktop and its extensions form the core of this course and should be completed as prerequisite for consideration.Objectives/eesmärkid:  To gain an overview of the structure of ArcGIS software, to become familiar with its basics and to obtain first practical skills of using it in order to continue with self-instruction according to one's own needs.Learning outcomes/õpiväljund:  After successful passing the student will be able to: - understand the basics of ArcGIS and coordinate systems; - understand the character of interoperability of geographic information; - create and manage a geodatabase, edit a spatial data; - query a GIS database; - present data clearly using maps, charts, and reports; - create programs in Model Builder; - continue with self-instruction according to one's own needs.

@@ -1,0 +1,14 @@
+Introduction to Diffractive Optics with MATLAB
+LTFY.03.009
+3
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+The lectures and computational lab sessions will cover the necessary engineering aspects for designing diffractive optical elements for generating optical fields for various applications.Objectives/eesmärkid:  The aim of the course is to introduce the concept of diffraction and provide hands-on-training to design and analyze basic diffractive optical elements using MATLAB and simulate the optical fields for various applications.Learning outcomes/õpiväljund:  At the end of the course, the student has - an understanding of scalar diffraction formulation and beam propagation. - the skills to design binary as well as multilevel gratings, Fresnel zone lenses, axicons, vortex generators and analyze the performance and efficiency in MATLAB. - the skills to design multifunctional diffractive optical elements and holographic optical elements in MATLAB. - the capability to design simple beam shaping elements using computational algorithms and implement them in MATLAB. - gained knowledge in common aberrations in designing diffractive optical elements and techniques to minimize them. - the skills to create a design for a custom diffractive optical element in lithography file format ready for fabrication.

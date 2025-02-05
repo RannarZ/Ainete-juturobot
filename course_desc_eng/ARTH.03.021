@@ -1,0 +1,16 @@
+Biostatistics I
+ARTH.03.021
+2
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 8, 'practice': 8, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 36, 'individual_work': 0, 'internship': 0}
+pass
+The introductory biostatistics course for getting basic knowledge in statistical data analysis or for reminding basic principles of statistics. The topics include descriptive statistics,  confidence intervals, principles of one-sample and two-sample hypothesis testing and basic measures of associations. In practical sessions freeware R will be used for data analysis and the knowledge gained from lectures will be implemented on real data.
+
+This course is taught in Estonian. International students can substitute it with Statistical Data Science (LTMS.00.025) that consists of 3 modules: the first part (2 ECTS) is covering the same topics as Biostatistics I (ARTH.03.021) and the second part (2 ECTS) the same topics as Biostatistics II (ARTH.03.022).Objectives/eesmärkid:  To obtain the basic knowledge in biostatistics needed for medical research.Learning outcomes/õpiväljund:  A student understands and is able to: * enter study data to computer correctly * understand the type of variables * compute descriptive statistics: mean, standard deviation, standard error, median, quartiles, min, max * illustrate data with appropriate descriptive tables and figures * assess the distribution of a variable and  and choose correct analysis method * find confidence intervals for mean and percentage * make simple statistical comparisons (parametric and nonparametric methods) * investigate relations between variables (analysis of two-way frequency tables, correlation, ANOVA, Bonferroni correction, OR, RR)

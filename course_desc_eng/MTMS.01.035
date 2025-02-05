@@ -1,0 +1,14 @@
+Mathematical Statistics II
+MTMS.01.035
+6
+Regular course
+['Estonian']
+True
+['Probability and Statistics II', 'Probability I']
+[]
+autumn
+regular studies
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Statistical estimation theory is considered in depth. The classical results about the best unbiased estimator, sufficient statistic, Cramer-Rao inequality and Rao-Blackwell theorem are presented with proofs. The exponential family of distributions is introduced, which is an important class of distributions in statistics. The main properties of the maximum likelihood estimator, such as invariance, consistency and asymptotic normality, are derived. Numerical methods for finding maximum likelihood estimators are also introduced. The theory of testing hypotheses is studied deeper, the likelihood ratio test and uniformly most powerful tests are considered. Interval estimation and finding confidence regions is studied. Finally, the notion of statistical dependence is treated, various dependence measures are defined and their estimation is studied. The aim of the tutorials is to apply theoretical results in concrete tasks.Objectives/eesmärkid:  The general aim of the course is to present the core concepts of statistical inference theory and their theoretical background. The main purpose is to deepen the knowledge about statistical estimation theory in parametric distributions and about testing hypotheses and interval estimation. The concept of statistical dependence is studied closer, different dependence measures and their estimation and interpretation is considered.Learning outcomes/õpiväljund:  After completing the course the student - knows the main results about exponential family of distributions and their properties; - can find the maximum likelihood estimator and prove the main properties of the maximum likelihood estimator; - can describe the notions of sufficiency and completeness and find a sufficient statistic; - knows the concept of efficient estimator and conditions for its existence, knows the Cramer-Rao inequality and can prove the related results; - can find an efficient estimator for a parameter or its function; - knows the Neyman-Pearson hypotheses testing theory and the main results about uniformly most powerful tests, can construct the related test statistics; - has knowledge about different types of statistical dependence and association measures like Pearson, Spearman and Kendall coefficients, can estimate and interpret them.

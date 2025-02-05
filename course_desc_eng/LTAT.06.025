@@ -1,0 +1,15 @@
+Cloud Native Applications on Kubernetes
+LTAT.06.025
+6
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+Containerisation technologies and orchestration solutions like Kubernetes are the cornerstone of building efficient microservice-based scalable and reliable applications.  
+This course deals with the nature, design and development of container-based systems and cloud-native services. The knowledge acquired in the course is hardened through practical tasks and homeworks.Objectives/eesmärkid:  To give students knowledge and understanding of the nature of containerization, container orchestration solutions and using them to design cloud-native systems. Provide hands-on experience in managing Kubernetes services, deployments and creating cloud-native applications.Learning outcomes/õpiväljund:  The student knows: 1. how to build microservices for Kubernetes 2. the architecture and building blocks of Kubernetes 3. how to configure, administer and deploy services 4. how to test, scale and monitor microservice applications 5. how to design reliable cloud-native applications

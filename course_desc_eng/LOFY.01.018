@@ -1,0 +1,14 @@
+Fundamentals of Signals and Systems I
+LOFY.01.018
+3
+Regular course
+['Estonian']
+True
+['Calculus I', 'Physics and Engineering']
+[]
+autumn
+regular studies
+None
+{'lecture': 16, 'practice': 8, 'seminar': 8, 'colloquium': 0, 'web_learning': 0, 'independent_work': 46, 'individual_work': 0, 'internship': 0}
+grade
+The basic concepts of general description of signals and systems - spectrum, impulse and frequency responses, modulation, feedback, filtering, etc. are introduced.Objectives/eesmärkid:  The course is aimed at learning fundamentals of general methods of signal-processing and analysis and measurement of all kind of data. Skills are acquired how to apply the methods for comprehension of design and functioning of various hard- and software in electronics and telecommunication, as well as for systematisation of knowledge on methods of mathematical physics.Learning outcomes/õpiväljund:  After completing the course, the student: * Knows elementary signals, can classify signals and systems on the basis of their properties. * Knows and can use properties of the Fourier transform and the Fourier representations of the model signals (Gaussian, Lorentzian curves, etc.) for transforming signals and system responses from time-domain to frequency-domain and vice versa. * Knows the sampling theorem and can use its corollaries. * Can use implementations of the FFT algorithm. * Knows various types of signal filters. * Can characterize systems with feedback.

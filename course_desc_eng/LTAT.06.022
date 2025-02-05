@@ -1,0 +1,14 @@
+Concurrent Programming Languages
+LTAT.06.022
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+Parallel programming classification and techniques: instruction-level, data and task parallelism; implicit and explicit parallelism. Overview of concurrency models: declarative, message-passing, shared-state. Concepts of concurrent programming languages: pure functions, single assignment variables, dataflow driven execution, futures, green threads.Objectives/eesmärkid:  The aim of the course is to teach students parallel programming in practice. The course aims to use a variety of programming languages. Students should be able to program in at least one of them.Learning outcomes/õpiväljund:  -Understand the properties of programming languages needed for parallel programming -Classify languages according to their support for parallel programming -Implement parallel programs in different programming languages, using their features as appropriate -Understand how the programs relate to the possibilities and limitations

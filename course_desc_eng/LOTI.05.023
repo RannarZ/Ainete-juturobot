@@ -1,0 +1,23 @@
+Project in Competitive Robotics
+LOTI.05.023
+6
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 4, 'practice': 52, 'seminar': 8, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Students will be asigned into groups of 3 to 4 people. Each team will build a robot that complies with the rules of Robotex (http://www.robotex.ee). 
+Building a robot consists of:
+    building a chassis
+    installing of sensors
+    the interconnecting of sensors and actuators with microcontrollers
+    programming of microcontrollers
+    testing of finished solution
+All students with some knowledge in mechanics, low level programming, high level programming or project and team management are welcome.
+Each team will be composed in such a way that the skills of members will complement eachother.
+To attend the course, you will need to attend the kickoff camp. More information will be given in the first lecture.Objectives/eesmärkid:  The purpose of the course is to teach to use knowledge and practical know-how in electronics, mechanics, mechantronics, design and management of mechatroncs project and teamwork. During the course student teams will build a robot which succeeds in performing a predefined task.Learning outcomes/õpiväljund:  Finish a hardware project in a group where time is of the essence. Quickly aqcuire missing knowledge.

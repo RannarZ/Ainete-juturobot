@@ -1,0 +1,16 @@
+Statistical Modelling
+ARTH.03.045
+7
+Regular course
+['Estonian']
+True
+['Biostatistics in Public Health']
+[]
+autumn
+regular studies
+None
+{'lecture': 30, 'practice': 30, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 122, 'individual_work': 0, 'internship': 0}
+pass
+The course includes following topics: Generalized linear models and their extensions, Model specification, estimation of parameters and
+assessment of precision, model critique, Models for description, prediction, and causal inference; control of confounding, evaluation of effect-modification, Normal linear regression model for continuous outcomes, Models for binary outcomes with link functions related to risk differences, risk ratios, and odds ratios.
+Poisson regression models and (Cox) proportional hazards model for incidence rates and survival data. Conditional logistic regression for matched case-control data. Overdispersion, quasi-likelihood, random effects models, and other extensions.Objectives/eesmärkid:  The course aims at teaching the application of advanced statistical modeling (incl prognosis models) in public health.Learning outcomes/õpiväljund:  Students will be expected - to be able to choose statistical models for data analysis - to be able to use different statistical models that would account for confounding and effect-modification

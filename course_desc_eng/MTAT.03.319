@@ -1,0 +1,20 @@
+Business Data Analytics
+MTAT.03.319
+6
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+block mode study
+None
+{'lecture': 32, 'practice': 32, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+The course is structured around "vertical" topics (problems) and "horizontal" topics (methods).
+The vertical topics encompass a range of problems from sales, marketing and operations, such as product adoption, purchasing prediction models, understanding brand value of a company. 
+The horizontal topics include data mining and statistical analysis topics:
+* Data mining: Classification (e.g. decision trees), clustering (e.g. hierarchical, k-means), and prediction (using e.g. decision tree).
+* Sentiment analysis
+* network analysis
+In addition, linear regression and logistic regression techniques will also be put to a more concrete applied use as the testing error will be minimized in industrial settings.Objectives/eesmärkid:  This course will enable students to apply statistical analysis and data mining techniques to address typical business questions in the fields of sales, marketing and business operations.Learning outcomes/õpiväljund:  On successful completion of this course, students will able to: 1. Identify and articulate different opportunities for using data analytics techniques to answer typical questions in the fields of sales, marketing and business environment. 2. Use the Python programming language and associated libraries and tools to analyse business data in order to provide evidence-based answers to a range of business questions.  3. Understand the cross-applicability of data analytics techniques - e.g. the across the board use of association analysis for finding prevalent relationships in two-way two-mode data tables; or the ability to identify predicting churn of customers. 4. Combine multiple data analytics techniques to provide multi-faceted answers to business questions. 5. Understand the benefits, costs and ethical implications of investing into data analytics as a tool for business analysis and development.

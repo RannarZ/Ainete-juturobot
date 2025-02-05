@@ -1,0 +1,14 @@
+Data Munging, Visualisation and Communication
+SVMJ.04.006
+6
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 4, 'practice': 44, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 108, 'individual_work': 0, 'internship': 0}
+grade
+The course starts with an introduction to R - one of the most powerful data analysis and visualisation language, that has been taking over both business world and academia. R is open source software, but is frequently mentioned to have a rather steep learning curve. We will overcome this together. We will go through the modern R workflow starting from data aquisition and munging and ending with publication ready visualisation of our data. There will be a shorter introduction to alternatives like Tableau.Objectives/eesmärkid:  The aim of the subject is to give participants practical ability for the whole process of data analysis starting from data wrangling and initial visual analysis to publication-ready data visualisations in R.Learning outcomes/õpiväljund:  Practical working knowledge of R and RStudio.  Ability to do the basic data mungling in R - to filter and group data, convert it between long and short format. Good conceptual knowledge of the concepts of grammar of graphics.  Ability to use ggplot2 (R package implementing grammar of graphics) for visual data analysis and presentation of results.  Ability to use Rmarkdown for reproducible analysis and automatic generation of reports.

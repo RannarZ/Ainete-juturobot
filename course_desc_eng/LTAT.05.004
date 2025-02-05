@@ -1,0 +1,25 @@
+Web Application Development
+LTAT.05.004
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+Teemad:
+* Multi-tier web architectures
+* Basic Web standards (HMTL, CSS, DHTML, JavaScript)
+* The underpinnings of the Web
+* Trends and state of art in Web development
+* Server-side development technology: (CGI, ISAPI, Java Server, web template systems, web application frameworks)
+* XML Technology (XML, Schema, DOM, XPath, XSLT)
+* Rich Internet Interfaces (Asynchronous Javascript and XML)
+* Secure Web development
+*How to create and maintain good web sites?
+
+The students are expected to have elementary programming skills and experience with working with collaboration tools (especially revision management like Git). Prior knowledge of creation and development of relational database, and experience of development of multi-threading programs is beneficial but not crucial.Objectives/eesmärkid:  The goal is to introduce contemporary methods and techniques for developing web applications. The practical part of the course includes creating a multi-tier web application using XML and server- side web application development frameworks.Learning outcomes/õpiväljund:  On successful completion of this course, students should be able to: 1. Understand the principles of multi-tier Web information systems and how the presentation layer of these systems can be realized by appropriately combining client-side and server-side technology. 2. Develop web applications using modern methods and technology. 3. Understand the principles of sustainable and user-centered design of web applications

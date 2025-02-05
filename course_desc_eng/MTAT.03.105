@@ -1,0 +1,17 @@
+Introduction to Databases
+MTAT.03.105
+3
+Regular course
+['Estonian']
+True
+None
+None
+autumn
+regular studies
+None
+{'lecture': 16, 'practice': 16, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 46, 'individual_work': 0, 'internship': 0}
+pass
+Principles of a relational database. SQL structure and syntax. Data Definition Language and Data Manipulating Language. Basic queries, filtering, grouping, aggregating. Views and means of controlling user access to the data. Enforcing referential integrity.Objectives/eesmärkid:  This course is designed to give an overview of a widespread database query language, SQL. The primary goal of this course is to give the student the necessary knowledge and skills to design and develop databases.No previous experience with databases is necessary, although the participants should be familiar with the use of spreadsheets and computers in modern society.Learning outcomes/õpiväljund:  After this course the student will be able to:
+* develop simple data models
+* use SAP SQL Anywhere to develop a database and run SQL statements
+* compose simple queries using SQL

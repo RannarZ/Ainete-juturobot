@@ -1,0 +1,24 @@
+{
+    "KURSUSE_NIMI": "Sotsiaalteaduslik metodoloogia",
+    "KURSUSE_KOOD": "SHRG.03.022",
+    "EAP": 6,
+    "KURSUSE_TYYP": "Tavaline aine",
+    "KURSUSE_KEELED": [
+        "eesti keel"
+    ],
+    "VOTA": true,
+    "SEMESTER": "sügis",
+    "OPPETYYP": "päevaõpe",
+    "TUNDIDE_JAOTUS": {
+        "lecture": 0,
+        "practice": 0,
+        "seminar": 32,
+        "colloquium": 0,
+        "web_learning": 0,
+        "independent_work": 124,
+        "individual_work": 0,
+        "internship": 0
+    },
+    "HINDAMISSKAALA": "grade",
+    "KIRJELDUS": "Kursusel on kolm osa: sotsiaalteaduste metodoloogia põhikomponendid, uurimisstrateegiad ja juhtumite valimine (<i>research design</i>), ning metodoloogiliste analüüside läbiviimine konkreetsete teadustööde näitel. Aine kasutab aktiivselt ka nn pööratud klassiruumi lähenemist, mis sisaldab iseseisvat eeltööd videote ja muude materjalide läbitöötamisel, mille tulemusel keskendutakse auditoorsetel kohtumistel praktilistele rühmategevustele.Objectives/eesmärkid:  Kursuse eesmärgiks on anda üliõpilastele sotsiaalteaduste metodoloogia baasteadmised, mis toetavad nii magistriõppekava ülejäänud ainekursuste läbimist kui magistritöö kirjutamist.Learning outcomes/õpiväljund:  Kursuse läbinu: 1) mõistab sotsiaalteaduste metodoloogia põhialuseid ja metodoloogilise uurimuse etappe ning ülesehitust; 2) teab sotsiaalteaduste põhilisi epistemoloogilisi vaatenurki ja oskab formuleerida oma seisukohti nendes küsimustes; 3) teab ja oskab kasutada sotsiaalteaduste uurimisstrateegiate aluspõhimõtteid (suur N, võrdlev meetod, juhtumiuuring); 4) on suuteline ära tundma ja kriitiliselt hindama teiste teadustööde metodoloogiat; 5) on valmis kasutama õpitud metodoloogilisi põhimõtteid ka oma teadustöös, eriti magistritöös."
+}

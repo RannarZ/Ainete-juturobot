@@ -1,0 +1,18 @@
+Image analysis in Biosciences
+MVBS.02.014
+1
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+1) Over the course of the day, students will work alongside the lecturers and their assistants, as various types of analyses are discussed. Thus, the students will create a small dataset and will become familiar with analysis tools and commands. Software: ImageJ, CellProfiler, QuPath, Inkscape, NumPy and Tensorflow/PyTorch.
+2) Students will be asked to interpret their data during the course of the day - this is a vital step that will ensure that they understand the importance of careful understanding of their analyses and commands. 
+3) The students will create a "publication ready" figure, using Inkscape and the data they generated during the course of the day. This will serve as a model when students create their own figures in the future, in a thesis or publication. 
+4) Students will take these datasets and figures with them at the end of the day. They will serve as a basis for further learning.Objectives/eesmärkid:  Introduction to automated and semi-automated image analysis for biosciences.
+Students will be introduced to software including ImageJ, CellProfiler, QuPath, artificial-intelligence based analysis in    NumPy and Tensorflow/PyTorch, and the creation of publication-ready images using Inkscape.Learning outcomes/õpiväljund:  Students will create a dataset using ImageJ, CellProfiler, QuPath, NumPy and Tensorflow/PyTorch and will create a publication-ready figure using InkScape

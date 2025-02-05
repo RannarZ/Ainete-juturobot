@@ -1,0 +1,24 @@
+{
+    "KURSUSE_NIMI": "Uususundid",
+    "KURSUSE_KOOD": "USUS.06.123",
+    "EAP": 3,
+    "KURSUSE_TYYP": "Tavaline aine",
+    "KURSUSE_KEELED": [
+        "eesti keel"
+    ],
+    "VOTA": true,
+    "SEMESTER": "sügis",
+    "OPPETYYP": "päevaõpe",
+    "TUNDIDE_JAOTUS": {
+        "lecture": 5,
+        "practice": 0,
+        "seminar": 1,
+        "colloquium": 0,
+        "web_learning": 0,
+        "independent_work": 67,
+        "individual_work": 0,
+        "internship": 5
+    },
+    "HINDAMISSKAALA": "grade",
+    "KIRJELDUS": "Kursuses tutvustatakse uususunditega seotud mõisteid, Eestis tegutsevaid uususundeid janendega seotud probleeme ja teemasid nagu tekke ja leviku põhjused, uususundite kajastamine meedias ning nende suhted ühiskonnaga.Objectives/eesmärkid:  Aine eesmärk on anda ülevaade uususundite uurimise ajaloost, teadusdistsipliinis käibel olevatest olulisematest mõistetest ning uususunditega seotud teemadest ja probleemidest.Learning outcomes/õpiväljund:  Kursuse läbinud üliõpilane: - tunneb erinevaid uususundeid ning nendega seotud probleeme ja teemasid,  - valdab erialast sõnavara,  - omandab esmase välitöötegemise kogemuse ja oskuse."
+}

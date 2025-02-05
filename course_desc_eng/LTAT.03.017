@@ -1,0 +1,16 @@
+Verified Functional Algorithms
+LTAT.03.017
+6
+Regular course
+['Estonian']
+True
+None
+None
+None
+None
+None
+None
+None
+We use material from "The Software Foundations" series Volume 1: "Logical Foundations" and Volume 3: "Verified Functional Algorithms". Volume 1 is an intro to Coq and logic and Volume 3 deals with Verified Functional Algorithms.
+
+List of chapters/topics: "Logical Foundations": Basics, Induction, Lists, Polymorphism, Tactics, Logics in Coq, Inductively defined Propositions, Maps, Simple Imperative Programs, More Automation. "Verified Functional Algorithms:: Basic Techniques for Permutations and Ordering, Insertion sort, Insertion Sort With Multisets, Selection sort, Search trees, Abstract data types, Runninc Coq programs in ML, Red-Black trees, Number Representations and Efficient Lookup Tables, Priority Queues, Binomial Queues, Programming with Decision ProceduresObjectives/eesmärkid:  Provide students with: a) a better understanding of formal proofs, b) practical ability to prove something in Coq, c) understanding of the difficulties of correctness proofs of algorithms, d) practical experience of writing verified functional algorithmLearning outcomes/õpiväljund:  A student, that has completed the course: a) knows common concepts of logic and proving, b) is able to understands the meaning of propositions written in Coq, c) can prove simple propositions in Coq, and d) can write simple verified functional algorithms.

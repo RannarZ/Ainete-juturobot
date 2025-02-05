@@ -1,0 +1,14 @@
+Economics of Causality
+SVMJ.04.018
+6
+Regular course
+['Estonian']
+False
+None
+None
+None
+None
+None
+None
+None
+This course provides an introduction to the following methods: the Rubin model; difference-in-differences methods; propensity score matching; RA, IPW and IPWRA; regression discontinuity design; other evaluation and policy analysis methods. The second part of the course mainly deals with ex-post evaluation methods, ex randomised controlled trials, quasi-experimental methods (DiD, RDD, IVs), panel- and cross-sectional regressions. During the course we will also discuss the requirements for policy evaluations in practice that are regulated. In the end of the course, students will design a research plan to answer research questions for causal inference for the best possible outcome based on real world scenarios.Objectives/eesmärkid:  The main objective of the course is that students are exposed to and are able to apply the most used methods to elicit and measure causal relationships in social phenomena.Learning outcomes/õpiväljund:  Students learn the main theoretical underpinnings and the main technical aspects of: the Rubin model; difference-in-differences methods; propensity score matching; RA, IPW and IPWRA; regression discontinuity design; other evaluation and policy analysis methods. Students who pass the course: *	Are familiar with the main assumptions to design their research and apply most widely used tools for causal inference. *	Know the basics about policy evaluation regulations in Estonia. *	Are able to choose the most appropriate from above for a particular dataset and research question. *	Are able to write a code in Stata in order to produce descriptive statistics, run an econometric model and test hypotheses. *	Have developed their ability to interpret statistics, output from econometric models and the results from hypothesis tests. *	Know about common issues regarding ex-post and ex-ante evaluations and mainly used methods. *	Can critically evaluate impact evaluation studies. *	Have developed their critical thinking when reading and appraising a research paper.

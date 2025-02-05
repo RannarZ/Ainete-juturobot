@@ -1,0 +1,14 @@
+Renormalization Methods in Quantum Field Theory
+LOFY.04.016
+6
+Regular course
+['Estonian']
+True
+['Quantum Field Theory']
+[]
+autumn
+regular studies
+None
+{'lecture': 64, 'practice': 0, 'seminar': 0, 'colloquium': 0, 'web_learning': 0, 'independent_work': 92, 'individual_work': 0, 'internship': 0}
+grade
+Renormalization theory has its origin in solid state physics where it helped to generalize relations holding on the crystall lattice in order to say something about critical phenomenons, as they occur in phase transitions. The critical exponents in solid state physics correspond to anomalous dimensions of parameters in quantum field theory. In addition, renormalization helps to handle singularities occuring in loop integrals in an appropriate manner. In this lecture series we get acquainted with regularization and subtraction and deal with the renormalization of Quantum Electrodynamics, Quantum Chromodynamics and the elektroweak theory. In addition, we consider general concepts on the renormalization group and the running of parameters.Objectives/eesmärkid:  The aim of this course is to introduce methods for removing singularities which appear in perturbative calculations.Learning outcomes/õpiväljund:  After the course, the student: 1. knows to rate the possibilities to renormalize different theories. 2. is able to fix the occuring singularities via regularisation. 3. knows about different methods to subtract the divergences. 4. knows how to finally eliminate the divergences.

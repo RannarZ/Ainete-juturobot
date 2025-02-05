@@ -1,0 +1,14 @@
+Cryptographic Protocols
+MTAT.07.014
+6
+Regular course
+['Estonian']
+True
+['Cryptology I']
+[]
+None
+None
+None
+None
+None
+Key-exchange protocols. Secure computation. Zero-knowledge protocols. Security definitions, design of protocols and security proofsObjectives/eesmärkid:  To acquire an overview of methods for constructing secure cryptographic protocols from secure cryptographic primitives. Introduce the security goals of protocols and methods for proving them secure.Learning outcomes/õpiväljund:  A student, having passed the course, will comprehend different security properties and goals of cryptographic protocols. He/she will understand, when a proof successfully argues that a protocol has, or does not have a particular security property. He/she can justify, which security properties of protocols should or should not be strived for in different real-world contexts.
