@@ -1,0 +1,1 @@
+Aine eesmärk on õpetada tudengitele andmete kogumise, salvestamise ja analüüsimise põhiprintsiipe ning tehnikaid. Kursusel õpitakse tundma nii kirjeldavat kui ka statistilise hüpoteesi kontrollimise meetodeid. Läbides aine, omandavad tudengid oskuse kasutada andmeanalüüsi põhimõisteid ning tulemusi korrektselt tõlgendada ja esitleda.

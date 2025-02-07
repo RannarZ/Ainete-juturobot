@@ -1,0 +1,1 @@
+See kursus tutvustab tudengitele arvutitehnika valdkonna aktuaalseid teemasid ja innovatsioone. Tudengitel on võimalus uurida neid teemasid, teha ettekandeid ja tutvuda kohaliku tööstusega. Kursuse läbimisel paranevad tudengite oskused uue tehnoloogia esitlemises, arusaam hetke arengusuundadest, ning koostöö tegemine dokumentide ja versioonihaldustööriista git abil.

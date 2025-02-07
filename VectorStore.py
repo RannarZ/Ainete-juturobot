@@ -37,8 +37,10 @@ class VectorStore:
                        OPPETYYP VARCHAR2(20),
                        TUNDIDE_JAOTUS VARCHAR2(150),
                        HINDAMISSKAALA VARCHAR2(10),
-                       KIRJELDUS TEXT NOT NULL
+                       KIRJELDUS TEXT NOT NULL,
+                       KOKKUVOTE TEXT NOT NULL
                        )""")
+        print("Table created")
         cursor.close()
 
     def remove_vectorstore(self):
@@ -49,29 +51,33 @@ class VectorStore:
 
     def clear_table(self):
         cursor = self.db.cursor()
-        cursor.execute("DELETE FROM COURSES")
+        cursor.execute("DELETE FROM KURSUSED")
         cursor.close()
 
     def insert_to_table(self, vector, course_name, course_id, eap, course_type, course_languages, vota, mandatory_prereq,
-                        reccomended_prereq, semester, study_type, hours, grading, description):
+                        reccomended_prereq, semester, study_type, hours, grading, description, summary):
         cursor = self.db.cursor()
         #vector = vector.tobytes()
         #print(vector)
         cursor.execute(f"""INSERT INTO KURSUSED(KURSUSE_NIMI, KURSUSE_KOOD, VEKTOR, EAP, KURSUSE_TYYP,
                         KURSUSE_KEELED, VOTA, KOHUSTUSLIKUD_EELDUSAINED, SOOVITUSLIKUD_EELDUSAINED, SEMESTER,
-                        OPPETYYP, TUNDIDE_JAOTUS, HINDAMISSKAALA, KIRJELDUS)
-                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", (course_name, course_id, memoryview(vector),
+                        OPPETYYP, TUNDIDE_JAOTUS, HINDAMISSKAALA, KIRJELDUS, KOKKUVOTE)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", (course_name, course_id, memoryview(vector),
                                                                                     eap, course_type, course_languages, vota, mandatory_prereq,
-                                                                                    reccomended_prereq, semester, study_type, hours, grading, description))
+                                                                                    reccomended_prereq, semester, study_type, hours, grading, description, summary))
         self.db.commit()
         cursor.close()
 
     def print_all_from_table(self):
+        #Prints everything except vectors
         cursor = self.db.cursor()
-        cursor.execute("SELECT * FROM COURSES")
+        cursor.execute("SELECT * FROM KURSUSED")
         fetched = cursor.fetchall()
         for row in fetched:
-            print(row)
+            for i in range(15):
+                if i != 2:
+                    print(str(row[i]))
+            print("")
         cursor.close()
 
     def get_all_from_courses(self):
@@ -106,6 +112,9 @@ class VectorStore:
         return sqrt(sum)
 
     def find_k_nearest(self, query, k):
+        """
+        Method find_k_nearest finds the k nearest vectors to query vector from database and returns the representing course info.
+        """
         all_courses = self.get_all_from_courses()
         nearest_dist = []
         nearest_info = []
@@ -116,25 +125,25 @@ class VectorStore:
             #If list is empty
             if r == 0:
                 nearest_dist.append(distance)
-                nearest_info.append((course[0], course[1]))
+                nearest_info.append((course[0], course[1], course[3], course[9], course[12], course[13], course[14])) #(course[0], course[1], course[3], course[9], course[12], course[13], course[14])
                 r += 1
             #If last element is smaller than current distance
             elif abs(nearest_dist[-1]) < abs(distance):
                 if r < k:
                     nearest_dist.append(distance)
-                    nearest_info.append((course[0], course[1]))
+                    nearest_info.append((course[0], course[1], course[3], course[9], course[12], course[13], course[14]))
                     r += 1
             #If last element of nearest is higher than current distance
             else:
                 index = self.get_index_of_nearest(nearest_dist, distance)
                 if r < k:
                     nearest_dist.insert(index, distance)
-                    nearest_info.insert(index, (course[0], course[1]))
+                    nearest_info.insert(index, (course[0], course[1], course[3], course[9], course[12], course[13], course[14]))
                     r += 1
                 else:
                     #Adding the new vector and info to lists
                     nearest_dist.insert(index, distance)
-                    nearest_info.insert(index, (course[0], course[1]))
+                    nearest_info.insert(index, (course[0], course[1], course[3], course[9], course[12], course[13], course[14]))
                     #Deleting the last one from list
                     nearest_dist.remove(nearest_dist[-1])
                     nearest_info.remove(nearest_info[-1])

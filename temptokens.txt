@@ -1,0 +1,1 @@
+{"embedding_tokens": 1739725, "query_tokens": 0}

@@ -1,0 +1,1 @@
+Kursus annab põhjaliku ülevaate, kuidas luua turvalisi krüptograafilisi protokolle kasutades krüptoprimitiive. Õpitakse tundma erinevaid protokollide turvaomadusi ja -eesmärke ning nende turvalisuse tõestamise meetodeid. Kursuse läbinu suudab sõnastada ja põhjendada protokollide turvaomadusi erinevates reaalelulistes kontekstides.

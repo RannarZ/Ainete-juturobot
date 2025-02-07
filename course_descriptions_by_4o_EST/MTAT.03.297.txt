@@ -1,0 +1,1 @@
+Kursusel tutvustatakse üliõpilastele HTML-i ja CSS-i põhialuseid, keskendudes veebilehe struktuuri ja kujunduse määramisele. Eelnev veebiarenduse või programmeerimise kogemus ei ole vajalik. Kursuse läbinu oskab koostada ja kujundada lihtsamaid veebilehti, kasutades HTML-i ja CSS-i. Lisainfot leiad Moodle'ist aadressil http://moodle.ut.ee.

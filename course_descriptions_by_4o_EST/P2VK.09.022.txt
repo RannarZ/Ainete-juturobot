@@ -1,0 +1,1 @@
+Teadustöö metoodika praktikumis õpitakse empiiriliste andmete kogumise, töötlemise ja analüüsimise tehnikaid. Eesmärk on omandada oskused andmete kvalitatiivseks ja kvantitatiivseks analüüsiks ning rakendada statistilisi andmetöötlusmeetodeid. Kursuse lõpuks teab tudeng erinevaid andmete kogumise meetodeid, oskab neid koostada ja analüüsida.

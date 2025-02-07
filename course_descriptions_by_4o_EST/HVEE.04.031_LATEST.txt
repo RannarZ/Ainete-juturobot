@@ -1,0 +1,1 @@
+Kursuse eesmärk on tutvustada vabavaralist kõneanalüüsiprogrammi Praat ja selle kaudu eksperimentaalfoneetika põhimeetodeid. Kursusel osalejad õpivad kasutama spektraal- ja põhitoonianalüüsi ning eristama kõneüksusi akustiliste ja artikulatoorsete tunnuste põhjal. Lisaks omandatakse oskused jooniste tegemiseks ja lihtsamate tajukatsete läbiviimiseks.
