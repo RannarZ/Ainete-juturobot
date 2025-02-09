@@ -6,6 +6,7 @@ from VectorStore import VectorStore
 import os
 import openai
 import json
+import streamlit as st
 
 #Vektorite töötlemiseks järgmised read:
     #Peale tabelist pärimist vaja eemaldada esimene ning viimane element ehk [1:-1] või [2:-2]
@@ -62,50 +63,74 @@ def update_chosen_tokens_in_json(token_count, token_type):
 
 if __name__ == "__main__":
 
-    
-    #Main running algorithm
+    #Saving the state variable for frontend
+    if "count" not in st.session_state:
+        st.session_state.count = 0
+    st.header("Tartu Ülikooli ainete juturobot")
+
+    #OPENAI info and variables
     api_key = os.environ["OPENAI_API_KEY"]
     api_version = "2023-07-01-preview"
     azure_endpoint = "https://tu-openai-api-management.azure-api.net/ltat-tartunlp"
 
+    #Initializing client and vector store
     client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint)
-
-        
     vectorStore = VectorStore("primitiivne_db", 3072)
-    #vectorStore.remove_vectorstore()
-    #vectorStore.create_vectorstore()
-    #insert_all_courses_to_database()
-    prompt = "Ei oska vene keelt. Sooviksin õppida vene keelt."
 
-    prompt_encode = client.embeddings.create(
-        input = prompt,
-        model = "text-embedding-3-large"
-    )
-    #This is workflow of bot
-    vector = prompt_encode.data[0].embedding
-    tokens = int(prompt_encode.usage.total_tokens)
-    update_embedding_tokens_in_json(tokens)
+    prompt = ""
+    #Prompt text field
+    if st.session_state.count == 0:
+        prompt = st.text_input("Sisesta päring")
+        original_prompt = prompt
 
-    vectorized_prompt = np.array(vector)
-    answer = vectorStore.find_k_nearest(vectorized_prompt, 100)
-    for course in answer:
-        print(course[0])
-    #TODO: Parandada seda system päringut ning vaja uurida, kuidas teist päringut vormistada.
-    response = client.chat.completions.create(model = "gpt-4o", messages=[
-                {"role": "system", "content": """Sinu ülesandeks on valida etteantud ülikooli ainete kirjelduste põhjal kasutaja päringule viis sobivaimat vastet.
-                  Selleks tagasta nende ainete indeksid ja aine nimetus etteantud järjendis. Kasutaja poolt on ette antud järjend, kus on sulgude sees aine info ning need on eraldatud komaga. Loendamine algab nullist.
-                 Järjendile järgneb peale semikoolonit kasutaja päring, millele on vaja vastet otsida. Tee võimalikul lühike vastus."""},
-                {"role": "user", 
-                "content": f"{str(answer)}; {prompt}"
-                }])
-    gptText = response.choices[0].message.content
-    print(gptText)
-    #Counting all the tokens for pricing calculations
-    input_tokens = response.usage.prompt_tokens
-    output_tokens = response.usage.completion_tokens
-    update_chosen_tokens_in_json(input_tokens, "input_tokens")
-    update_chosen_tokens_in_json(output_tokens, "output_tokens")
-    #course indexes: 0-course name, 1-course code, 2-EAP, 3-semester, 4-hindamistüüp, 5-kirjeldus, 6-GPT kokkuvõte
+    if len(prompt) != 0:
+        #Changing session state to 1
+        st.session_state.count = 1
+        prompt_encode = client.embeddings.create(
+            input = prompt,
+            model = "text-embedding-3-large"
+        )
+        #This is workflow of bot
+        vector = prompt_encode.data[0].embedding
+        tokens = int(prompt_encode.usage.total_tokens)
+        update_embedding_tokens_in_json(tokens)
+
+        vectorized_prompt = np.array(vector)
+        answer = vectorStore.find_k_nearest(vectorized_prompt, 100)
+        for course in answer:
+            print(course[0])
+
+        #TODO: Parandada seda system päringut ning vaja uurida, kuidas teist päringut vormistada.
+        response = client.chat.completions.create(model = "gpt-4o", messages=[
+                    {"role": "system", "content": """Sinu ülesandeks on valida etteantud ülikooli ainete kirjelduste põhjal kasutaja päringule viis sobivaimat vastet.
+                    Selleks tagasta nende ainete indeksid ja aine nimetus etteantud järjendis. Kasutaja poolt on ette antud järjend, kus on sulgude sees aine info ning need on eraldatud komaga. Loendamine algab nullist.
+                    Järjendile järgneb peale semikoolonit kasutaja päring, millele on vaja vastet otsida. Tee võimalikul lühike vastus."""},
+                    {"role": "user", 
+                    "content": f"{str(answer)}; {prompt}"
+                    }])
+        
+        gptText = response.choices[0].message.content
+        print(gptText)
+        st.write(gptText)
+        #Counting all the tokens for pricing calculations
+        input_tokens = response.usage.prompt_tokens
+        output_tokens = response.usage.completion_tokens
+        update_chosen_tokens_in_json(input_tokens, "input_tokens")
+        update_chosen_tokens_in_json(output_tokens, "output_tokens")
+        prompt = ""
+    
+    st.text("Kuidas hindate saadud vastust?")
+    feedback = st.feedback("stars")
+
+    send_button = st.button("Salvesta vastus")
+    if send_button:
+        st.session_state.count = 0
+        #TODO: implementeerida tagasiside salvestamine
+
+
+
+
+#course indexes: 0-course name, 1-course code, 2-EAP, 3-semester, 4-hindamistüüp, 5-kirjeldus, 6-GPT kokkuvõte
         
 
     
