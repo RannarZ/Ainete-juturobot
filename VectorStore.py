@@ -87,6 +87,13 @@ class VectorStore:
         cursor.close()
         return fetched
     
+    def get_course_by_course_id(self, courseID):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT KURSUSE_NIMI, KURSUSE_KOOD, EAP, SEMESTER, KOKKUVOTE FROM KURSUSED WHERE KURSUSE_KOOD = '{courseID}'")
+        fetched = cursor.fetchone()
+        cursor.close()
+        return fetched
+    
     def count_all_rows_courses(self):
         cursor = self.db.cursor()
         cursor.execute("SELECT COUNT(*) FROM KURSUSED")
