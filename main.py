@@ -200,8 +200,8 @@ if __name__ == "__main__":
 
         st.subheader("Põhjenda oma hinnangut")
         st.session_state.feedback_text = st.text_input("Sisesta tekst")
-        if st.button("Küsi uuesti"):
-            #TODO: Tagasiside andmebaasi salvestamine on vaja implementeerida.
+        #Kui on vajutatud nuppu küsi uuest, siis salvestab kõik tagasiside
+        if st.button("Salvesta tagasiside ja küsi uuesti"):
             vectorStore.insert_into_feedback_table(st.session_state.prompt, 
                                       st.session_state.response, 
                                       st.session_state.number_of_returned_by_vectors, 
