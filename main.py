@@ -7,6 +7,7 @@ import os
 import openai
 import json
 import streamlit as st
+import random
 import re
 
 #Vektorite töötlemiseks järgmised read:
@@ -53,7 +54,7 @@ def update_embedding_tokens_in_json(token_count):
 
 def update_chosen_tokens_in_json(token_count, token_type):
     """
-    Function update_embedding_tokens_in_json is for counting OpenAI tokens depending on token type.
+    Function update_chosen_tokens_in_json is for counting OpenAI tokens depending on token type.
     """
     with open("token_count.json", "r") as file_readable:
         tokens = json.load(file_readable)
@@ -63,20 +64,30 @@ def update_chosen_tokens_in_json(token_count, token_type):
         file_writable.write(tokens)  
 
 def find_all_valid_courses(allCourses):
+    """
+    Function find_all_valid_courses finds all the valid courses from gpt-4o response.
+    The expected input for a course is "course code: valid/invalid" i.e HVAV.05.011: valid.
+    Function returns all the course codes that are considered valid by GPT-4o.
+    """
     returnable_list = []
     for course in allCourses:
         splitted = course.split(":")
-        courseCode = splitted[0].strip()
-        isValid =  True if splitted[1].strip() == "valid" else False
-        if len(courseCode) != 11:
-            continue
-        if isValid:
-            returnable_list.append(courseCode)
+        if len(splitted) > 1:
+            courseCode = splitted[0].strip()
+            isValid =  True if splitted[1].strip() == "valid" else False
+            if len(courseCode) != 11:
+                #Using regex to find combinations of course codes. For example HVAV.05.011.
+                courseCode = re.match('[A-Z]{4}\.\d{2}\.\d{3}', courseCode).group(0)
+            if isValid:
+                returnable_list.append(courseCode)
+        else:
+            #TODO: Mõelda välja, mis saab siis, kui ei ole koolonit, mille kohal splittida vastust.
+            print(splitted)
     return returnable_list
 
 def query_db_for_course_info(courseID, vectorStore):
     courseInfo = vectorStore.get_course_by_course_id(courseID)
-    print(courseInfo)
+    #print(courseInfo)
     return courseInfo
 
 def format_output(coursesInfo):
@@ -91,10 +102,14 @@ def format_output(coursesInfo):
         outputText += f"**{courseCode}, {courseName}{courseEAP}{courseSemester}** - {courseSummary} \n \n" 
     return outputText
 
-def generate_response(prompt, vectorStore):
+def generate_response(prompt, vectorStore, number_of_returned, number_of_valid_courses):
 
-    #TODO: Random element on vaja sisse tuua
-    #TODO: Tagasiside andmebaasi salvestamine on vaja implementeerida.
+    """
+    Function generate_response generates a response for the user's query.
+    It fetches nearest k courses by vector comparison from the database where k is randomly generated and it is between 10 and 100.
+    k also divides by ten. After returning the courses by vector comparison GPT-4o model chooses 5 courses that fit the best for user's query.
+    Function also formats the answer.
+    """
 
     #Changing session state to 1
     prompt_encode = client.embeddings.create(
@@ -107,7 +122,8 @@ def generate_response(prompt, vectorStore):
     update_embedding_tokens_in_json(tokens)
 
     vectorized_prompt = np.array(vector)
-    number_of_returned = 5
+    #Generating the number randombly for user feedback
+    
     answer = vectorStore.find_k_nearest(vectorized_prompt, number_of_returned)
     for_gpt_coruses = []
     for course in answer:
@@ -115,7 +131,7 @@ def generate_response(prompt, vectorStore):
         course_info = (course[1], course[5])
         for_gpt_coruses.append(course_info)
         
-    number_of_valid_courses = 5
+    
     response = client.chat.completions.create(model = "gpt-4o", messages=[
                 {"role": "system", "content": f""" You are given codes and description of {number_of_returned} university courses and an user prompt.
                 For each course return whether the course is valid with user prompt or not. There can only be {number_of_valid_courses} valid courses so choose the closest {number_of_valid_courses}.
@@ -142,7 +158,9 @@ def generate_response(prompt, vectorStore):
 
     return formattedAnswer
 
+
 if __name__ == "__main__":
+
     #OPENAI info and variables
     api_key = os.environ["OPENAI_API_KEY"]
     api_version = "2023-07-01-preview"
@@ -151,34 +169,49 @@ if __name__ == "__main__":
     #Initializing client and vector store
     client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint)
     vectorStore = VectorStore("primitiivne_db", 3072)
-    prompt = ""
+    
         
+    #If runned for the first time then we add a response and a prompt variable to session_state
     if 'response' not in st.session_state:
         st.session_state.response = None
+        st.session_state.number_of_valid_courses = random.randint(1, 2) * 5 #Number of final returnable courses
+        st.session_state.number_of_returned_by_vectors = random.randint(1, 10) * 10 #Number of returned courses by vector comparison
+
     if 'prompt' not in st.session_state:
         st.session_state.prompt = ""
 
     st.header("ÕIS II ainete juturobot")
-    #If no response ahs been generated then show the input field
+    #TODO: Kas algusesse ka mingi tutvustav tekst? Kes olen, mis projekt on jne jne.
+    #If no response has been generated then show the input field
     if st.session_state.response is None:
         st.session_state.prompt = st.text_input("Sisesta enda küsimus:")
         if st.button("Kinnita"):
             if st.session_state.prompt:
                 with st.spinner("Vastuse genereerimine"):
-                    st.session_state.response = generate_response(st.session_state.prompt, vectorStore)
+                    st.session_state.response = generate_response(st.session_state.prompt, vectorStore, st.session_state.number_of_returned_by_vectors, st.session_state.number_of_valid_courses)
                     st.rerun()  # Refresh to show the answer.
     else: 
         #Displaying the response
         st.subheader("Juturoboti vastus: ")
         st.write(st.session_state.response)
-
         #Answer feedback
         st.subheader("Kuidas oled rahul juturoboti vastusega?")
         rating = st.radio("5 palli skaalal", [1, 2, 3, 4, 5])
 
+        st.subheader("Põhjenda oma hinnangut")
+        st.session_state.feedback_text = st.text_input("Sisesta tekst")
         if st.button("Küsi uuesti"):
+            #TODO: Tagasiside andmebaasi salvestamine on vaja implementeerida.
+            vectorStore.insert_into_feedback_table(st.session_state.prompt, 
+                                      st.session_state.response, 
+                                      st.session_state.number_of_returned_by_vectors, 
+                                      st.session_state.number_of_valid_courses,
+                                      rating, st.session_state.feedback_text)
             st.session_state.response = None
             st.session_state.prompt = ""
+            #Genereerime uue sisendi pikkuse jaoks uued arvud
+            st.session_state.number_of_valid_courses = random.randint(1, 2) * 5 #Number of final returnable courses
+            st.session_state.number_of_returned_by_vectors = random.randint(1, 10) * 10 #Number of returned courses by vector comparison
             st.rerun()
 
 

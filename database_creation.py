@@ -102,11 +102,16 @@ def check_fields_and_insert_course_to_table(course_info, vector, summary, full_d
                 final_values.append(course_info[key])
         else:
             final_values.append(None)
-    vecStore.insert_to_table(vector, final_values[0], final_values[1], final_values[2], final_values[3], str(final_values[4]),
+    vecStore.insert_to_courses_table(vector, final_values[0], final_values[1], final_values[2], final_values[3], str(final_values[4]),
                                 final_values[5], str(final_values[6]), str(final_values[7]), final_values[8], final_values[9],
                                 str(final_values[10]), final_values[11], full_description, summary)
 
 if __name__ == "__main__":
+
+    #Creatingthe database
+    vecStore = VectorStore("primitiivne_db", 3072)
+    vecStore.create_feedback_table()
+    """
     api_key = os.environ["OPENAI_API_KEY"]
     api_version = "2023-07-01-preview"
     azure_endpoint = "https://tu-openai-api-management.azure-api.net/ltat-tartunlp"
@@ -134,7 +139,7 @@ if __name__ == "__main__":
         full_description = create_text_from_json(f"{folder_receive_JSON}/{json_name}")
         json_keys = json_info.keys()
         check_fields_and_insert_course_to_table(json_info, vector, summary, full_description)
-                                
+    """                            
     """
     Generating short summaries of each course using gpt-4o model
     #vecStore.print_all_from_table()

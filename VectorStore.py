@@ -19,34 +19,57 @@ class VectorStore:
             print(np.frombuffer(row[0]))
         cursor.close()
 
-    def create_vectorstore(self):
+
+    def create_courses_table(self):
+            cursor = self.db.cursor()
+            #Kuidas salvestada eeldusaineid? Kuidas salvestada tundide jaotust (kas luua teine tabel või teha iga liigi jaoks eraldi tulp)?
+            #Kuidas salvestada keeli?
+            cursor.execute("""CREATE TABLE KURSUSED(
+                        KURSUSE_NIMI VARCHAR2(50) NOT NULL,
+                        KURSUSE_KOOD VARCHAR2(15) NOT NULL,
+                        VEKTOR BLOB NOT NULL, 
+                        EAP NUMBER,
+                        KURSUSE_TYYP VARCHAR2(20),
+                        KURSUSE_KEELED VARCHAR2(50),
+                        VOTA INTEGER,
+                        KOHUSTUSLIKUD_EELDUSAINED VARCHAR2(100),
+                        SOOVITUSLIKUD_EELDUSAINED VARCHAR2(100),
+                        SEMESTER VARCHAR2(10),
+                        OPPETYYP VARCHAR2(20),
+                        TUNDIDE_JAOTUS VARCHAR2(150),
+                        HINDAMISSKAALA VARCHAR2(10),
+                        KIRJELDUS TEXT NOT NULL,
+                        KOKKUVOTE TEXT NOT NULL
+                        )""")
+            print("Table created")
+            cursor.close()
+
+    def create_feedback_table(self):
         cursor = self.db.cursor()
-        #Kuidas salvestada eeldusaineid? Kuidas salvestada tundide jaotust (kas luua teine tabel või teha iga liigi jaoks eraldi tulp)?
-        #Kuidas salvestada keeli?
-        cursor.execute("""CREATE TABLE KURSUSED(
-                       KURSUSE_NIMI VARCHAR2(50) NOT NULL,
-                       KURSUSE_KOOD VARCHAR2(15) NOT NULL,
-                       VEKTOR BLOB NOT NULL, 
-                       EAP NUMBER,
-                       KURSUSE_TYYP VARCHAR2(20),
-                       KURSUSE_KEELED VARCHAR2(50),
-                       VOTA INTEGER,
-                       KOHUSTUSLIKUD_EELDUSAINED VARCHAR2(100),
-                       SOOVITUSLIKUD_EELDUSAINED VARCHAR2(100),
-                       SEMESTER VARCHAR2(10),
-                       OPPETYYP VARCHAR2(20),
-                       TUNDIDE_JAOTUS VARCHAR2(150),
-                       HINDAMISSKAALA VARCHAR2(10),
-                       KIRJELDUS TEXT NOT NULL,
-                       KOKKUVOTE TEXT NOT NULL
-                       )""")
+        cursor.execute("""CREATE TABLE FEEDBACK (
+                       PROMPT TEXT NOT NULL,
+                       RESPONSE TEXT NOT NULL,
+                       RETURNED_VECTORS NUMBER NOT NULL,
+                       RETURNED_COURSES NUMBER NOT NULL,
+                       RATING NUMBER NOT NULL,
+                       TEXT_FEEDBACK TEXT
+                       )
+                       """)
         print("Table created")
         cursor.close()
+
+    def create_vectorstore(self):
+        self.create_courses_table()
+        self.create_feedback_table()
+
+
+    
 
     def remove_vectorstore(self):
         cursor = self.db.cursor()
         cursor.execute("DROP TABLE IF EXISTS KURSUSED")
         cursor.execute("DROP TABLE IF EXISTS TESTIMINE") #Testing table
+        cursor.execute("DROP TABLE IF EXISTS FEEDBACK") #Feedback table table
         cursor.close()
 
     def clear_table(self):
@@ -54,7 +77,7 @@ class VectorStore:
         cursor.execute("DELETE FROM KURSUSED")
         cursor.close()
 
-    def insert_to_table(self, vector, course_name, course_id, eap, course_type, course_languages, vota, mandatory_prereq,
+    def insert_to_courses_table(self, vector, course_name, course_id, eap, course_type, course_languages, vota, mandatory_prereq,
                         reccomended_prereq, semester, study_type, hours, grading, description, summary):
         cursor = self.db.cursor()
         #vector = vector.tobytes()
@@ -65,6 +88,15 @@ class VectorStore:
                             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", (course_name, course_id, memoryview(vector),
                                                                                     eap, course_type, course_languages, vota, mandatory_prereq,
                                                                                     reccomended_prereq, semester, study_type, hours, grading, description, summary))
+        self.db.commit()
+        cursor.close()
+
+    def insert_into_feedback_table(self, prompt, response, returned_vectors, returned_courses, rating, text_feedback):
+        cursor = self.db.cursor()
+        cursor.execute(f"""
+                       INSERT INTO FEEDBACK(PROMPT, RESPONSE, RETURNED_VECTORS, RETURNED_COURSES, RATING, TEXT_FEEDBACK)
+                       VALUES (?, ?, ?, ?, ?, ?)
+                        """, (prompt, response, returned_vectors, returned_courses, rating, text_feedback))
         self.db.commit()
         cursor.close()
 
@@ -80,12 +112,13 @@ class VectorStore:
             print("")
         cursor.close()
 
-    def get_all_from_courses(self):
+    def get_all_from_table(self, table):
         cursor = self.db.cursor()
-        cursor.execute("SELECT * FROM KURSUSED")
+        cursor.execute(f"SELECT * FROM {table}")
         fetched = cursor.fetchall()
         cursor.close()
         return fetched
+
     
     def get_course_by_course_id(self, courseID):
         cursor = self.db.cursor()
@@ -122,7 +155,7 @@ class VectorStore:
         """
         Method find_k_nearest finds the k nearest vectors to query vector from database and returns the representing course info.
         """
-        all_courses = self.get_all_from_courses()
+        all_courses = self.get_all_from_table("KURSUSED")
         nearest_dist = []
         nearest_info = []
         r = 0 #running size of nearest list
