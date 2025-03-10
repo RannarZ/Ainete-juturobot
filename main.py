@@ -77,7 +77,7 @@ def find_all_valid_courses(allCourses):
             isValid =  True if splitted[1].strip() == "valid" else False
             if len(courseCode) != 11:
                 #Using regex to find combinations of course codes. For example HVAV.05.011.
-                courseCode = re.match('[A-Z]{4}\.\d{2}\.\d{3}', courseCode).group(0)
+                courseCode = re.match('[A-Z:0-9]{4}\.\d{2}\.\d{3}', courseCode).group(0)
             if isValid:
                 returnable_list.append(courseCode)
         else:
@@ -127,24 +127,28 @@ def generate_response(prompt, vectorStore, number_of_returned, number_of_valid_c
     answer = vectorStore.find_k_nearest(vectorized_prompt, number_of_returned)
     for_gpt_coruses = []
     for course in answer:
-        print(f"{course[0]} {course[1]}")
+        #print(f"{course[0]} {course[1]}")
         course_info = (course[1], course[5])
         for_gpt_coruses.append(course_info)
         
-    
-    response = client.chat.completions.create(model = "gpt-4o", messages=[
-                {"role": "system", "content": f""" You are given codes and description of {number_of_returned} university courses and an user prompt.
-                For each course return whether the course is valid with user prompt or not. There can only be {number_of_valid_courses} valid courses so choose the closest {number_of_valid_courses}.
-                Look through all the courses and then make the decision.
-                Let the answer format be "course code: valid/invalid". Make the answer as short as possible.
-                The course descriptions and the prompt is in Estonian."""},
+    response = client.chat.completions.create(model = "gpt-4o", temperature=0, messages=[
+                {"role": "system", "content": f"""There are university students trying to find new courses to take. They ask from you what type of course they want to take. 
+                You are given codes and description of {number_of_returned} university courses and an university student's prompt.
+                For each course return whether the course is corresponds to the student's prompt or not. There can only be {number_of_valid_courses} valid courses so choose the best matching {number_of_valid_courses} courses.
+                First investigate all of the courses and then make the valid or invalid decision.
+                Take into consideration everything the student says. Consider whether a student already can or can not do something and when he or she wants to take the course.
+                Let the answer format be "course code: valid/invalid". Do not insert an index before the course code. Make the answer as short as possible.
+                The course descriptions and the student's prompt are in Estonian."""},
                 {"role": "user", 
                 "content": f"{str(for_gpt_coruses)}; {prompt}"
                 }])
     
     gptText = response.choices[0].message.content
-
+    print(gptText)
     validCourses = find_all_valid_courses(gptText.split("\n"))
+    #In case gpt does not return a colon inside teh strings then say that something went wrong.
+    if len(validCourses) == 0:
+        return "Midagi läks valesti."
     validCoursesInfo = []
     for course in validCourses:
         validCoursesInfo.append(query_db_for_course_info(course, vectorStore))
@@ -161,6 +165,10 @@ def generate_response(prompt, vectorStore, number_of_returned, number_of_valid_c
 
 if __name__ == "__main__":
 
+    #Hiding the deploy button (EI TÖÖTA)
+    hide_menu_style = """<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>"""
+    st.markdown(hide_menu_style, unsafe_allow_html=True)
+
     #OPENAI info and variables
     api_key = os.environ["OPENAI_API_KEY"]
     api_version = "2023-07-01-preview"
@@ -168,7 +176,7 @@ if __name__ == "__main__":
 
     #Initializing client and vector store
     client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint)
-    vectorStore = VectorStore("primitiivne_db", 3072)
+    vectorStore = VectorStore("primitiivne_db", 3072) 
     
         
     #If runned for the first time then we add a response and a prompt variable to session_state
@@ -181,10 +189,15 @@ if __name__ == "__main__":
         st.session_state.prompt = ""
 
     st.header("ÕIS II ainete juturobot")
-    #TODO: Kas algusesse ka mingi tutvustav tekst? Kes olen, mis projekt on jne jne.
+    st.markdown("""Olen informaatika kolmanda aasta tudeng Rannar Zirk ning teen oma lõputööks ÕIS II ainete põhjal juturobotit. Juturoboti eesmärk on lihtsustada tudengitel uute ainete avastamist.
+                Selleks saab juturobotile sisestada vabas vormis teksti ning vastavalt Teie päringule tagastatakse sobivaimate ainete info. 
+                \nJuturoboti loomisel on rakendatud OpenAI mudeleid.
+                \nPeale juturoboti kasutamist küsitakse Teilt tagasisidet saadud vastuse kohta ning Teie vastus, päring ja roboti genereeritud vastus salvestatakse teaduslikel eesmärkidel.
+                \nJuturobot on välja arendatud tudengiprojektina Tartu Ülikooli tudengi poolt ning ei ole seotud ühegi Tartu Ülikooli välise ettevõttega.
+                """)
     #If no response has been generated then show the input field
     if st.session_state.response is None:
-        st.session_state.prompt = st.text_input("Sisesta enda küsimus:")
+        st.session_state.prompt = st.text_input("Sisesta enda päring:")
         if st.button("Kinnita"):
             if st.session_state.prompt:
                 with st.spinner("Vastuse genereerimine"):
@@ -198,7 +211,7 @@ if __name__ == "__main__":
         st.subheader("Kuidas oled rahul juturoboti vastusega?")
         rating = st.radio("5 palli skaalal", [1, 2, 3, 4, 5])
 
-        st.subheader("Põhjenda oma hinnangut")
+        st.subheader("Põhjenda oma hinnangut (pole kohustuslik, aga annab väga palju juurde)")
         st.session_state.feedback_text = st.text_input("Sisesta tekst")
         #Kui on vajutatud nuppu küsi uuest, siis salvestab kõik tagasiside
         if st.button("Salvesta tagasiside ja küsi uuesti"):

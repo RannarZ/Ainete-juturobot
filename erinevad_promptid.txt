@@ -1,0 +1,7 @@
+There are university students trying to find new courses to take. They ask from you what type of course they want to take. 
+You are given codes and description of {number_of_returned} university courses and an university student's prompt.
+For each course return whether the course is corresponds to the student's prompt or not. There can only be {number_of_valid_courses} valid courses so choose the best matching {number_of_valid_courses} courses.
+First investigate all of the courses and then make the valid or invalid decision.
+Take into consideration everything the student says. Consider whether a student already can or can not do something and when he or she wants to take the course.
+Let the answer format be "course code: valid/invalid". Do not insert an index before the course code. Make the answer as short as possible.
+The course descriptions and the student's prompt are in Estonian.

@@ -1,6 +1,21 @@
 import requests
 import json
 import os
+from VectorStore import VectorStore
+
+def find_how_many_codes_doubled(file1, file2):
+    doubled = 0
+    file1courses = []
+    with open(file1, "r") as f1:
+        for rida in f1:
+            file1courses.append(rida)
+
+    with open(file2, "r") as f2:
+        for rida in f2:
+            print(f"Looking at course {rida}")
+            if rida in file1courses:
+                doubled += 1
+    return doubled
 
 def ask_api_for_keys():
     """
@@ -214,6 +229,12 @@ Structure of course info file:
 
 """
 if __name__ == "__main__":
+
+    vecStore = VectorStore("primitiivne_db", 3072)
+    #print(len(vecStore.get_all_from_table("KURSUSED")))
+    keys = ask_api_for_uuids()
+    save_keys_to_file(keys, "Spring_course_uuids.txt")
+    #print(find_how_many_codes_doubled("Course_codes.txt", "Testimise_koodid.txt"))
     """
     This is the code for retrieving data from ÕIS II API
     uuids = get_uuids_from_file("Course_codes.txt")
@@ -221,7 +242,7 @@ if __name__ == "__main__":
         print(key.strip())
         retrieve_save_jsons_from_api_to_files(key.strip())
     """
-    
+    """"
     fileList = os.listdir("./API_jsons")
     i = 0
     for file in fileList:
@@ -229,7 +250,7 @@ if __name__ == "__main__":
         course_info = retrieve_data_about_course(file, "et") #FLGR.01.138
         save_course_info_to_file(course_info, "./course_desc_est/"+file.strip())
         i+=1
-
+    """
 
 
 
