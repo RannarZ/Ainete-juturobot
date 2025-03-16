@@ -1,0 +1,1 @@
+Kursus keskendub kvantitatiivsete andmete analüüsi ja tõlgendamise oskuste arendamisele kasvatusteadustes, kasutades Exceli ja JASP-i statistikatarkvara. Õpilased saavad kogemusi uurimisandmete töötlemisel ja esmase andmetöötluse teostamisel Excelis. Õpiväljundina oskavad tudengid kasutada JASP statistikapaketti ja teha esmast andmetöötlust Excelis.

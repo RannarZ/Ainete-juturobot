@@ -3,20 +3,6 @@ import json
 import os
 from VectorStore import VectorStore
 
-def find_how_many_codes_doubled(file1, file2):
-    doubled = 0
-    file1courses = []
-    with open(file1, "r") as f1:
-        for rida in f1:
-            file1courses.append(rida)
-
-    with open(file2, "r") as f2:
-        for rida in f2:
-            print(f"Looking at course {rida}")
-            if rida in file1courses:
-                doubled += 1
-    return doubled
-
 def ask_api_for_keys():
     """
     Function ask_api_for_keys retrieves all of the courses' keys
@@ -24,16 +10,41 @@ def ask_api_for_keys():
     """
     indeks = 1
     answer = []
-    response = requests.get(f"https://ois2.ut.ee/api/courses?start={indeks}&take=300")
+    #Getting all courses that take place in autumn
+    response = requests.get(f"https://ois2.ut.ee/api/courses?start={indeks}&take=300&semester=autumn&is_expired=True")
     data = response.json()
     while len(data) != 0:
-        response = requests.get(f"https://ois2.ut.ee/api/courses?start={indeks}&take=300")
+        response = requests.get(f"https://ois2.ut.ee/api/courses?start={indeks}&take=300&semester=autumn&is_expired=True")
         data = response.json()
         for key in data:
             code = key["code"]
-            answer.append(code)
-            print(f"Retrieved code {code} over index {indeks}")
+            if code not in answer:
+                answer.append(code)
+                #print(f"Retrieved code {code} over index {indeks}")
+            #else:
+                #print(f"Code {code} already exists over index {indeks}")
         indeks += 300
+
+    firstIndeks = indeks
+    indeks = 1
+    #Getting all courses that take place in spring
+    response = requests.get(f"https://ois2.ut.ee/api/courses?start={indeks}&take=300&semester=spring&is_expired=True")
+    data = response.json()
+    while len(data) != 0:
+        response = requests.get(f"https://ois2.ut.ee/api/courses?start={indeks}&take=300&semester=spring&is_expired=True")
+        data = response.json()
+        for key in data:
+            code = key["code"]
+            if code not in answer:
+                answer.append(code)
+                #print(f"Retrieved code {code} over index {indeks}")
+            #else:
+                #print(f"Code {code} already exists over index {indeks}")
+        indeks += 300
+    print(f"Indekseid kokku: {firstIndeks + indeks}")
+    print(f"Algne indeks: {firstIndeks}")
+    print(f"Teine indeks: {indeks}")
+    print(f"Final answer length {len(answer)}")
     return answer
 
 def ask_api_for_uuids():
@@ -65,6 +76,15 @@ def save_keys_to_file(keys_list, file):
         for key in keys_list:
             f.write(key +  "\n")
 
+def save_keys_and_latest__uuids_to_file(keys_list, uuid_list, file):
+    """
+    Function save_keys_and_latest__uuids_to_file saves all of the courses keys and their latest version uuids to file.
+    The format is "Course code: uuid".
+    """
+    with open(file, "w") as f:
+        for i in range(len(keys_list)):
+            f.write(f"{keys_list[i]}: {uuid_list[i]}\n")
+
 def get_uuids_from_file(filename):
     uuids = []
     with open(filename, "r") as f:
@@ -88,13 +108,8 @@ def retrieve_data_about_course(filename, language): #Language either "et" or "en
     if data["title"][language] in erandid:
         return
 
-    tavaline = False
     #Saving course key
-    if "LATEST" in filename:
-        tavaline = True
-        course_key = filename.split("_")[0].strip()
-    else:
-        course_key = filename.split(".j")[0]
+    course_key = filename.split(".j")[0]
 
     additional_info_dict = data["additional_info"]
     coursename = data["title"][language]
@@ -120,24 +135,20 @@ def retrieve_data_about_course(filename, language): #Language either "et" or "en
         info["SOOVITUSLIKUD_EELDUSAINED"] = prerequisites_not_req #not required prereqs
 
     #Here are attributes that exist in latest version but not in regular
-    if not tavaline:
-        semester = data["target"]["semester"][language]
-        study_type = data["target"]["study_type"][language]
+    semester = data["target"]["semester"][language]
+    study_type = data["target"]["study_type"][language]
 
-        hour_dict = data["additional_info"]["hours"] #Dealing with it when saving to file.
-        assessment_scale = data["grading"]["assessment_scale"]["code"]
-        add_grading_to_description(combined_description, data, language)
+    hour_dict = data["additional_info"]["hours"] #Dealing with it when saving to file.
+    assessment_scale = data["grading"]["assessment_scale"]["code"]
+    add_grading_to_description(combined_description, data, language)
 
-        info["SEMESTER"] = semester
-        info["OPPETYYP"] = study_type
-        if "study_levels" in data["additional_info"] and language in data["additional_info"]["study_levels"]:
-            levels = data["additional_info"]["study_levels"][language]
-            info["OPPETASE"] = levels
-        info["TUNDIDE_JAOTUS"] = hour_dict
-        info["HINDAMISSKAALA"] = assessment_scale
-    elif tavaline:
-        if "code" in additional_info_dict["assessment_scale"].keys():
-            info["HINDAMISSKAALA"] = additional_info_dict["assessment_scale"]["code"]
+    info["SEMESTER"] = semester
+    info["OPPETYYP"] = study_type
+    if "study_levels" in data["additional_info"] and language in data["additional_info"]["study_levels"]:
+        levels = data["additional_info"]["study_levels"][language]
+        info["OPPETASE"] = levels
+    info["TUNDIDE_JAOTUS"] = hour_dict
+    info["HINDAMISSKAALA"] = assessment_scale
 
     #Combined description is last because it will be changed when looking at course latest version
     #It is also a long text
@@ -200,41 +211,104 @@ def add_grading_to_description(combined_description, data, language):
 def save_course_info_to_file(course_info, filename):
     if course_info == None:
         return
-    with open(filename, "w") as f:
+    with open(filename, "w", ) as f:
         jsonInput = json.dumps(course_info, ensure_ascii=False)
         f.write(jsonInput)
         #print("done")
         #for key in course_info.keys():
             #f.write(str(key) + ": " + str(course_info[key]) + "\n")
 
-def retrieve_save_jsons_from_api_to_files(course_code):
+def retrieve_save_jsons_from_api_to_files(course_code, version_uuid):
     """
     This method queries data from ÕIS II API and saves all retrieved JSONs to files.
     The files are located in API_jsons.
     """
-    course_info = requests.get(f"https://ois2.ut.ee/api/courses/{course_code}/versions/latest")
-    if (course_info.text.strip() == ""):
-        course_info = requests.get(f"https://ois2.ut.ee/api/courses/{course_code}")
-        course_code = course_code+"_LATEST"
+    url = f"https://ois2.ut.ee/api/courses/{course_code}/versions/{version_uuid}"
+    print(url)
+    course_info = requests.get(url)
     data = course_info.json()
 
-    with open(f"./API_jsons/{course_code}.json", "w") as f:
+    with open(f"./API_jsons_fixed/{course_code}.json", "w", errors="ignore") as f:
         jsonOfData = json.dumps(data, ensure_ascii=False)
         f.write(jsonOfData)
         print(f"{course_code} data saved to file.")
     
+def ask_api_for_keys_and_latest_versions_and_save_to_file():
+    keys = ask_api_for_keys()
+    matched_courses = []
+    matched_course_versions = []
+    years = [] #For checking the latest version of course
+    course_index = 0
+    for key in keys:
+        newUrl = f"https://ois2.ut.ee/api/courses/{key}/versions"
+        data = requests.get(newUrl).json()
+        appended = False #Variable for if the course was appended to the list
+        for i in range(len(data)):
+            #If there exists a course that has the latest year marked earlier than 2024 then we skip that course.
+            #Here we only enter the if statement when the last version of year 2025 is found.
+            if data[i]["target"]["year"]["code"] == "2025" and (i == len(data) - 1 or data[i+1]["target"]["year"]["code"] != "2025"):
+                if key not in matched_courses:
+                    matched_courses.append(key)
+                    matched_course_versions.append(data[i]["uuid"])
+                    years.append(2025)
+                    appended = True
+                else:
+                    matched_course_versions[course_index] = data[i]["uuid"]
+                    years[course_index] == 2025 #Updating the year
+                    appended = True
+
+                    #print(f"{course_index}. Removing the 2024 version of {key}.")
+                #print(f"{course_index}. Adding the latest version of {key} for year 2025.")
+            #Here we only enter the if statement when the last version of year 2024 is found.
+            if data[i]["target"]["year"]["code"] == "2024" and (i == len(data) - 1 or data[i+1]["target"]["year"]["code"] != "2024"): 
+                if key not in matched_courses:
+                    matched_courses.append(key)
+                    matched_course_versions.append(data[i]["uuid"])
+                    years.append(2024)
+                    appended = True
+                    #print(f"{course_index}. Adding the latest version of {key} for year 2024.")
+        if appended:
+            course_index+=1
+            #print("---------------------")
+    
+    #print(len(matched_courses))
+    #print(len(matched_course_versions))
+    #print(len(years))
+    if len(matched_courses) == len(matched_course_versions) == len(years):
+        save_keys_and_latest__uuids_to_file(matched_courses, matched_course_versions, "Course_codes.txt")
+    else:
+        print(f"Lists are not the same size.\nmatched_courses {len(matched_courses)}\nmatched_course_versions {len(matched_course_versions)}\nyears{len(matched_course_versions)}")
+
+
+def retrieve_course_codes_and_uuids_from_file():
+    courses = []
+    with open("Course_codes.txt", "r") as f:
+        for rida in f:
+            courses.append(rida)
+    return courses
 
 """
 Structure of course info file:
 
 """
 if __name__ == "__main__":
-
-    vecStore = VectorStore("primitiivne_db", 3072)
+    
+    #vecStore = VectorStore("primitiivne_db", 3072)
     #print(len(vecStore.get_all_from_table("KURSUSED")))
-    keys = ask_api_for_uuids()
-    save_keys_to_file(keys, "Spring_course_uuids.txt")
+    
+    #save_keys_to_file(keys, "Course_codes.txt")
     #print(find_how_many_codes_doubled("Course_codes.txt", "Testimise_koodid.txt"))
+
+    """
+    #This block is saving all fetched JSON-s to files.
+    courses = retrieve_course_codes_and_uuids_from_file()
+    for course in courses:
+        print(f"Kursuse {course} salvestamine.")
+        splitted = course.split(": ")
+        code = splitted[0].strip()
+        uuid = splitted[1].strip()
+        retrieve_save_jsons_from_api_to_files(code, uuid)
+    """
     """
     This is the code for retrieving data from ÕIS II API
     uuids = get_uuids_from_file("Course_codes.txt")
@@ -242,16 +316,15 @@ if __name__ == "__main__":
         print(key.strip())
         retrieve_save_jsons_from_api_to_files(key.strip())
     """
-    """"
+    """
     fileList = os.listdir("./API_jsons")
     i = 0
     for file in fileList:
         #print(file)
         course_info = retrieve_data_about_course(file, "et") #FLGR.01.138
-        save_course_info_to_file(course_info, "./course_desc_est/"+file.strip())
+        save_course_info_to_file(course_info, "./course_desc_est_fixed/"+file.strip())
         i+=1
     """
-
 
 
         

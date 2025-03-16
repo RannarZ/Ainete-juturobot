@@ -176,7 +176,7 @@ if __name__ == "__main__":
 
     #Initializing client and vector store
     client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint)
-    vectorStore = VectorStore("primitiivne_db", 3072) 
+    vectorStore = VectorStore("database", 3072) 
     
         
     #If runned for the first time then we add a response and a prompt variable to session_state

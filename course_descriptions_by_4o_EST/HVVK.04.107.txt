@@ -1,0 +1,1 @@
+Kursuse läbimisel omandab üliõpilane infotehnoloogia põhiteadmised ja algoritmilise mõtlemise alused. Ta saab teadmisi graafilistest programmeerimiskeeltest, õpib looma lihtsamaid algoritmilisi graafikaid ja mõistab arvutivõrkude toimimispõhimõtteid, nagu TCP/IP ja HTTP. Lisaks omandab üliõpilane oskused realiseerida lihtsamaid algoritme keskkonnas MAX/MSP.

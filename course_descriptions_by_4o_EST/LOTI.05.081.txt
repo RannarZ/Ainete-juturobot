@@ -1,0 +1,1 @@
+Tarkvaralise raadio aine eesmärk on pakkuda tudengitele teoreetilisi teadmisi ja praktilist kogemust tarkvaraliste raadiote valdkonnas. Õppeaine kaudu õpitakse, miks ja kus kasutatakse tarkvaralisi raadioid ning saadakse ülevaade nende ülesehitusest. Tudengid omandavad oskuse GNU Radio tarkvara abil raadiosignaale vastu võtta ja filtreerida.

@@ -1,0 +1,1 @@
+Kursus keskendub programmeerimismustritele, mis on olulised reaalaja graafikaga programmide juures, näiteks mänguarenduses. Kursuse eesmärk on anda tudengitele kogemusi nende mustrite praktiseerimisel. Pärast kursuse läbimist suudavad tudengid rakendada õpitud mustrid praktiliselt ja mõistavad paremini koodi, mis kasutab neid mustreid.

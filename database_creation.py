@@ -18,7 +18,7 @@ def create_text_from_json(filename):
     return final_text
 
 def get_json_from_file(filename):
-    with open(filename, "r", encoding='utf-8-sig') as file:
+    with open(filename, "r", encoding='ISO-8859-1') as file:
         content = file.read()
         return json.loads(content)
 
@@ -107,7 +107,7 @@ def check_fields_and_insert_course_to_table(course_info, vector, summary, full_d
                                 str(final_values[10]), final_values[11], full_description, summary)
 
 if __name__ == "__main__":
-
+    """
     #Creatingthe database
     vecStore = VectorStore("primitiivne_db", 3072)
     vecStore.create_feedback_table()
@@ -120,8 +120,8 @@ if __name__ == "__main__":
     #prompt = "Tere, mina olen Rannar!"
     model = "gpt-4o"
 
-    vecStore = VectorStore("primitiivne_db", 3072)
-
+    vecStore = VectorStore("database", 3072)
+    """
     vecStore.remove_vectorstore()
     vecStore.create_vectorstore()
 
@@ -129,32 +129,47 @@ if __name__ == "__main__":
     folder_receive_summary = "./course_descriptions_by_4o_EST"
     folder_receive_JSON = "./course_desc_est"
     folder_receive_vectors = "./course_vectors_est"
-    desc_folder = os.listdir(folder_receive_summary) 
-    for file in desc_folder:
+    sum_folder = os.listdir(folder_receive_summary) 
+    desc_est_folder_list = os.listdir(folder_receive_JSON)
+    for file in sum_folder:
         print(file)
         json_name = file.replace(".txt", ".json") #Also vector name because I saved vectors to JSON files
-        json_info = get_json_from_file(f"{folder_receive_JSON}/{json_name}")
-        vector = get_vector_from_file_and_turn_to_bytes(f"{folder_receive_vectors}/{json_name}")
+        cleaned_json_name = json_name
+        #Cleaning the latest part in the file.
+        if "LATEST" in file:
+            cleaned_json_name = file.split("_")[0] + ".json"
+        #Checking if the course exists in course_desc_est folder because some were imported in autumn and not correctly.
+        if cleaned_json_name not in desc_est_folder_list:
+            continue
+        json_info = get_json_from_file(f"{folder_receive_JSON}/{cleaned_json_name}")
+        vector = get_vector_from_file_and_turn_to_bytes(f"{folder_receive_vectors}/{cleaned_json_name}")
         summary = get_summary_from_file(f"{folder_receive_summary}/{file}")
-        full_description = create_text_from_json(f"{folder_receive_JSON}/{json_name}")
+        full_description = create_text_from_json(f"{folder_receive_JSON}/{cleaned_json_name}")
         json_keys = json_info.keys()
         check_fields_and_insert_course_to_table(json_info, vector, summary, full_description)
-    """                            
     """
-    Generating short summaries of each course using gpt-4o model
+    """
+    #Generating short summaries of each course using gpt-4o model
     #vecStore.print_all_from_table()
     folder_receive = "./course_desc_est/" #JSON folder
     folder_save = "./course_descriptions_by_4o_EST/" #New vectors folder
     desc_folder = os.listdir("./course_desc_est") 
+    files_in_dest_folder = os.listdir("./course_descriptions_by_4o_EST") 
     i = 0
 
     for file in desc_folder:
+        cleaned_file_name = file.split(".json")[0]
+        print(cleaned_file_name)
+        if f"{cleaned_file_name}.txt" in files_in_dest_folder or f"{cleaned_file_name}_LATEST.txt" in files_in_dest_folder:
+            print(f"{cleaned_file_name} already in destination folder")
+            i+=1
+            continue
         #834 JÄI VAHELE ANDIS MINGI CONTENT ERRORI
         #1540 jäi vahele sama põhjus
         #1541 samuti
-        if i >= 2912:
+        if i >= 0:
             text = get_course_desc_from_json(folder_receive + file) #Converting JSON to text format
-            print(text)
+            #print(text)
             response = client.chat.completions.create(model = model, messages=[
                 {"role": "user", 
                 "content": text + "; Tee eelmisest tekstist lühikokkuvõte.
@@ -171,26 +186,26 @@ if __name__ == "__main__":
             output_tokens = response.usage.completion_tokens
             update_chosen_tokens_in_json(input_tokens, "input_tokens")
             update_chosen_tokens_in_json(output_tokens, "output_tokens")
-            cleaned_file_name = file.split(".json")[0]
             fixed_text = gptText.replace('\u200b', ' ')
             save_info_to_file(folder_save + cleaned_file_name + ".txt", fixed_text)
+        print(i)
         i += 1
     """
-
-    #client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint)
     """
+    client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint)
+
     #Creating the vectors from course texts
     folder_receive = "./course_desc_est/" #JSON folder
-    folder_save = "./course_vectors_est/" #New vectors folder
+    folder_save = "./course_vectors_est_fixed/" #New vectors folder
     desc_folder = os.listdir("./course_desc_est") 
     i=0
     for file in desc_folder:
         text = create_text_from_json(folder_receive + file) #Converting JSON to text format
         vector = create_vector_of_text(text, client) #Creating vector from text
-        save_vector_to_file(f"{folder_save}{file}", vector) #Saving vector to files (accidentally .json files)
+        save_info_to_file(f"{folder_save}{file}", vector) #Saving vector to files (accidentally .json files)
         i += 1
+    # 0.01$ = 76923 embedding tookenit"
     """
-    # 0.01$ = 76923 embedding tookenit
 
 
 

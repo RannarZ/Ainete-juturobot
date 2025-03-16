@@ -1,0 +1,1 @@
+Aines õpitakse tundma mitmemõõtmelist normaaljaotust ja sellest tuletatud jaotusi, mis on aluseks mitmemõõtmelise statistika meetoditele. Üliõpilased omandavad teadmised, kuidas tuletada statistiliste otsustuseeskirju mitmemõõtmelise üldkogumi korral erinevates situatsioonides. Samuti saadakse oskused parameetrite hindamiseks ja hüpoteeside kontrollimiseks.

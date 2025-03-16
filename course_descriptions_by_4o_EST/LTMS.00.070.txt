@@ -1,0 +1,3 @@
+Kursus "Matemaatiline analüüs II" süvendab
+
+ teadmisi algfunktsioonide, määramata ja Riemanni integraalide, funktsionaaljadade ja -ridade valdkonnas. Kursus arendab kriitilist mõtlemist ja matemaatilise eneseväljenduse oskust nii suuliselt kui ka kirjalikult. Üliõpilased õpivad määramata integraalide ja Riemanni integraali defineerimist ja rakendamist, Darboux' summade kriteeriumi, diferentsiaal- ja integraalarvutuse põhiteoreemi tõestamist, üksikute integraalide koondumist ja funktsionaalridade ühtlast koonduvust. Lisaks arendatakse loogiliste arutelude ja matemaatiliste kontseptsioonide rakendamise oskust kursuse käigus ning kontrolltöid ja eksameid kasutades.
