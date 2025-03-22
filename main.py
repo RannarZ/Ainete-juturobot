@@ -99,7 +99,7 @@ def format_output(coursesInfo):
         courseEAP = f", EAP: {course[2]}" if course[2] != None else ""
         courseSemester = f", semester: {course[3]}" if course[3] != None else ""
         courseSummary = course[4]
-        outputText += f"**{courseCode}, {courseName}{courseEAP}{courseSemester}** - {courseSummary} \n \n" 
+        outputText += f"<span style='font-size:24px;'>**{courseCode}, {courseName}{courseEAP}{courseSemester}**</span> - {courseSummary} \n \n" 
     return outputText
 
 def generate_response(prompt, vectorStore, number_of_returned, number_of_valid_courses):
@@ -188,11 +188,13 @@ if __name__ == "__main__":
     if 'prompt' not in st.session_state:
         st.session_state.prompt = ""
 
-    st.header("ÕIS II ainete juturobot")
-    st.markdown("""Olen informaatika kolmanda aasta tudeng Rannar Zirk ning teen oma lõputööks ÕIS II ainete põhjal juturobotit. Juturoboti eesmärk on lihtsustada tudengitel uute ainete avastamist.
+    st.header("Tartu Ülikooli ainete soovitaja")
+    st.markdown("""Olen informaatika bakalaureuse kolmanda aasta tudeng Rannar Zirk ning teen oma lõputööks keskkonnas ÕIS II leiduvate Tartu Ülikooli ainete põhjal ainete soovitajat.
+                Soovitaja eesmärk on lihtsustada tudengitel uute ainete avastamist.
                 Selleks saab juturobotile sisestada vabas vormis teksti ning vastavalt Teie päringule tagastatakse sobivaimate ainete info. 
                 \nJuturoboti loomisel on rakendatud OpenAI mudeleid.
-                \nPeale juturoboti kasutamist küsitakse Teilt tagasisidet saadud vastuse kohta ning Teie vastus, päring ja roboti genereeritud vastus salvestatakse teaduslikel eesmärkidel.
+                \nPeale juturoboti kasutamist **küsitakse Teilt tagasisidet** saadud vastuse kohta ning Teie tagasiside, päring ja soovitaja genereeritud vastus salvestatakse teaduslikel eesmärkidel. 
+                Palun kindlasti täitke tagasisidet, kuna see on üks väga tähtis projekti osa.
                 \nJuturobot on välja arendatud tudengiprojektina Tartu Ülikooli tudengi poolt ning ei ole seotud ühegi Tartu Ülikooli välise ettevõttega.
                 """)
     #If no response has been generated then show the input field
@@ -205,19 +207,25 @@ if __name__ == "__main__":
                     st.rerun()  # Refresh to show the answer.
     else: 
         #Displaying the response
-        st.subheader("Juturoboti vastus: ")
-        st.write(st.session_state.response)
-        #Answer feedback
-        st.subheader("Kuidas oled rahul juturoboti vastusega?")
-        rating = st.radio("5 palli skaalal", [1, 2, 3, 4, 5])
+        st.subheader("Kasutaja päring: ")
+        st.write(st.session_state.prompt)
 
-        st.subheader("Põhjenda oma hinnangut (pole kohustuslik, aga annab väga palju juurde)")
+        st.subheader("Soovitaja vastus vastus: ")
+        st.markdown(st.session_state.response, unsafe_allow_html=True)
+        #Answer feedback
+        st.subheader("Mis teaduskonnas Te tegutsete?")
+        st.multiselect("Valige allolevast nimekirjast", ["Loodus-ja täppisteadused", "Sotsiaalteadused", "Humanitaarteadused ja kunst", "Meditsiiniteadus"])
+
+        st.subheader("Hinnake, kuidas vastasid soovitused Teie päringuga")
+        rating = st.radio("Vastake viie palli skaalal", [1, 2, 3, 4, 5], horizontal=True)
+
+        st.subheader("Põhjendage oma hinnangut (pole kohustuslik, aga annab väga palju tööle juurde)")
         st.session_state.feedback_text = st.text_input("Sisesta tekst")
         #Kui on vajutatud nuppu küsi uuest, siis salvestab kõik tagasiside
         if st.button("Salvesta tagasiside ja küsi uuesti"):
             vectorStore.insert_into_feedback_table(st.session_state.prompt, 
                                       st.session_state.response, 
-                                      st.session_state.number_of_returned_by_vectors, 
+                                      st.session_state.number_of_retQrned_by_vectors, 
                                       st.session_state.number_of_valid_courses,
                                       rating, st.session_state.feedback_text)
             st.session_state.response = None
