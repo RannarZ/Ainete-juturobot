@@ -188,14 +188,14 @@ if __name__ == "__main__":
     if 'prompt' not in st.session_state:
         st.session_state.prompt = ""
 
-    st.header("Tartu Ülikooli ainete soovitaja")
-    st.markdown("""Olen informaatika bakalaureuse kolmanda aasta tudeng Rannar Zirk ning teen oma lõputööks keskkonnas ÕIS II leiduvate Tartu Ülikooli ainete põhjal ainete soovitajat.
+    st.header("Tartu Ülikooli õppeainete soovitaja")
+    st.markdown("""Olen informaatika bakalaureuse kolmanda aasta tudeng Rannar Zirk ning teen oma lõputööks keskkonnas ÕIS II leiduvate Tartu Ülikooli õppeainete soovitajat.
                 Soovitaja eesmärk on lihtsustada tudengitel uute ainete avastamist.
                 Selleks saab juturobotile sisestada vabas vormis teksti ning vastavalt Teie päringule tagastatakse sobivaimate ainete info. 
                 \nJuturoboti loomisel on rakendatud OpenAI mudeleid.
-                \nPeale juturoboti kasutamist **küsitakse Teilt tagasisidet** saadud vastuse kohta ning Teie tagasiside, päring ja soovitaja genereeritud vastus salvestatakse teaduslikel eesmärkidel. 
-                Palun kindlasti täitke tagasisidet, kuna see on üks väga tähtis lõputöö osa.
-                \nJuturobot on välja arendatud tudengiprojektina Tartu Ülikooli tudengi poolt ning ei ole seotud ühegi Tartu Ülikooli välise ettevõttega.
+                \nPeale juturoboti kasutamist **küsitakse Teilt tagasisidet** saadud vastuse kohta. Teie päring, soovitaja genereeritud vastus ja tagasiside salvestatakse teaduslikel eesmärkidel. 
+                Palun täitke kindlasti tagasisidet, kuna see on lõpitöö väga oluline osa.
+                \nÕppeainete soovitaja on välja arendatud tudengiprojektina Tartu Ülikoolis ning ei ole seotud ühegi ülikoolivälise ettevõttega.
                 """)
     #If no response has been generated then show the input field
     if st.session_state.response is None:
@@ -213,14 +213,14 @@ if __name__ == "__main__":
         st.subheader("Soovitaja vastus vastus: ")
         st.markdown(st.session_state.response, unsafe_allow_html=True)
         #Answer feedback
-        st.subheader("Mis teaduskonnas Te tegutsete?")
+        st.subheader("Mis valdkonnas Te tegutsete?")
         faculty = st.radio("Valige allolevast nimekirjast", ["Loodus-ja täppisteadused", "Sotsiaalteadused", "Humanitaarteadused ja kunst", "Meditsiiniteadus"])
 
-        st.subheader("Hinnake, kuidas soovitused vastasid Teie päringuga")
+        st.subheader("Hinnake, kuidas soovitused vastasid Teie päringule")
         rating = st.radio("Vastake viie palli skaalal", [1, 2, 3, 4, 5], horizontal=True)
 
         st.subheader("Põhjendage oma hinnangut (pole kohustuslik, aga annab väga palju tööle juurde)")
-        st.session_state.feedback_text = st.text_input("Sisesta tekst")
+        st.session_state.feedback_text = st.text_input("Sisestage tekst")
         #Kui on vajutatud nuppu küsi uuest, siis salvestab kõik tagasiside
         if st.button("Salvesta tagasiside ja küsi uuesti"):
             vectorStore.insert_into_feedback_table(st.session_state.prompt, 
