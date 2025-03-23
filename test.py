@@ -1,4 +1,6 @@
 import random
+import VectorStore
 
-for i in range(50): 
-    print(random.randint(1, 10) * 10 == 100)
+vecStore = VectorStore.VectorStore("database", 3072)
+#vecStore.upgrade_feedback()
+print(vecStore.get_all_from_table("FEEDBACK"))

@@ -144,7 +144,7 @@ def generate_response(prompt, vectorStore, number_of_returned, number_of_valid_c
                 }])
     
     gptText = response.choices[0].message.content
-    print(gptText)
+    #print(gptText)
     validCourses = find_all_valid_courses(gptText.split("\n"))
     #In case gpt does not return a colon inside teh strings then say that something went wrong.
     if len(validCourses) == 0:
@@ -166,7 +166,7 @@ def generate_response(prompt, vectorStore, number_of_returned, number_of_valid_c
 if __name__ == "__main__":
 
     #Hiding the deploy button (EI TÖÖTA)
-    hide_menu_style = """<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>"""
+    hide_menu_style = """<style>#stAppDeployButton {visibility: hidden;} footer {visibility: hidden;}</style>"""
     st.markdown(hide_menu_style, unsafe_allow_html=True)
 
     #OPENAI info and variables
@@ -194,7 +194,7 @@ if __name__ == "__main__":
                 Selleks saab juturobotile sisestada vabas vormis teksti ning vastavalt Teie päringule tagastatakse sobivaimate ainete info. 
                 \nJuturoboti loomisel on rakendatud OpenAI mudeleid.
                 \nPeale juturoboti kasutamist **küsitakse Teilt tagasisidet** saadud vastuse kohta ning Teie tagasiside, päring ja soovitaja genereeritud vastus salvestatakse teaduslikel eesmärkidel. 
-                Palun kindlasti täitke tagasisidet, kuna see on üks väga tähtis projekti osa.
+                Palun kindlasti täitke tagasisidet, kuna see on üks väga tähtis lõputöö osa.
                 \nJuturobot on välja arendatud tudengiprojektina Tartu Ülikooli tudengi poolt ning ei ole seotud ühegi Tartu Ülikooli välise ettevõttega.
                 """)
     #If no response has been generated then show the input field
@@ -214,9 +214,9 @@ if __name__ == "__main__":
         st.markdown(st.session_state.response, unsafe_allow_html=True)
         #Answer feedback
         st.subheader("Mis teaduskonnas Te tegutsete?")
-        st.multiselect("Valige allolevast nimekirjast", ["Loodus-ja täppisteadused", "Sotsiaalteadused", "Humanitaarteadused ja kunst", "Meditsiiniteadus"])
+        faculty = st.radio("Valige allolevast nimekirjast", ["Loodus-ja täppisteadused", "Sotsiaalteadused", "Humanitaarteadused ja kunst", "Meditsiiniteadus"])
 
-        st.subheader("Hinnake, kuidas vastasid soovitused Teie päringuga")
+        st.subheader("Hinnake, kuidas soovitused vastasid Teie päringuga")
         rating = st.radio("Vastake viie palli skaalal", [1, 2, 3, 4, 5], horizontal=True)
 
         st.subheader("Põhjendage oma hinnangut (pole kohustuslik, aga annab väga palju tööle juurde)")
@@ -225,14 +225,15 @@ if __name__ == "__main__":
         if st.button("Salvesta tagasiside ja küsi uuesti"):
             vectorStore.insert_into_feedback_table(st.session_state.prompt, 
                                       st.session_state.response, 
-                                      st.session_state.number_of_retQrned_by_vectors, 
+                                      st.session_state.number_of_returned_by_vectors, 
                                       st.session_state.number_of_valid_courses,
-                                      rating, st.session_state.feedback_text)
+                                      faculty, rating, st.session_state.feedback_text)
             st.session_state.response = None
             st.session_state.prompt = ""
             #Genereerime uue sisendi pikkuse jaoks uued arvud
             st.session_state.number_of_valid_courses = random.randint(1, 2) * 5 #Number of final returnable courses
             st.session_state.number_of_returned_by_vectors = random.randint(1, 10) * 10 #Number of returned courses by vector comparison
+            #print(vectorStore.get_all_from_table("FEEDBACK"))
             st.rerun()
 
 

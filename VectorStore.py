@@ -51,6 +51,7 @@ class VectorStore:
                        RESPONSE TEXT NOT NULL,
                        RETURNED_VECTORS NUMBER NOT NULL,
                        RETURNED_COURSES NUMBER NOT NULL,
+                       FACULTY VARCHAR2(40) NOT NULL,
                        RATING NUMBER NOT NULL,
                        TEXT_FEEDBACK TEXT
                        )
@@ -72,6 +73,12 @@ class VectorStore:
         cursor.execute("DROP TABLE IF EXISTS FEEDBACK") #Feedback table table
         cursor.close()
 
+    def upgrade_feedback(self):
+        cursor = self.db.cursor()
+        cursor.execute("DROP TABLE IF EXISTS FEEDBACK") #Feedback table table
+        self.create_feedback_table()
+        cursor.close()
+
     def clear_table(self):
         cursor = self.db.cursor()
         cursor.execute("DELETE FROM KURSUSED")
@@ -91,19 +98,20 @@ class VectorStore:
         self.db.commit()
         cursor.close()
 
-    def insert_into_feedback_table(self, prompt, response, returned_vectors, returned_courses, rating, text_feedback):
+    def insert_into_feedback_table(self, prompt, response, returned_vectors, returned_courses, faculty, rating, text_feedback):
+        #print(f"{prompt}\n{returned_vectors}\n{returned_courses}\n{faculty}\n{rating}\n{text_feedback}")
         cursor = self.db.cursor()
         cursor.execute(f"""
-                       INSERT INTO FEEDBACK(PROMPT, RESPONSE, RETURNED_VECTORS, RETURNED_COURSES, RATING, TEXT_FEEDBACK)
-                       VALUES (?, ?, ?, ?, ?, ?)
-                        """, (prompt, response, returned_vectors, returned_courses, rating, text_feedback))
+                       INSERT INTO FEEDBACK(PROMPT, RESPONSE, RETURNED_VECTORS, RETURNED_COURSES, FACULTY, RATING, TEXT_FEEDBACK)
+                       VALUES (?, ?, ?, ?, ?, ?, ?)
+                        """, (prompt, response, returned_vectors, returned_courses, faculty, rating, text_feedback))
         self.db.commit()
         cursor.close()
 
     def print_all_from_table(self):
         #Prints everything except vectors
         cursor = self.db.cursor()
-        cursor.execute("SELECT * FROM KURSUSED")
+        cursor.execute("SELECT * FROM FEEDBACK")
         fetched = cursor.fetchall()
         for row in fetched:
             for i in range(15):
@@ -187,7 +195,7 @@ class VectorStore:
                     #Deleting the last one from list
                     nearest_dist.remove(nearest_dist[-1])
                     nearest_info.remove(nearest_info[-1])
-        print(nearest_dist)
+        #print(nearest_dist)
         return nearest_info
 
     def get_index_of_nearest(self, nearest_dist, distance):
