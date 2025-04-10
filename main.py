@@ -175,8 +175,7 @@ if __name__ == "__main__":
     azure_endpoint = "https://tu-openai-api-management.azure-api.net/ltat-tartunlp"
 
     #Initializing client and vector store
-    client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint)
-    vectorStore = VectorStore("database", 3072) 
+    client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint) 
     
         
     #If runned for the first time then we add a response and a prompt variable to session_state
@@ -203,9 +202,12 @@ if __name__ == "__main__":
         if st.button("Kinnita"):
             if st.session_state.prompt:
                 with st.spinner("Vastuse genereerimine"):
+                    vectorStore = VectorStore("database", 3072)
                     st.session_state.response = generate_response(st.session_state.prompt, vectorStore, st.session_state.number_of_returned_by_vectors, st.session_state.number_of_valid_courses)
+                    vectorStore.close_connection()
                     st.rerun()  # Refresh to show the answer.
-    else: 
+    else:
+        vectorStore = VectorStore("database", 3072) 
         #Displaying the response
         st.subheader("Kasutaja päring: ")
         st.write(st.session_state.prompt)
@@ -234,6 +236,7 @@ if __name__ == "__main__":
             st.session_state.number_of_valid_courses = random.randint(1, 2) * 5 #Number of final returnable courses
             st.session_state.number_of_returned_by_vectors = random.randint(1, 10) * 10 #Number of returned courses by vector comparison
             #print(vectorStore.get_all_from_table("FEEDBACK"))
+            vectorStore.close_connection()
             st.rerun()
 
 

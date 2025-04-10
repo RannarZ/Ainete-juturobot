@@ -8,6 +8,11 @@ class VectorStore:
         self.dbName = dbName
         self.vecSize = vecSize
         self.db = sql.connect(dbName)
+        self.db.execute("PRAGMA journal_mode=WAL;")
+
+    
+    def close_connection(self):
+        self.db.close()
 
     def vector_test_table(self, vector):
         cursor = self.db.cursor()
