@@ -2,3 +2,4 @@ numpy
 openai
 azure-identity
 streamlit
+matplotlib

@@ -148,7 +148,7 @@ if __name__ == "__main__":
         json_keys = json_info.keys()
         check_fields_and_insert_course_to_table(json_info, vector, summary, full_description)
     """
-    """
+    
     #Generating short summaries of each course using gpt-4o model
     #vecStore.print_all_from_table()
     folder_receive = "./course_desc_est/" #JSON folder
@@ -172,12 +172,12 @@ if __name__ == "__main__":
             #print(text)
             response = client.chat.completions.create(model = model, messages=[
                 {"role": "user", 
-                "content": text + "; Tee eelmisest tekstist lühikokkuvõte.
+                "content": text + """; Tee eelmisest tekstist lühikokkuvõte.
                     Tagasta ühtne tekst. Ära tee punktidega nimekirja.
                 Tagasta ainult selline informatsioon, mis võiks huvitada tudengit, kes otsib uusi huvitavaid aineid.
                 Võta terve jutt kokku kolme kuni viie lausega.
 
-                Kui selles on midagi inglise keeles, siis tõlgi eesti keelde."
+                Kui selles on midagi inglise keeles, siis tõlgi eesti keelde."""
                 }])
             gptText = response.choices[0].message.content
             print(gptText)
@@ -190,7 +190,7 @@ if __name__ == "__main__":
             save_info_to_file(folder_save + cleaned_file_name + ".txt", fixed_text)
         print(i)
         i += 1
-    """
+    
     """
     client = openai.AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=azure_endpoint)
 

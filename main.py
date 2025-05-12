@@ -100,6 +100,7 @@ def format_output(coursesInfo):
         courseSemester = f", semester: {course[3]}" if course[3] != None else ""
         courseSummary = course[4]
         outputText += f"<span style='font-size:24px;'>**{courseCode}, {courseName}{courseEAP}{courseSemester}**</span> - {courseSummary} \n \n" 
+        print(outputText)
     return outputText
 
 def generate_response(prompt, vectorStore, number_of_returned, number_of_valid_courses):
@@ -126,11 +127,13 @@ def generate_response(prompt, vectorStore, number_of_returned, number_of_valid_c
     
     answer = vectorStore.find_k_nearest(vectorized_prompt, number_of_returned)
     for_gpt_coruses = []
+
     for course in answer:
         #print(f"{course[0]} {course[1]}")
         course_info = (course[1], course[5])
         for_gpt_coruses.append(course_info)
         
+    
     response = client.chat.completions.create(model = "gpt-4o", temperature=0, messages=[
                 {"role": "system", "content": f"""There are university students trying to find new courses to take. They ask from you what type of course they want to take. 
                 You are given codes and description of {number_of_returned} university courses and an university student's prompt.
@@ -181,8 +184,8 @@ if __name__ == "__main__":
     #If runned for the first time then we add a response and a prompt variable to session_state
     if 'response' not in st.session_state:
         st.session_state.response = None
-        st.session_state.number_of_valid_courses = random.randint(1, 2) * 5 #Number of final returnable courses
-        st.session_state.number_of_returned_by_vectors = random.randint(1, 10) * 10 #Number of returned courses by vector comparison
+        st.session_state.number_of_valid_courses = 5 #random.randint(1, 2) * 5 #Number of final returnable courses
+        st.session_state.number_of_returned_by_vectors = 10 #random.randint(1, 10) * 10 #Number of returned courses by vector comparison
 
     if 'prompt' not in st.session_state:
         st.session_state.prompt = ""
@@ -212,7 +215,7 @@ if __name__ == "__main__":
         st.subheader("Kasutaja päring: ")
         st.write(st.session_state.prompt)
 
-        st.subheader("Soovitaja vastus vastus: ")
+        st.subheader("Soovitaja vastus: ")
         st.markdown(st.session_state.response, unsafe_allow_html=True)
         #Answer feedback
         st.subheader("Mis valdkonnas Te tegutsete?")

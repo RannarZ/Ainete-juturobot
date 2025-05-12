@@ -142,7 +142,7 @@ class VectorStore:
     
     def count_all_rows_courses(self):
         cursor = self.db.cursor()
-        cursor.execute("SELECT COUNT(*) FROM KURSUSED")
+        cursor.execute("SELECT TEXT_FEEDBACK FROM KURSUSED")
         fetched = cursor.fetchall()
         cursor.close()
         return fetched
@@ -152,7 +152,7 @@ class VectorStore:
         bot1 = 0
         bot2 = 0
         for i in range(len(vec1)):
-            top += vec1[i] + vec2[i]
+            top += vec1[i] * vec2[i]
             bot1 += vec1[i]**2
             bot2 += vec2[i]**2
 
@@ -208,3 +208,80 @@ class VectorStore:
             if abs(nearest_dist[i]) > abs(distance):
                 return i
         return -1
+    
+    def delete_katsetus(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"DELETE FROM FEEDBACK WHERE TEXT_FEEDBACK LIKE 'Katsetus'")
+        self.db.commit()
+        cursor.close()
+
+    #analüüsimise funktsioonid
+    def get_all_count_from_feedback(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT COUNT(*) FROM FEEDBACK")
+        fetched = cursor.fetchone()
+        cursor.close()
+        return fetched
+    
+    def count_all_faculty(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT FACULTY, COUNT(*) FROM FEEDBACK GROUP BY FACULTY")
+        fetched = cursor.fetchall()
+        cursor.close()
+        return fetched
+    
+    def get_all_ratings_by_faculty(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT FACULTY, SUM(RATING), COUNT(*) FROM FEEDBACK GROUP BY FACULTY")
+        fetched = cursor.fetchall()
+        cursor.close()
+        return fetched
+    
+    def get_all_ratings(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT RATING FROM FEEDBACK")
+        fetched = cursor.fetchall()
+        cursor.close()
+        return fetched
+    
+    def count_all_ratings(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT RATING, COUNT(*) FROM FEEDBACK GROUP BY RATING")
+        fetched = cursor.fetchall()
+        cursor.close()
+        return fetched
+    
+    def count_all_occurances_vector_number(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT RETURNED_VECTORS, SUM(RATING), COUNT(*) FROM FEEDBACK WHERE NOT RESPONSE = 'Midagi läks valesti.' GROUP BY RETURNED_VECTORS")
+        fetched = cursor.fetchall()
+        cursor.close()
+        return fetched
+    
+    def count_all_occurances_returned_course_number(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT RETURNED_COURSES, SUM(RATING), COUNT(*) FROM FEEDBACK WHERE NOT RESPONSE = 'Midagi läks valesti.' GROUP BY RETURNED_COURSES")
+        fetched = cursor.fetchall()
+        cursor.close()
+        return fetched
+    
+    def get_prompt_and_rating(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT PROMPT, RATING FROM FEEDBACK WHERE NOT RESPONSE = 'Midagi läks valesti.'")
+        fetched = cursor.fetchall()
+        cursor.close()
+        return fetched
+    
+    def get_rating_error(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT RETURNED_VECTORS FROM FEEDBACK WHERE RESPONSE = 'Midagi läks valesti.'")
+        fetched = cursor.fetchall()
+        cursor.close()
+        return fetched()
+    
+    def get_course(self):
+        cursor = self.db.cursor()
+        cursor.execute(f"SELECT * FROM KURSUSED WHERE KURSUSE_KOOD = 'LTAT.01.003'")
+        fetched = cursor.fetchone()
+        cursor.close()
+        return fetched
